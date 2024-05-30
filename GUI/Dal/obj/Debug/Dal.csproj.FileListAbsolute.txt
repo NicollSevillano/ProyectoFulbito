@@ -1,0 +1,6 @@
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Dal\bin\Debug\Dal.dll
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Dal\bin\Debug\Dal.pdb
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Dal\obj\Debug\Dal.csproj.AssemblyReference.cache
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Dal\obj\Debug\Dal.csproj.CoreCompileInputs.cache
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Dal\obj\Debug\Dal.dll
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Dal\obj\Debug\Dal.pdb

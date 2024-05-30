@@ -1,0 +1,17 @@
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Mapper\bin\Debug\Mapper.dll
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Mapper\bin\Debug\Mapper.pdb
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Mapper\bin\Debug\Be.dll
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Mapper\bin\Debug\Dal.dll
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Mapper\bin\Debug\Interface.dll
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Mapper\bin\Debug\ServicioClase.dll
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Mapper\bin\Debug\Servicios.dll
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Mapper\bin\Debug\Be.pdb
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Mapper\bin\Debug\Dal.pdb
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Mapper\bin\Debug\Interface.pdb
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Mapper\bin\Debug\ServicioClase.pdb
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Mapper\bin\Debug\Servicios.pdb
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Mapper\obj\Debug\Mapper.csproj.AssemblyReference.cache
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Mapper\obj\Debug\Mapper.csproj.CoreCompileInputs.cache
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Mapper\obj\Debug\Mapper.csproj.CopyComplete
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Mapper\obj\Debug\Mapper.dll
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Mapper\obj\Debug\Mapper.pdb

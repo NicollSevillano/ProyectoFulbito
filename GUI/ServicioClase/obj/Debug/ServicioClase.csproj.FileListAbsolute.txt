@@ -1,0 +1,6 @@
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\ServicioClase\bin\Debug\ServicioClase.dll
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\ServicioClase\bin\Debug\ServicioClase.pdb
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\ServicioClase\obj\Debug\ServicioClase.csproj.AssemblyReference.cache
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\ServicioClase\obj\Debug\ServicioClase.csproj.CoreCompileInputs.cache
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\ServicioClase\obj\Debug\ServicioClase.dll
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\ServicioClase\obj\Debug\ServicioClase.pdb

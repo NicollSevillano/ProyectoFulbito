@@ -1,0 +1,8 @@
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Controles\obj\Debug\Controles.csproj.AssemblyReference.cache
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Controles\obj\Debug\Controles.ComboIdioma.resources
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Controles\obj\Debug\Controles.csproj.GenerateResource.cache
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Controles\obj\Debug\Controles.csproj.CoreCompileInputs.cache
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Controles\bin\Debug\Controles.dll
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Controles\bin\Debug\Controles.pdb
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Controles\obj\Debug\Controles.dll
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Controles\obj\Debug\Controles.pdb

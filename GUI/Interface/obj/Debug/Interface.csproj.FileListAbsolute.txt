@@ -1,0 +1,6 @@
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Interface\bin\Debug\Interface.dll
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Interface\bin\Debug\Interface.pdb
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Interface\obj\Debug\Interface.csproj.AssemblyReference.cache
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Interface\obj\Debug\Interface.csproj.CoreCompileInputs.cache
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Interface\obj\Debug\Interface.dll
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Interface\obj\Debug\Interface.pdb

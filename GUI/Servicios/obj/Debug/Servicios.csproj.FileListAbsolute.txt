@@ -1,0 +1,15 @@
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Servicios\bin\Debug\Servicios.dll
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Servicios\bin\Debug\Servicios.pdb
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Servicios\bin\Debug\Be.dll
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Servicios\bin\Debug\Dal.dll
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Servicios\bin\Debug\ServicioClase.dll
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Servicios\bin\Debug\Interface.dll
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Servicios\bin\Debug\Be.pdb
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Servicios\bin\Debug\Dal.pdb
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Servicios\bin\Debug\ServicioClase.pdb
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Servicios\bin\Debug\Interface.pdb
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Servicios\obj\Debug\Servicios.csproj.AssemblyReference.cache
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Servicios\obj\Debug\Servicios.csproj.CoreCompileInputs.cache
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Servicios\obj\Debug\Servicios.csproj.CopyComplete
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Servicios\obj\Debug\Servicios.dll
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Servicios\obj\Debug\Servicios.pdb
