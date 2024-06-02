@@ -35,7 +35,6 @@
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.txtContraseña = new System.Windows.Forms.TextBox();
             this.btnIngresar = new System.Windows.Forms.Button();
-            this.btnSalir = new System.Windows.Forms.Button();
             this.comboIdioma1 = new Controles.ComboIdioma();
             this.pMostrar = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -101,17 +100,6 @@
             this.btnIngresar.UseVisualStyleBackColor = true;
             this.btnIngresar.Click += new System.EventHandler(this.btnIngresar_Click);
             // 
-            // btnSalir
-            // 
-            this.btnSalir.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalir.Location = new System.Drawing.Point(286, 282);
-            this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(96, 42);
-            this.btnSalir.TabIndex = 8;
-            this.btnSalir.Text = "Salir";
-            this.btnSalir.UseVisualStyleBackColor = true;
-            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
-            // 
             // comboIdioma1
             // 
             this.comboIdioma1.Location = new System.Drawing.Point(267, 12);
@@ -133,7 +121,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::GUI.Properties.Resources.logo;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 263);
+            this.pictureBox1.Location = new System.Drawing.Point(273, 232);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(109, 61);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -145,10 +133,9 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(211)))), ((int)(((byte)(131)))));
-            this.ClientSize = new System.Drawing.Size(394, 336);
+            this.ClientSize = new System.Drawing.Size(394, 305);
             this.Controls.Add(this.pMostrar);
             this.Controls.Add(this.comboIdioma1);
-            this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnIngresar);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txtContraseña);
@@ -175,7 +162,6 @@
         private System.Windows.Forms.TextBox txtContraseña;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnIngresar;
-        private System.Windows.Forms.Button btnSalir;
         private Controles.ComboIdioma comboIdioma1;
         private System.Windows.Forms.PictureBox pMostrar;
     }

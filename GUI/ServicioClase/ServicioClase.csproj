@@ -47,5 +47,11 @@
     <Compile Include="PermisoSimple.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Interface\Interface.csproj">
+      <Project>{94c78e2c-4564-4b96-97d1-d01049c041e1}</Project>
+      <Name>Interface</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

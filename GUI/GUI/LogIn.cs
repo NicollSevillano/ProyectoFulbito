@@ -13,6 +13,7 @@ using Bll;
 using ServicioClase;
 using Servicios;
 using Mapper;
+using Microsoft.VisualBasic.ApplicationServices;
 
 namespace GUI
 {
@@ -20,11 +21,8 @@ namespace GUI
     {
         List<BelUsuario> lUsuario;
         BllUsuario bUsuario;
-        MapperUsuario mUsuario;
         private bool mostrar = false;
 
-        //Prueba
-        Encriptar encriptar = new Encriptar();
         public LogIn()
         {
             InitializeComponent();
@@ -41,7 +39,7 @@ namespace GUI
                 string hashedPassword = Encriptar.HashPassword(usuario.Contraseña);
                 if (hashedPassword.Length > 20)
                 {
-                    hashedPassword = hashedPassword.Substring(1,20);
+                    hashedPassword = hashedPassword.Substring(1, 20);
                 }
                 usuario.Contraseña = hashedPassword;
                 bUsuario.Modificacion(usuario);
@@ -55,35 +53,46 @@ namespace GUI
             string contraseña = txtContraseña.Text;
             try
             {
-                BelUsuario _usuario = lUsuario.Find(x => x.Usuario == usuario);
-                if (_usuario == null) throw new Exception("Usuario no encontrado");
-
-                if (_usuario.Bloqueado)
+                if (lUsuario.Exists(x => x.Usuario == usuario))
                 {
-                    throw new Exception("Usuario bloqueado");
-                }
+                    BelUsuario _usuario = lUsuario.Find(x => x.Usuario == usuario);
+                    if (_usuario == null) throw new Exception("Usuario no encontrado");
 
-                if (_usuario.Intentos >= 3)
-                {
-                    _usuario.Bloqueado = true;
-                    throw new Exception("Usuario bloqueado");
-                }
+                    if (_usuario.Perfil.Nombre == "Administrador")
+                    {
+                        MenuPrincipal mp = new MenuPrincipal();
+                        SessionManager.LogIn(_usuario);
+                        mp.smanager = SessionManager.getInstance;
+                        this.Hide();
+                        mp.ShowDialog();
+                        this.Show();
+                    }
+                    else if(_usuario.Perfil.Nombre == "Empleado")
+                    {
+                        GReservas gr = new GReservas();
+                        SessionManager.LogIn(_usuario);
+                        gr.smanager = SessionManager.getInstance;
+                        this.Hide();
+                        gr.ShowDialog();
+                        this.Show();
+                    }
 
-                if (!Encriptar.VerifyPassword(contraseña, _usuario.Contraseña))
-                {
-                    _usuario.Intentos++;
+                    if (_usuario.Intentos >= 3)
+                    {
+                        _usuario.Bloqueado = true;
+                        throw new Exception("Usuario bloqueado");
+                    }
+
+                    if (!Encriptar.VerifyPassword(contraseña, _usuario.Contraseña))
+                    {
+                        _usuario.Intentos++;
+                        bUsuario.Modificacion(_usuario);
+                        throw new Exception("Contraseña incorrecta");
+                    }
+
+                    _usuario.Intentos = 0;
                     bUsuario.Modificacion(_usuario);
-                    throw new Exception("Contraseña incorrecta");
                 }
-
-                _usuario.Intentos = 0;
-                bUsuario.Modificacion(_usuario);
-
-                SessionManager.LogIn(_usuario);
-                MenuPrincipal menu = new MenuPrincipal();
-                this.Hide();
-                menu.ShowDialog();
-                this.Show();
             }
             catch (Exception ex)
             {
@@ -104,13 +113,6 @@ namespace GUI
                 txtContraseña.PasswordChar = '*';
                 pMostrar.Image = GUI.Properties.Resources.ver;
             }
-        }
-
-        private void btnSalir_Click(object sender, EventArgs e)
-        {
-            txtUsuario.Clear();
-            txtContraseña.Clear();
-
         }
     }
 }

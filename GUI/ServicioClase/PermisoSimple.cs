@@ -8,12 +8,14 @@ namespace ServicioClase
 {
     public class PermisoSimple : Permiso
     {
+        public PermisoSimple(string pNombre)
+        {
+            Nombre = pNombre;
+        }
         public PermisoSimple(object[] array)
         {
-            Id = int.Parse(array[0].ToString());
+            id = array[0].ToString();
             Nombre = array[1].ToString();
         }
-        public override int Id { get; set; }
-        public override string Nombre { get; set; }
     }
 }

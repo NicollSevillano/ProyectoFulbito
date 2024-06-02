@@ -89,6 +89,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "GReservas";
             this.Text = "Reservas";
+            this.Load += new System.EventHandler(this.GReservas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 

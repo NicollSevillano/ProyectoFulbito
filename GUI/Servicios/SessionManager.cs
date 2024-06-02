@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using Be;
 
 namespace Servicios
@@ -47,7 +48,7 @@ namespace Servicios
                 }
                 else
                 {
-                    throw new Exception("Sesión no iniciada");
+                    System.Windows.Forms.MessageBox.Show("¿Desea salir?","Salir", MessageBoxButtons.YesNoCancel);
                 }
             }
         }

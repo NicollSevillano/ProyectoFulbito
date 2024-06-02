@@ -10,14 +10,15 @@ namespace Be
 {
     public class BelUsuario : IEntity
     {
-        public BelUsuario(string pDNi, string pNombre, string pApelldio, string pEmail, Perfil pPerfil, string pUsuario, string pContraseña)
+        public BelUsuario(string pDNi, string pNombre, string pApellido, string pEmail, Perfil pPerfil, 
+            string pUsuario, string pContraseña)
         {
-            DNI = pDNi; 
-            Nombre = pNombre; 
-            Apellido = pApelldio; 
+            DNI = pDNi;
+            Nombre = pNombre;
+            Apellido = pApellido;
             Email = pEmail;
             Perfil = pPerfil;
-            Usuario = pUsuario; 
+            Usuario = pUsuario;
             Contraseña = pContraseña;
             Bloqueado = false;
             Activo = true;
@@ -26,17 +27,20 @@ namespace Be
 
         public BelUsuario(object[] array)
         {
-            id = int.Parse(array[0].ToString());
+            id = array[0].ToString();
             DNI = array[1].ToString();
             Nombre = array[2].ToString();
             Apellido = array[3].ToString();
             Email = array[4].ToString();
             Usuario = array[6].ToString();
             Contraseña = array[7].ToString();
-            Bloqueado = bool.Parse(array[8].ToString());
-            Activo = bool.Parse(array[9].ToString());
-            Intentos = 3;
+            //Bloqueado = bool.Parse(array[8].ToString());
+            ////Activo = bool.Parse(array[9].ToString());
+            //Activo = Convert.ToBoolean(array[9].ToString());
+            //Intentos = Convert.ToInt32(array[10]);
+            Intentos = 0;
         }
+        public string id { get; set; }
         public string DNI { get; set; }
         public string Nombre { get; set; }
         public string Apellido { get; set; }
@@ -47,6 +51,5 @@ namespace Be
         public bool Bloqueado { get; set; }
         public bool Activo { get; set; }
         public int Intentos { get; set; }
-        public int id { get; set; }
     }
 }

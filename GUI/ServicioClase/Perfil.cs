@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Interface;
 
 namespace ServicioClase
 {
-    public class Perfil
+    public class Perfil : IEntity
     {
         public Perfil(string pNombre, Permiso pPermiso)
         {
@@ -14,10 +15,10 @@ namespace ServicioClase
         }
         public Perfil(object[] array)
         {
-            Id = int.Parse(array[0].ToString());
+            id = array[0].ToString();
             Nombre = array[1].ToString();
         }
-        public int Id { get; set; }
+        public string id { get ; set ; }
         public string Nombre { get; set; }
         public Permiso Permiso { get; set; }
     }

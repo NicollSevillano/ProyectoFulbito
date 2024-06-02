@@ -8,8 +8,6 @@ namespace ServicioClase
 {
     public class PermisoCompuesto : Permiso
     {
-        public override int Id { get; set; }
-        public override string Nombre { get; set; }
         public List<Permiso> lPermiso;
         public PermisoCompuesto(string pNombre)
         {
@@ -18,8 +16,9 @@ namespace ServicioClase
         }
         public PermisoCompuesto(object[] array)
         {
-            Id = int.Parse(array[0].ToString());
+            id = array[0].ToString();
             Nombre = array[1].ToString();
+            lPermiso = new List<Permiso>();
         }
         public void AgregarPermiso(Permiso pPermiso)
         {
@@ -43,9 +42,9 @@ namespace ServicioClase
                 {
                     if (p is PermisoCompuesto)
                     {
-                        if ((p as PermisoCompuesto).lPermiso.Exists(x => x.Id == Id))
+                        if ((p as PermisoCompuesto).lPermiso.Exists(x => x.id == id))
                         {
-                            pPermiso = (p as PermisoCompuesto).lPermiso.Find(x => x.Id == Id);
+                            pPermiso = (p as PermisoCompuesto).lPermiso.Find(x => x.id == id);
                         }
                         else
                         {
@@ -56,6 +55,17 @@ namespace ServicioClase
                 }
             }
             return pPermiso;
+        }
+        public void RellenaArrayPermisos(PermisoCompuesto pPermisoActual, List<Permiso> pLista)
+        {
+            foreach (Permiso p in pPermisoActual.lPermiso)
+            {
+                pLista.Add(p);
+                if (p is PermisoCompuesto)
+                {
+                    RellenaArrayPermisos(p as PermisoCompuesto, pLista);
+                }
+            }
         }
     }
 }

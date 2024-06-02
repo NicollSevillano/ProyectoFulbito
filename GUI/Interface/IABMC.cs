@@ -9,7 +9,7 @@ namespace Interface
     public interface IABMC<T> where T : IEntity
     {
         void Alta(T pObject);
-        void Baja(int pId);
+        void Baja(string pId);
         void Modificacion(T pObject);
         List<T> Consulta();
         List<T> ConsultaCondicional(string pCondicion, string pCondicion2 = null);

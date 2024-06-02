@@ -17,7 +17,7 @@ namespace Bll
             mpUsuario.Alta(pObject);
         }
 
-        public void Baja(int pId)
+        public void Baja(string pId)
         {
             mpUsuario.Baja(pId);
         }
@@ -34,8 +34,7 @@ namespace Bll
 
         public void Desbloquear(BelUsuario pUsuario)
         {
-            pUsuario.Bloqueado = false;
-            mpUsuario.Modificacion(pUsuario);
+            
         }
 
         public void Modificacion(BelUsuario pObjeto)

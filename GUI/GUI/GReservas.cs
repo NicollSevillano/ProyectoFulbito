@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Servicios;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,15 @@ namespace GUI
 {
     public partial class GReservas : Form
     {
+        public SessionManager smanager;
         public GReservas()
         {
             InitializeComponent();
+        }
+
+        private void GReservas_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

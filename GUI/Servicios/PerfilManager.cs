@@ -11,41 +11,30 @@ using ServicioClase;
 
 namespace Servicios
 {
-    public class PerfilManager
+    public static class PerfilManager
     {
-        public Dao dao;
-        public PermisoCompuesto pCompuestoRaiz;
-        public List<Perfil> lPerfil;
-        public ArrayList arrayList;
-        public PerfilManager()
+        static Dao dao = new Dao();
+        static ArrayList arrayList;
+        public static List<Perfil> lPerfil;
+        public static PermisoCompuesto pCompuestoRaiz;
+        public static void IniciarPerfilManager()
         {
-            dao = new Dao();
-            pCompuestoRaiz = new PermisoCompuesto("Raiz");
+            pCompuestoRaiz = ConsultaPermiso()[0] as PermisoCompuesto;
             lPerfil = ConsultaPerfil();
         }
         //Permisos
-        private void RelacionPermiso(PermisoCompuesto pPermiso, DataTable pRelaciones, List<Permiso> pLista)
-        {
-            foreach (DataRow dRow in pRelaciones.Rows)
-            {
-                if (dRow[0].ToString() == (pPermiso.Id).ToString())
-                {
-                    pPermiso.AgregarPermiso(pLista.Find(x => (x.Id).ToString() == dRow[1].ToString()));
-                }
-            }
-        }
-        private void ActuralizarPermisos()
+        private static void ActualizarPermisos()
         {
             pCompuestoRaiz = ConsultaPermiso()[0] as PermisoCompuesto;
         }
-        public List<Permiso> ConsultaPermiso()
+        public static List<Permiso> ConsultaPermiso()
         {
             //Conseguir la lista de permisos 
             arrayList = new ArrayList();
             string storeConsulta = "sp_Listar_Permiso";
             DataTable dt = dao.Leer(storeConsulta);
-            List<Permiso> arbol = new List<Permiso>();
             List<Permiso> listaPermiso = new List<Permiso>();
+            List<Permiso> arbol = new List<Permiso>();
 
             foreach (DataRow dRow in dt.Rows)
             {
@@ -71,14 +60,28 @@ namespace Servicios
                     RelacionPermiso(p as PermisoCompuesto, dT, listaPermiso);
                     pCompuestoRelacion.AgregarPermiso(p);
                 }
+                else
+                {
+                    pCompuestoRelacion.AgregarPermiso(p);
+                }
             }
             arbol.Add(pCompuestoRelacion);
             return arbol;
         }
-        private void AltaPermiso(Permiso pObject, Permiso pPadre = null)
+        public static void RelacionPermiso(PermisoCompuesto pPermiso, DataTable pRelaciones, List<Permiso> pLista)
         {
-            arrayList = new ArrayList();
+            foreach (DataRow dRow in pRelaciones.Rows)
+            {
+                if (dRow[0].ToString() == (pPermiso.id).ToString())
+                {
+                    pPermiso.AgregarPermiso(pLista.Find(x => x.id == dRow[1].ToString()));
+                }
+            }
+        }
+        public static void AltaPermisoR(Permiso pObject, Permiso pPadre = null)
+        {
             string storeAlta = "sp_Alta_Permiso";
+            arrayList = new ArrayList();
 
             SqlParameter p1 = new SqlParameter();
             p1.Value = pObject.Nombre;
@@ -87,16 +90,16 @@ namespace Servicios
             arrayList.Add(p1);
 
             SqlParameter p2 = new SqlParameter();
-            if (pObject is PermisoCompuesto)
+            p2.ParameterName = "@Bool";
+            p2.SqlDbType = SqlDbType.Bit;
+            if (pObject is PermisoSimple)
             {
-                p2.Value = true;
+                p2.Value = 0;
             }
             else
             {
-                p2.Value = false;
+                p2.Value = 1;
             }
-            p2.ParameterName = "@esCompuesto";
-            p2.SqlDbType = SqlDbType.Bit;
             arrayList.Add(p2);
 
             dao.Escribir(storeAlta, arrayList);
@@ -104,34 +107,37 @@ namespace Servicios
             //Relación con padre
             if (pPadre != null)
             {
+                arrayList.Clear();
+                string storeRelacion = "sp_Relacion_Permiso";
                 arrayList = new ArrayList();
                 SqlParameter p3 = new SqlParameter();
-                p3.Value = pPadre.Id;
                 p2.ParameterName = "@Compuesto";
+                p3.Value = pPadre.id;
                 p3.SqlDbType = SqlDbType.Int;
                 arrayList.Add(p3);
 
                 SqlParameter p4 = new SqlParameter();
                 p4.ParameterName = "@Simple";
-                p4.SqlValue = SqlDbType.NVarChar;
                 p4.Value = UltimoIdPermiso();
+                p4.SqlValue = SqlDbType.Int;
                 arrayList.Add(p4);
 
-                dao.Escribir(storeAlta, arrayList);
+                dao.Escribir(storeRelacion, arrayList);
             }
+            ActualizarPermisos();
         }
-        private string UltimoIdPermiso()
+        private static string UltimoIdPermiso()
         {
             string storeUltimo = "sp_ListarUltimo_Permiso";
             DataTable dt = dao.Leer(storeUltimo);
             string id = dt.Rows[0].ItemArray[0].ToString();
             return id;
         }
-        private void BajaPermiso(int pId)
+        public static void BajaPermiso(string pId)
         {
             //Eliminar permiso
-            arrayList = new ArrayList();
             string storeBaja = "sp_Eliminar_Permiso";
+            arrayList = new ArrayList();
 
             SqlParameter p1 = new SqlParameter();
             p1.Value = pId;
@@ -144,58 +150,70 @@ namespace Servicios
             storeBaja = "sp_EliminarRelacion_Permiso";
             dao.Escribir(storeBaja, arrayList);
 
-            ActuralizarPermisos();
+            ActualizarPermisos();
         }
         //Perfiles
-        public List<Perfil> ConsultaPerfil()
+        private static void ActualizarPerfil()
         {
-            string storeListarPerfil = "sp_Listar_Perfil";
-            DataTable dt = dao.Leer(storeListarPerfil);
-            List<Perfil> lPerfil = new List<Perfil>();
-
-            foreach (DataRow dr in dt.Rows)
-            {
-                Perfil aux = new Perfil(dr.ItemArray);
-                aux.Permiso = pCompuestoRaiz.BuscarPermisoId(dr[2].ToString(), pCompuestoRaiz);
-                lPerfil.Add(aux);
-            }
-            return lPerfil;
+            lPerfil = ConsultaPerfil();
         }
-        public void AltaPerfil(Perfil pObject) 
+        public static Perfil Perfil(string pId)
         {
-            arrayList = new ArrayList();
+            return lPerfil.Find(x => x.id == pId);
+        }
+        public static void ActualizaListaPerfil()
+        {
+            lPerfil = ConsultaPerfil();
+        }
+        public static void AltaPerfil(Perfil pObject)
+        {
             string storeAltaPerfil = "sp_Alta_Perfil";
+            arrayList = new ArrayList();
+
             SqlParameter p1 = new SqlParameter();
-            p1.Value = pObject.Nombre;
             p1.ParameterName = "@Nombre";
+            p1.Value = pObject.Nombre;
             p1.SqlDbType = SqlDbType.NVarChar;
             arrayList.Add(p1);
 
             SqlParameter p2 = new SqlParameter();
-            p2.Value = pObject.Permiso.Id;
             p2.ParameterName = "@Permiso";
-            p2.SqlDbType = SqlDbType.NVarChar;
+            p2.Value = pObject.Permiso.id;
+            p2.SqlDbType = SqlDbType.Int;
             arrayList.Add(p2);
-            ActualizarPerfil();
 
             dao.Escribir(storeAltaPerfil, arrayList);
+            ActualizaListaPerfil();
         }
-        public void ActualizarPerfil()
+        public static void BajaPerfil(int pId)
         {
-            lPerfil = ConsultaPerfil();
-        }
-        public void BajaPerfil(int pId)
-        {
-            arrayList = new ArrayList();
             string storeBajaPerfil = "sp_Eliminar_Perfil";
+            arrayList = new ArrayList();
+
             SqlParameter p1 = new SqlParameter();
+            p1.ParameterName = "@CodigoPerfil";
             p1.Value = pId;
-            p1.ParameterName = "@@CodigoPerfil";
             p1.SqlDbType = SqlDbType.Int;
             arrayList.Add(p1);
             dao.Escribir(storeBajaPerfil, arrayList);
 
             ActualizarPerfil();
+        }
+        public static List<Perfil> ConsultaPerfil()
+        {
+            string storedProcedure = "sp_Listar_Perfil";
+            DataTable dt = dao.Leer(storedProcedure);
+            List<Perfil> lPerfil = new List<Perfil>();
+            foreach (DataRow dr in dt.Rows)
+            {
+                if (dr.ItemArray.Length > 2 && dr[2] != null)
+                {
+                    Perfil aux = new Perfil(dr.ItemArray);
+                    aux.Permiso = pCompuestoRaiz?.BuscarPermisoId(dr[2].ToString(), pCompuestoRaiz);
+                    lPerfil.Add(aux);
+                }
+            }
+            return lPerfil;
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Servicios;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +13,7 @@ namespace GUI
 {
     public partial class MenuPrincipal : Form
     {
+        public SessionManager smanager;
         GReservas reservas;
         GCancha cancha;
         GRegistrarCliente registrarCliente;
