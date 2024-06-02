@@ -258,25 +258,6 @@ namespace GUI
             SessionManager.LogOut();
             this.Close();
         }
-        public void HabilitarControles()
-        {
-            List<Permiso> lPermiso = new List<Permiso>();
-            (SessionManager.getInstance.usuario.Perfil.Permiso as PermisoCompuesto).RellenaArrayPermisos(SessionManager.getInstance.usuario.Perfil.Permiso as PermisoCompuesto, lPermiso);
-            foreach (Control control in this.Controls)
-            {
-                if (control is Button && control.Tag != null)
-                {
-                    (control as Button).Enabled = false;
-                    foreach (Permiso per in lPermiso)
-                    {
-                        if (control.Tag.ToString() == per.Nombre)
-                        {
-                            (control as Button).Enabled = true;
-                        }
-                    }
-                }
-            }
-        }
 
         private void rbAdministrador_CheckedChanged(object sender, EventArgs e)
         {
