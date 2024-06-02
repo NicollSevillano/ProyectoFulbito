@@ -11,7 +11,8 @@ using Controles;
 using Be;
 using Bll;
 using ServicioClase;
-using Servicios; 
+using Servicios;
+using Mapper;
 
 namespace GUI
 {
@@ -19,7 +20,11 @@ namespace GUI
     {
         List<BelUsuario> lUsuario;
         BllUsuario bUsuario;
+        MapperUsuario mUsuario;
+        private bool mostrar = false;
 
+        //Prueba
+        Encriptar encriptar = new Encriptar();
         public LogIn()
         {
             InitializeComponent();
@@ -27,13 +32,20 @@ namespace GUI
 
         private void LogIn_Load(object sender, EventArgs e)
         {
+
             bUsuario = new BllUsuario();
-            //lUsuario = bUsuario.Consulta();
-            //foreach (BelUsuario usuario in lUsuario)
-            //{
-            //    usuario.Contraseña = Encriptar.EncriptarC(usuario.Contraseña);
-            //    bUsuario.Modificacion(usuario);
-            //}
+            lUsuario = bUsuario.Consulta();
+
+            foreach (BelUsuario usuario in lUsuario)
+            {
+                string hashedPassword = Encriptar.HashPassword(usuario.Contraseña);
+                if (hashedPassword.Length > 20)
+                {
+                    hashedPassword = hashedPassword.Substring(1,20);
+                }
+                usuario.Contraseña = hashedPassword;
+                bUsuario.Modificacion(usuario);
+            }
         }
 
         private void btnIngresar_Click(object sender, EventArgs e)
@@ -45,15 +57,28 @@ namespace GUI
             {
                 BelUsuario _usuario = lUsuario.Find(x => x.Usuario == usuario);
                 if (_usuario == null) throw new Exception("Usuario no encontrado");
-                if (_usuario.Bloqueado) throw new Exception("Usuario bloqueado");
-                if (_usuario.Intentos < 3)
+
+                if (_usuario.Bloqueado)
+                {
+                    throw new Exception("Usuario bloqueado");
+                }
+
+                if (_usuario.Intentos >= 3)
                 {
                     _usuario.Bloqueado = true;
-                    bUsuario.Modificacion(_usuario);
+                    throw new Exception("Usuario bloqueado");
                 }
-                _usuario.Intentos++;
+
+                if (!Encriptar.VerifyPassword(contraseña, _usuario.Contraseña))
+                {
+                    _usuario.Intentos++;
+                    bUsuario.Modificacion(_usuario);
+                    throw new Exception("Contraseña incorrecta");
+                }
+
+                _usuario.Intentos = 0;
                 bUsuario.Modificacion(_usuario);
-                if (!Encriptar.Compare(contraseña, _usuario.Contraseña)) throw new Exception("Contraseña incorrecta");
+
                 SessionManager.LogIn(_usuario);
                 MenuPrincipal menu = new MenuPrincipal();
                 this.Hide();
@@ -64,6 +89,28 @@ namespace GUI
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void pMostrar_Click(object sender, EventArgs e)
+        {
+            mostrar = !mostrar;
+            if (mostrar)
+            {
+                txtContraseña.PasswordChar = '\0';
+                pMostrar.Image = GUI.Properties.Resources.oculto;
+            }
+            else
+            {
+                txtContraseña.PasswordChar = '*';
+                pMostrar.Image = GUI.Properties.Resources.ver;
+            }
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            txtUsuario.Clear();
+            txtContraseña.Clear();
+
         }
     }
 }

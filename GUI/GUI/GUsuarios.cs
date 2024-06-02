@@ -18,11 +18,12 @@ namespace GUI
     {
         List<BelUsuario> lUsuario;
         BllUsuario bUsuario;
-        string txtdni;
-        string txtnombre;
-        string txtapellido;
-        string txtusuario;
-        string txtcontraseña;
+        PerfilManager Pm;
+        //string txtdni;
+        //string txtnombre;
+        //string txtapellido;
+        //string txtusuario;
+        //string txtcontraseña;
 
         public GUsuarios()
         {
@@ -31,7 +32,7 @@ namespace GUI
 
         private void GUsuarios_Load(object sender, EventArgs e)
         {
-
+            Pm = new PerfilManager();
         }
         private bool CargarTxt()
         {
@@ -48,7 +49,6 @@ namespace GUI
             return txtValidad;
 
         }
-
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             try
@@ -59,10 +59,11 @@ namespace GUI
                 }
                 else
                 {
-                    Perfil _Perfil = PerfilManager.ConsultaPerfil().Find(x => x.Nombre == comboBox1.SelectedItem) ;
-                    bUsuario.Alta(new BelUsuario(txtDni.Text, txtNombre.Text, txtApellido.Text, txtEmail.Text, _Perfil, txtUsuario.Text, Encriptar.EncriptarC(txtContraseña.Text)));
+                    Perfil _Perfil = Pm.ConsultaPerfil().Find(x => x.Nombre == "");
+                    bUsuario.Alta(new BelUsuario(txtDni.Text, txtNombre.Text, txtApellido.Text, txtEmail.Text, _Perfil, txtUsuario.Text, /*Encriptar.EncriptarC(*/txtContraseña.Text));
                     lUsuario = bUsuario.Consulta();
                     throw new Exception("Usuario creado");
+                    
                 } 
             }
             catch (Exception)

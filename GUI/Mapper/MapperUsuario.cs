@@ -87,10 +87,11 @@ namespace Mapper
             string storePConsulta = "sp_Usuario_Listar";
             DataTable dtConsulta = dao.Leer(storePConsulta);
             List<BelUsuario> aux = new List<BelUsuario>();
+            PerfilManager pM = new PerfilManager();
             foreach (DataRow drow in dtConsulta.Rows)
             {
                 BelUsuario usuario = new BelUsuario(drow.ItemArray);
-                //usuario.Perfil = PerfilManager.lPerfil.Find(x => x.Id == int.Parse(drow[5].ToString()));
+                usuario.Perfil = pM.lPerfil.Find(x => x.Id == int.Parse(drow[5].ToString()));
                 aux.Add(usuario);
             }
             return aux;
@@ -115,19 +116,19 @@ namespace Mapper
             SqlParameter p2 = new SqlParameter();
             p2.Value = pObject.DNI;
             p2.ParameterName = "@DNI";
-            p2.SqlValue = SqlDbType.NVarChar;
+            p2.SqlDbType = SqlDbType.NVarChar;
             arrayList.Add(p2);
 
             SqlParameter p3 = new SqlParameter();
             p3.Value = pObject.Nombre;
             p3.ParameterName = "@Nombre";
-            p3.SqlValue = SqlDbType.NVarChar;
+            p3.SqlDbType = SqlDbType.NVarChar;
             arrayList.Add(p3);
 
             SqlParameter p4 = new SqlParameter();
             p4.Value = pObject.Apellido;
             p4.ParameterName = "@Apellido";
-            p4.SqlValue = SqlDbType.NVarChar;
+            p4.SqlDbType = SqlDbType.NVarChar;
             arrayList.Add(p4);
 
             SqlParameter p5 = new SqlParameter();
@@ -137,9 +138,10 @@ namespace Mapper
             arrayList.Add(p5);
 
             SqlParameter p6 = new SqlParameter();
-            p6.Value = pObject.Perfil;
+            p6.Value = pObject.Perfil.Id;
             p6.ParameterName = "@Rol";
             p6.SqlDbType = SqlDbType.NVarChar;
+            arrayList.Add(p6);
 
             SqlParameter p7 = new SqlParameter();
             p7.Value = pObject.Usuario;

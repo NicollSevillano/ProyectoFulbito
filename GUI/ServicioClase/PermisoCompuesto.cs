@@ -41,18 +41,18 @@ namespace ServicioClase
             {
                 foreach (Permiso p in pPermisoActual.lPermiso)
                 {
-                    if ((p as PermisoCompuesto).lPermiso.Exists(x => x.Id == Id))
+                    if (p is PermisoCompuesto)
                     {
-                        pPermiso = p;
-                    }
-                    else
-                    {
-                        if (p is PermisoCompuesto)
+                        if ((p as PermisoCompuesto).lPermiso.Exists(x => x.Id == Id))
+                        {
+                            pPermiso = (p as PermisoCompuesto).lPermiso.Find(x => x.Id == Id);
+                        }
+                        else
                         {
                             pPermiso = BuscarPermisoIdRecursiva(pId, p as PermisoCompuesto, pPermiso);
+
                         }
                     }
-
                 }
             }
             return pPermiso;

@@ -34,10 +34,12 @@
             this.lblContraseña = new System.Windows.Forms.Label();
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.txtContraseña = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnIngresar = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
             this.comboIdioma1 = new Controles.ComboIdioma();
+            this.pMostrar = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pMostrar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -45,7 +47,7 @@
             // 
             this.lblInicioSesion.AutoSize = true;
             this.lblInicioSesion.Font = new System.Drawing.Font("Maiandra GD", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblInicioSesion.Location = new System.Drawing.Point(108, 49);
+            this.lblInicioSesion.Location = new System.Drawing.Point(131, 48);
             this.lblInicioSesion.Name = "lblInicioSesion";
             this.lblInicioSesion.Size = new System.Drawing.Size(138, 22);
             this.lblInicioSesion.TabIndex = 1;
@@ -73,18 +75,60 @@
             // 
             // txtUsuario
             // 
-            this.txtUsuario.Location = new System.Drawing.Point(182, 108);
+            this.txtUsuario.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUsuario.Location = new System.Drawing.Point(163, 108);
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(141, 20);
+            this.txtUsuario.Size = new System.Drawing.Size(141, 27);
             this.txtUsuario.TabIndex = 4;
             // 
             // txtContraseña
             // 
-            this.txtContraseña.Location = new System.Drawing.Point(182, 155);
+            this.txtContraseña.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtContraseña.Location = new System.Drawing.Point(163, 155);
             this.txtContraseña.Name = "txtContraseña";
-            this.txtContraseña.Size = new System.Drawing.Size(141, 20);
+            this.txtContraseña.PasswordChar = '*';
+            this.txtContraseña.Size = new System.Drawing.Size(141, 27);
             this.txtContraseña.TabIndex = 5;
-            this.txtContraseña.UseSystemPasswordChar = true;
+            // 
+            // btnIngresar
+            // 
+            this.btnIngresar.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIngresar.Location = new System.Drawing.Point(152, 208);
+            this.btnIngresar.Name = "btnIngresar";
+            this.btnIngresar.Size = new System.Drawing.Size(96, 42);
+            this.btnIngresar.TabIndex = 7;
+            this.btnIngresar.Text = "Ingresar";
+            this.btnIngresar.UseVisualStyleBackColor = true;
+            this.btnIngresar.Click += new System.EventHandler(this.btnIngresar_Click);
+            // 
+            // btnSalir
+            // 
+            this.btnSalir.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalir.Location = new System.Drawing.Point(286, 282);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(96, 42);
+            this.btnSalir.TabIndex = 8;
+            this.btnSalir.Text = "Salir";
+            this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            // 
+            // comboIdioma1
+            // 
+            this.comboIdioma1.Location = new System.Drawing.Point(267, 12);
+            this.comboIdioma1.Name = "comboIdioma1";
+            this.comboIdioma1.Size = new System.Drawing.Size(115, 22);
+            this.comboIdioma1.TabIndex = 9;
+            // 
+            // pMostrar
+            // 
+            this.pMostrar.Image = global::GUI.Properties.Resources.oculto;
+            this.pMostrar.Location = new System.Drawing.Point(310, 151);
+            this.pMostrar.Name = "pMostrar";
+            this.pMostrar.Size = new System.Drawing.Size(42, 29);
+            this.pMostrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pMostrar.TabIndex = 10;
+            this.pMostrar.TabStop = false;
+            this.pMostrar.Click += new System.EventHandler(this.pMostrar_Click);
             // 
             // pictureBox1
             // 
@@ -96,40 +140,13 @@
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
-            // btnIngresar
-            // 
-            this.btnIngresar.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnIngresar.Location = new System.Drawing.Point(127, 207);
-            this.btnIngresar.Name = "btnIngresar";
-            this.btnIngresar.Size = new System.Drawing.Size(96, 42);
-            this.btnIngresar.TabIndex = 7;
-            this.btnIngresar.Text = "Ingresar";
-            this.btnIngresar.UseVisualStyleBackColor = true;
-            this.btnIngresar.Click += new System.EventHandler(this.btnIngresar_Click);
-            // 
-            // btnSalir
-            // 
-            this.btnSalir.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalir.Location = new System.Drawing.Point(256, 282);
-            this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(96, 42);
-            this.btnSalir.TabIndex = 8;
-            this.btnSalir.Text = "Salir";
-            this.btnSalir.UseVisualStyleBackColor = true;
-            // 
-            // comboIdioma1
-            // 
-            this.comboIdioma1.Location = new System.Drawing.Point(237, 12);
-            this.comboIdioma1.Name = "comboIdioma1";
-            this.comboIdioma1.Size = new System.Drawing.Size(115, 22);
-            this.comboIdioma1.TabIndex = 9;
-            // 
             // LogIn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(211)))), ((int)(((byte)(131)))));
-            this.ClientSize = new System.Drawing.Size(364, 336);
+            this.ClientSize = new System.Drawing.Size(394, 336);
+            this.Controls.Add(this.pMostrar);
             this.Controls.Add(this.comboIdioma1);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnIngresar);
@@ -143,6 +160,7 @@
             this.Name = "LogIn";
             this.Text = "Inicio de sesión";
             this.Load += new System.EventHandler(this.LogIn_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pMostrar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -159,5 +177,6 @@
         private System.Windows.Forms.Button btnIngresar;
         private System.Windows.Forms.Button btnSalir;
         private Controles.ComboIdioma comboIdioma1;
+        private System.Windows.Forms.PictureBox pMostrar;
     }
 }

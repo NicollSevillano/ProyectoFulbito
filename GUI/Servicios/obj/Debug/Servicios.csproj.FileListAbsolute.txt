@@ -13,3 +13,13 @@ C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Servicios\obj\Debug\Servicio
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Servicios\obj\Debug\Servicios.csproj.CopyComplete
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Servicios\obj\Debug\Servicios.dll
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Servicios\obj\Debug\Servicios.pdb
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Servicios\bin\Debug\BCrypt.Net-Next.dll
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Servicios\bin\Debug\System.Buffers.dll
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Servicios\bin\Debug\System.Memory.dll
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Servicios\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Servicios\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Servicios\bin\Debug\BCrypt.Net-Next.xml
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Servicios\bin\Debug\System.Buffers.xml
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Servicios\bin\Debug\System.Memory.xml
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Servicios\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Servicios\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml

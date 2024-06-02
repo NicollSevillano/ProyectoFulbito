@@ -13,12 +13,18 @@ namespace Servicios
 {
     public class PerfilManager
     {
-        public static Dao dao = new Dao();
-        public static PermisoCompuesto pCompuestoRaiz = new PermisoCompuesto("Raiz");
-        public static List<Perfil> lPerfil;
-        public static ArrayList arrayList;
+        public Dao dao;
+        public PermisoCompuesto pCompuestoRaiz;
+        public List<Perfil> lPerfil;
+        public ArrayList arrayList;
+        public PerfilManager()
+        {
+            dao = new Dao();
+            pCompuestoRaiz = new PermisoCompuesto("Raiz");
+            lPerfil = ConsultaPerfil();
+        }
         //Permisos
-        private static void RelacionPermiso(PermisoCompuesto pPermiso, DataTable pRelaciones, List<Permiso> pLista)
+        private void RelacionPermiso(PermisoCompuesto pPermiso, DataTable pRelaciones, List<Permiso> pLista)
         {
             foreach (DataRow dRow in pRelaciones.Rows)
             {
@@ -28,11 +34,11 @@ namespace Servicios
                 }
             }
         }
-        private static void ActuralizarPermisos()
+        private void ActuralizarPermisos()
         {
             pCompuestoRaiz = ConsultaPermiso()[0] as PermisoCompuesto;
         }
-        public static List<Permiso> ConsultaPermiso()
+        public List<Permiso> ConsultaPermiso()
         {
             //Conseguir la lista de permisos 
             arrayList = new ArrayList();
@@ -69,7 +75,7 @@ namespace Servicios
             arbol.Add(pCompuestoRelacion);
             return arbol;
         }
-        private static void AltaPermiso(Permiso pObject, Permiso pPadre = null)
+        private void AltaPermiso(Permiso pObject, Permiso pPadre = null)
         {
             arrayList = new ArrayList();
             string storeAlta = "sp_Alta_Permiso";
@@ -114,14 +120,14 @@ namespace Servicios
                 dao.Escribir(storeAlta, arrayList);
             }
         }
-        private static string UltimoIdPermiso()
+        private string UltimoIdPermiso()
         {
             string storeUltimo = "sp_ListarUltimo_Permiso";
             DataTable dt = dao.Leer(storeUltimo);
             string id = dt.Rows[0].ItemArray[0].ToString();
             return id;
         }
-        private static void BajaPermiso(int pId)
+        private void BajaPermiso(int pId)
         {
             //Eliminar permiso
             arrayList = new ArrayList();
@@ -141,7 +147,7 @@ namespace Servicios
             ActuralizarPermisos();
         }
         //Perfiles
-        public static List<Perfil> ConsultaPerfil()
+        public List<Perfil> ConsultaPerfil()
         {
             string storeListarPerfil = "sp_Listar_Perfil";
             DataTable dt = dao.Leer(storeListarPerfil);
@@ -155,7 +161,7 @@ namespace Servicios
             }
             return lPerfil;
         }
-        public static void AltaPerfil(Perfil pObject) 
+        public void AltaPerfil(Perfil pObject) 
         {
             arrayList = new ArrayList();
             string storeAltaPerfil = "sp_Alta_Perfil";
@@ -170,15 +176,15 @@ namespace Servicios
             p2.ParameterName = "@Permiso";
             p2.SqlDbType = SqlDbType.NVarChar;
             arrayList.Add(p2);
+            ActualizarPerfil();
 
             dao.Escribir(storeAltaPerfil, arrayList);
-            ActualizarPerfil();
         }
-        public static void ActualizarPerfil()
+        public void ActualizarPerfil()
         {
             lPerfil = ConsultaPerfil();
         }
-        public static void BajaPerfil(int pId)
+        public void BajaPerfil(int pId)
         {
             arrayList = new ArrayList();
             string storeBajaPerfil = "sp_Eliminar_Perfil";
