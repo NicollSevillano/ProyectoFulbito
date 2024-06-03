@@ -92,7 +92,7 @@
             // btnIngresar
             // 
             this.btnIngresar.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnIngresar.Location = new System.Drawing.Point(152, 208);
+            this.btnIngresar.Location = new System.Drawing.Point(135, 208);
             this.btnIngresar.Name = "btnIngresar";
             this.btnIngresar.Size = new System.Drawing.Size(96, 42);
             this.btnIngresar.TabIndex = 7;

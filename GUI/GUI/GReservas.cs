@@ -23,5 +23,11 @@ namespace GUI
         {
 
         }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            SessionManager.LogOut();
+            this.Close();
+        }
     }
 }

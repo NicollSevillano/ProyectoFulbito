@@ -17,7 +17,7 @@ namespace Bll
             mpUsuario.Alta(pObject);
         }
 
-        public void Baja(string pId)
+        public void Baja(int pId)
         {
             mpUsuario.Baja(pId);
         }

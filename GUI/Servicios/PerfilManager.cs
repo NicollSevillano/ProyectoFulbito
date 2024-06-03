@@ -50,21 +50,21 @@ namespace Servicios
                 }
             }
             //armo las relaciones entre los permisos
-            string storeCRelaciones = "sp_Listar_Relaciones";
-            DataTable dT = dao.Leer(storeCRelaciones);
+            //string storeCRelaciones = "sp_Listar_Relaciones";
+            //DataTable dT = dao.Leer(storeCRelaciones);
             PermisoCompuesto pCompuestoRelacion = new PermisoCompuesto("nRaiz");
-            foreach (Permiso p in listaPermiso)
-            {
-                if (p is PermisoCompuesto)
-                {
-                    RelacionPermiso(p as PermisoCompuesto, dT, listaPermiso);
-                    pCompuestoRelacion.AgregarPermiso(p);
-                }
-                else
-                {
-                    pCompuestoRelacion.AgregarPermiso(p);
-                }
-            }
+            //foreach (Permiso p in listaPermiso)
+            //{
+            //    if (p is PermisoCompuesto)
+            //    {
+            //        RelacionPermiso(p as PermisoCompuesto, dT, listaPermiso);
+            //        pCompuestoRelacion.AgregarPermiso(p);
+            //    }
+            //    else
+            //    {
+            //        pCompuestoRelacion.AgregarPermiso(p);
+            //    }
+            //}
             arbol.Add(pCompuestoRelacion);
             return arbol;
         }

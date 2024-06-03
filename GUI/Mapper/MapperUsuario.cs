@@ -47,6 +47,12 @@ namespace Mapper
             p4.SqlDbType = SqlDbType.NVarChar;
             arrayList.Add(p4);
 
+            SqlParameter p5 = new SqlParameter();
+            p5.ParameterName = "@Rol";
+            p5.Value = pObject.Perfil.id;
+            p5.SqlDbType = SqlDbType.Int;
+            arrayList.Add(p5);
+
             SqlParameter p6 = new SqlParameter();
             p6.ParameterName = "@Usuario";
             p6.Value = pObject.Usuario;
@@ -80,7 +86,7 @@ namespace Mapper
             dao.Escribir(storeAlta, arrayList);
         }
 
-        public void Baja(string pId)
+        public void Baja(int pId)
         {
             string storeBaja = "sp_Usuario_Borrar";
             arrayList = new ArrayList();
@@ -135,11 +141,11 @@ namespace Mapper
             p5.SqlDbType = SqlDbType.NVarChar;
             arrayList.Add(p5);
 
-            //SqlParameter p6 = new SqlParameter();
-            //p6.ParameterName = "@Rol";
-            //p6.Value = pObject.Perfil.id;
-            //p6.SqlDbType = SqlDbType.Int;
-            //arrayList.Add(p6);
+            SqlParameter p6 = new SqlParameter();
+            p6.ParameterName = "@Rol";
+            p6.Value = pObject.Perfil.id;
+            p6.SqlDbType = SqlDbType.Int;
+            arrayList.Add(p6);
 
             SqlParameter p7 = new SqlParameter();
             p7.ParameterName = "@Usuario";
@@ -163,7 +169,13 @@ namespace Mapper
             p10.ParameterName = "@Activo";
             p10.Value = pObject.Activo;
             p10.SqlDbType = SqlDbType.Bit;
-            arrayList.Add(p10);
+            arrayList.Add(p10); 
+            
+            SqlParameter p11 = new SqlParameter();
+            p11.ParameterName = "@Intentos";
+            p11.Value = pObject.Intentos;
+            p11.SqlDbType = SqlDbType.Bit;
+            arrayList.Add(p11);
 
             dao.Escribir(storeModificar, arrayList);
         }
@@ -186,6 +198,7 @@ namespace Mapper
             string storedProcedure = "sp_Usuario_Listar";
             DataTable dt = dao.Leer(storedProcedure);
             List<BelUsuario> lUsuario = new List<BelUsuario>();
+            PerfilManager.IniciarPerfilManager();
             foreach (DataRow dr in dt.Rows)
             {
                 if (dr.ItemArray.Length > 5 && dr["Rol"] != null)

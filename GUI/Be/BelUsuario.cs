@@ -34,11 +34,9 @@ namespace Be
             Email = array[4].ToString();
             Usuario = array[6].ToString();
             Contraseña = array[7].ToString();
-            //Bloqueado = bool.Parse(array[8].ToString());
-            ////Activo = bool.Parse(array[9].ToString());
-            //Activo = Convert.ToBoolean(array[9].ToString());
-            //Intentos = Convert.ToInt32(array[10]);
-            Intentos = 0;
+            Bloqueado = bool.Parse(array[8].ToString());
+            Activo = bool.Parse(array[9].ToString());
+            Intentos = int.Parse(array[10].ToString());
         }
         public string id { get; set; }
         public string DNI { get; set; }

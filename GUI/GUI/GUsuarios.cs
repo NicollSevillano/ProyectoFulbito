@@ -30,19 +30,9 @@ namespace GUI
 
         private void GUsuarios_Load(object sender, EventArgs e)
         {
-            lUsuario = new List<BelUsuario>();
             bllUsuario = new BllUsuario();
+            lUsuario = bllUsuario.Consulta();
             RefrescarDgv();
-            foreach (BelUsuario usuario in lUsuario)
-            {
-                string hashedPassword = Encriptar.HashPassword(usuario.Contraseña);
-                if (hashedPassword.Length > 20)
-                {
-                    hashedPassword = hashedPassword.Substring(1, 20);
-                }
-                usuario.Contraseña = hashedPassword;
-                bllUsuario.Modificacion(usuario);
-            }
         }
         private bool CargarTxt()
         {
@@ -59,32 +49,30 @@ namespace GUI
             return txtValidad;
 
         }
+
+        Perfil perfil;
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             try
             {
                 if (!CargarTxt())
                 {
-                    
-                    Perfil perfil;
-
-                    if (rbAdministrador.Checked)
+                    BelUsuario nuevoUsuario;
+                    if (rbAdministrador.Checked == true)
                     {
                         perfil = PerfilManager.ConsultaPerfil().Find(x => x.Nombre == "Administrador");
+                        nuevoUsuario = new BelUsuario(txtDni.Text, txtNombre.Text, txtApellido.Text, txtEmail.Text, perfil, txtUsuario.Text, Encriptar.Encrypt(txtContraseña.Text));
+                        bllUsuario.Alta(nuevoUsuario);
                     }
-                    else
+                    else if(rbEmpleado.Checked == true)
                     {
                         perfil = PerfilManager.ConsultaPerfil().Find(x => x.Nombre == "Empleado");
+                        nuevoUsuario = new BelUsuario(txtDni.Text, txtNombre.Text, txtApellido.Text, txtEmail.Text, perfil, txtUsuario.Text, Encriptar.Encrypt(txtContraseña.Text));
+                        bllUsuario.Alta(nuevoUsuario);
                     }
-
-                    BelUsuario nuevoUsuario = new BelUsuario(txtDni.Text, txtNombre.Text, txtApellido.Text, txtEmail.Text, perfil, txtUsuario.Text, txtContraseña.Text);
-                    bllUsuario.Alta(nuevoUsuario);
-
+                    
                     lUsuario = bllUsuario.Consulta();
-                    foreach (BelUsuario usuario in lUsuario)
-                    {
-                        dgvUsuarios.Rows.Add(usuario.id, usuario.Nombre, usuario.Apellido, usuario.Email, usuario.Perfil, usuario.Usuario, Encriptar.HashPassword(usuario.Contraseña));
-                    }
+                    RefrescarDgv();
                 }
             }
             catch (Exception ex)
@@ -94,53 +82,74 @@ namespace GUI
         }
         private void btnBorrar_Click(object sender, EventArgs e)
         {
-            BelUsuario usuarioSeleccionado = LlamarUsuario();
-            if (usuarioSeleccionado != null)
+            if (dgvUsuarios.SelectedRows.Count > 0)
             {
-                bllUsuario.Baja(usuarioSeleccionado.id);
-                RefrescarDgv();
+                foreach (DataGridViewRow row in dgvUsuarios.SelectedRows)
+                {
+                    int userId = Convert.ToInt32(row.Cells[0].Value);
+                    bllUsuario.Baja(userId);
+                }
                 MessageBox.Show("Usuario eliminado");
             }
+            RefrescarDgv();
         }
-        string txtdni;
-        string txtnombre;
-        string txtapellido;
-        string txtusuario;
-        string txtcontraseña;
         private void btnModificar_Click(object sender, EventArgs e)
         {
             try
             {
-                //BelUsuario bUsuario = LlamarUsuario();
-                //string _dni = Interaction.InputBox("Dni:", "Modificando...", bUsuario.DNI);
-                //string _nombre = Interaction.InputBox("Nombre:", "Modificando...", bUsuario.Nombre);
-                //string _apellido = Interaction.InputBox("Apellido:", "Modificando...", bUsuario.Apellido);
-                //string _email = Interaction.InputBox("Email:", "Modificando", bUsuario.Email);
-                //string _usuario = Interaction.InputBox("Usuario:", "Modificando...", bUsuario.Usuario);
-                //string _contraseña = Interaction.InputBox("Contraseña", "Modificando", bUsuario.Contraseña);
-                //bUsuario.DNI = _dni; bUsuario.Nombre = _nombre;
-                //bUsuario.Apellido = _apellido; bUsuario.Email = _email;
-                //bUsuario.Usuario = _usuario; bUsuario.Contraseña = _contraseña;
+                if (dgvUsuarios.SelectedRows.Count == 0)
+                {
+                    MessageBox.Show("Seleccione un usuario para modificar", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
 
-                //bllUsuario.Modificacion(bUsuario);
-                //lUsuario = bllUsuario.Consulta();
-                //RefrescarDgv
+                DataGridViewRow row = dgvUsuarios.SelectedRows[0];
+                string usuarioId = row.Cells[0].Value.ToString();
+
+                BelUsuario usuarioAModificar = lUsuario.Find(u => u.id == usuarioId);
+
+                if (!CargarTxt())
+                {
+                    usuarioAModificar.DNI = txtDni.Text;
+                    usuarioAModificar.Nombre = txtNombre.Text;
+                    usuarioAModificar.Apellido = txtApellido.Text;
+                    usuarioAModificar.Email = txtEmail.Text;
+                    usuarioAModificar.Usuario = txtUsuario.Text;
+                    usuarioAModificar.Contraseña = Encriptar.Encrypt(txtContraseña.Text);
+
+                    if (rbAdministrador.Checked == true)
+                    {
+                        usuarioAModificar.Perfil = PerfilManager.ConsultaPerfil().Find(x => x.Nombre == "Administrador");
+                    }
+                    else if (rbEmpleado.Checked == true)
+                    {
+                        usuarioAModificar.Perfil = PerfilManager.ConsultaPerfil().Find(x => x.Nombre == "Empleado");
+                    }
+
+                    bllUsuario.Modificacion(usuarioAModificar);
+                    lUsuario = bllUsuario.Consulta();
+                    RefrescarDgv();
+                    MessageBox.Show("Usuario modificado exitosamente");
+                }
+                else
+                {
+                    MessageBox.Show("Complete todos los campos", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
             }
 
             catch (Exception)
             {
-
                 throw;
             }
         }
-        private void FiltroDgv(List<BelUsuario> dgv)
+        private void FiltroDgv()
         {
             try
             {
                 dgvUsuarios.Rows.Clear();
-                foreach (BelUsuario b in dgv)
+                foreach (BelUsuario b in lUsuario)
                 {
-                    dgvUsuarios.Rows.Add(new object[] { b.id, b.Nombre, b.Apellido, b.Email, b.Perfil.id, b.Usuario, b.Contraseña });
+                    dgvUsuarios.Rows.Add(new object[] { b.id, b.DNI, b.Nombre, b.Apellido, b.Email, b.Perfil.id, b.Usuario, b.Contraseña, b.Bloqueado, b.Activo });
                     if (b.Bloqueado)
                     {
                         dgvUsuarios.Rows[dgvUsuarios.Rows.Count - 1].DefaultCellStyle.BackColor = Color.Red;
@@ -162,48 +171,23 @@ namespace GUI
         }
         private void RefrescarDgv()
         {
-            List<BelUsuario> usuarios = bllUsuario.Consulta();
-            dgvUsuarios.DataSource = null;
-            dgvUsuarios.DataSource = bllUsuario.Consulta();
-            foreach (BelUsuario usuario in lUsuario)
+            dgvUsuarios.Rows.Clear();
+            foreach (BelUsuario item in lUsuario)
             {
-                dgvUsuarios.Rows.Add(usuario.id, usuario.DNI, usuario.Nombre, usuario.Apellido, usuario.Email, usuario.Perfil.Nombre, usuario.Usuario, usuario.Contraseña, usuario.Bloqueado, usuario.Activo, usuario.Intentos);
+                dgvUsuarios.Rows.Add(item.id, item.DNI, item.Nombre, item.Apellido, item.Email, item.Perfil.Nombre, item.Usuario, item.Contraseña, item.Bloqueado, item.Activo);
             }
-        }
-        private void filtrarEstadoB(object sender, EventArgs e)
-        {
-            List<BelUsuario> t = lUsuario;
-            if (cbBloqueados.Checked) t = lUsuario.Where(x => x.Bloqueado == cbBloqueados.Checked).ToList<BelUsuario>();
-            FiltroDgv(t);
+            FiltroDgv();
         }
         private void cbBloqueados_TextChanged(object sender, EventArgs e)
         {
-            filtrarEstadoB(null, null);
+            List<BelUsuario> t = lUsuario;
+            if (cbBloqueados.Checked) t = lUsuario.Where(x => x.Bloqueado == cbBloqueados.Checked).ToList<BelUsuario>();
         }
-        //private BelUsuario LlamarUsuario()
-        //{
-        //    //return lUsuario.Find(x => x.id == dgvUsuarios.SelectedRows[0].Cells[0].Value.ToString());
-        //    if (dgvUsuarios.SelectedRows.Count > 0)
-        //    {
-        //        string id = dgvUsuarios.Rows[0].Cells[0].Value.ToString();
-        //        return lUsuario.Find(u => u.id == id);
-        //    }
-        //    return null;
-        //}
         private BelUsuario LlamarUsuario()
         {
             return lUsuario.Find(x => x.id == dgvUsuarios.SelectedRows[0].Cells[0].Value.ToString());
         }
-        private void filtrarEstadoA(object sender, EventArgs e)
-        {
-            List<BelUsuario> t = lUsuario;
-            if (cbBloqueados.Checked) t = lUsuario.Where(x => x.Activo == cbActivos.Checked).ToList<BelUsuario>();
-            FiltroDgv(t);
-        }
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
-        {
-            filtrarEstadoA(null, null);
-        }
+        
 
         private void btnDesbloquear_Click(object sender, EventArgs e)
         {
@@ -236,22 +220,7 @@ namespace GUI
             lUsuario = bllUsuario.Consulta();
             RefrescarDgv();
         }
-        //private void Habilitar()
-        //{
-        //    if (dgvUsuarios.SelectedRows.Count > 0)
-        //    {
-        //        btnDesbloquear.Enabled = LlamarUsuario().Bloqueado;
-        //    }
-        //    else
-        //    {
-        //        btnDesbloquear.Enabled = false;
-        //    }
-        //}
 
-        private void dgvUsuarios_SelectionChanged(object sender, EventArgs e)
-        {
-            //Habilitar();
-        }
 
         private void btnSalir_Click(object sender, EventArgs e)
         {
@@ -259,12 +228,35 @@ namespace GUI
             this.Close();
         }
 
-        private void rbAdministrador_CheckedChanged(object sender, EventArgs e)
+        private void dgvUsuarios_RowEnter(object sender, DataGridViewCellEventArgs e)
         {
-            //if(rbAdministrador.Checked == true)
-            //{
-            //    beUsuario.Perfil.Nombre = "Administrador";
-            //}
+            try
+            {
+                DataGridViewRow row = dgvUsuarios.SelectedRows[0];
+                txtDni.Text = row.Cells[1].Value.ToString();
+                txtNombre.Text = row.Cells[2].Value.ToString();
+                txtApellido.Text = row.Cells[3].Value.ToString();
+                txtEmail.Text = row.Cells[4].Value.ToString();
+                txtUsuario.Text = row.Cells[6].Value.ToString();
+                txtContraseña.Text = row.Cells[7].Value.ToString();
+            }
+            catch
+            {
+
+            }
+        }
+
+        private void dgvUsuarios_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            
+        }
+
+        private void cbBloqueados_CheckedChanged(object sender, EventArgs e)
+        {
+            List<BelUsuario> t = lUsuario;
+            t = lUsuario.Where(x => x.Bloqueado == cbBloqueados.Checked).ToList<BelUsuario>();
+            lUsuario = t;
+            RefrescarDgv();
         }
     }
 }

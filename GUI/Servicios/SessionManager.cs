@@ -48,7 +48,7 @@ namespace Servicios
                 }
                 else
                 {
-                    System.Windows.Forms.MessageBox.Show("¿Desea salir?","Salir", MessageBoxButtons.YesNoCancel);
+                    System.Windows.Forms.MessageBox.Show("¿Desea salir?","Salir", MessageBoxButtons.OK);
                 }
             }
         }

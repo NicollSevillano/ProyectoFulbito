@@ -53,9 +53,15 @@ namespace GUI
 
         private void usuariosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Hide();
             usuarios.ShowDialog();
             this.Show();
+        }
+
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            SessionManager.LogOut();
+            this.Close();
         }
     }
 }
