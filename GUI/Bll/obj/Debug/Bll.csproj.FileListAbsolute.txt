@@ -12,8 +12,8 @@ C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Bll\bin\Debug\ServicioClase.
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Bll\bin\Debug\Dal.pdb
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Bll\obj\Debug\Bll.csproj.AssemblyReference.cache
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Bll\obj\Debug\Bll.csproj.CoreCompileInputs.cache
-C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Bll\obj\Debug\Bll.csproj.CopyComplete
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Bll\obj\Debug\Bll.dll
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Bll\obj\Debug\Bll.pdb
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Bll\bin\Debug\Servicios.dll
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Bll\bin\Debug\Servicios.pdb
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Bll\obj\Debug\Bll.csproj.Up2Date

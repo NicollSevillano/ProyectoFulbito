@@ -38,6 +38,7 @@ namespace Be
             Activo = bool.Parse(array[9].ToString());
             Intentos = int.Parse(array[10].ToString());
         }
+
         public string id { get; set; }
         public string DNI { get; set; }
         public string Nombre { get; set; }

@@ -12,6 +12,6 @@ C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Mapper\bin\Debug\ServicioCla
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Mapper\bin\Debug\Servicios.pdb
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Mapper\obj\Debug\Mapper.csproj.AssemblyReference.cache
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Mapper\obj\Debug\Mapper.csproj.CoreCompileInputs.cache
-C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Mapper\obj\Debug\Mapper.csproj.CopyComplete
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Mapper\obj\Debug\Mapper.dll
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Mapper\obj\Debug\Mapper.pdb
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Mapper\obj\Debug\Mapper.csproj.Up2Date

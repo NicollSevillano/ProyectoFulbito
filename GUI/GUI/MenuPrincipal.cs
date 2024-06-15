@@ -14,8 +14,6 @@ namespace GUI
     public partial class MenuPrincipal : Form
     {
         public SessionManager smanager;
-        GReservas reservas;
-        GCancha cancha;
         GRegistrarCliente registrarCliente;
         GUsuarios usuarios;
 
@@ -26,8 +24,6 @@ namespace GUI
 
         private void MenuPrincipal_Load(object sender, EventArgs e)
         {
-            reservas = new GReservas();
-            cancha = new GCancha();
             registrarCliente = new GRegistrarCliente();
             usuarios = new GUsuarios();
         }
@@ -47,13 +43,19 @@ namespace GUI
         private void toolStripMenuItem2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            cancha.ShowDialog();
+            //reservas.ShowDialog();
             this.Show();
         }
 
         private void usuariosToolStripMenuItem_Click(object sender, EventArgs e)
         {
             usuarios.ShowDialog();
+            this.Show();
+        }
+        private void controlDeCanchasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            //cancha.ShowDialog();
             this.Show();
         }
 
@@ -63,5 +65,6 @@ namespace GUI
             SessionManager.LogOut();
             this.Close();
         }
+
     }
 }

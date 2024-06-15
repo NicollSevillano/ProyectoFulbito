@@ -30,6 +30,16 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GUsuarios));
             this.dgvUsuarios = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lbDatos = new System.Windows.Forms.Label();
             this.labDNI = new System.Windows.Forms.Label();
             this.labNombre = new System.Windows.Forms.Label();
@@ -53,22 +63,9 @@
             this.btnSalir = new System.Windows.Forms.Button();
             this.rbAdministrador = new System.Windows.Forms.RadioButton();
             this.rbEmpleado = new System.Windows.Forms.RadioButton();
-            this.cbActivos = new System.Windows.Forms.CheckBox();
-            this.btnActivar = new System.Windows.Forms.Button();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnCambiarC = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvUsuarios)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // dgvUsuarios
@@ -96,6 +93,66 @@
             this.dgvUsuarios.TabIndex = 0;
             this.dgvUsuarios.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvUsuarios_CellClick);
             this.dgvUsuarios.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvUsuarios_RowEnter);
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "Id";
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "DNI";
+            this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "Nombre";
+            this.Column3.Name = "Column3";
+            this.Column3.ReadOnly = true;
+            // 
+            // Column4
+            // 
+            this.Column4.HeaderText = "Apellido";
+            this.Column4.Name = "Column4";
+            this.Column4.ReadOnly = true;
+            // 
+            // Column5
+            // 
+            this.Column5.HeaderText = "Email";
+            this.Column5.Name = "Column5";
+            this.Column5.ReadOnly = true;
+            // 
+            // Column6
+            // 
+            this.Column6.HeaderText = "Perfil";
+            this.Column6.Name = "Column6";
+            this.Column6.ReadOnly = true;
+            // 
+            // Column7
+            // 
+            this.Column7.HeaderText = "Usuario";
+            this.Column7.Name = "Column7";
+            this.Column7.ReadOnly = true;
+            // 
+            // Column8
+            // 
+            this.Column8.HeaderText = "Contraseña";
+            this.Column8.Name = "Column8";
+            this.Column8.ReadOnly = true;
+            // 
+            // Column9
+            // 
+            this.Column9.HeaderText = "Bloqueado";
+            this.Column9.Name = "Column9";
+            this.Column9.ReadOnly = true;
+            // 
+            // Column10
+            // 
+            this.Column10.HeaderText = "Activo";
+            this.Column10.Name = "Column10";
+            this.Column10.ReadOnly = true;
             // 
             // lbDatos
             // 
@@ -212,7 +269,7 @@
             // btnAgregar
             // 
             this.btnAgregar.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregar.Location = new System.Drawing.Point(415, 254);
+            this.btnAgregar.Location = new System.Drawing.Point(417, 231);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(105, 43);
             this.btnAgregar.TabIndex = 16;
@@ -223,7 +280,7 @@
             // btnBorrar
             // 
             this.btnBorrar.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBorrar.Location = new System.Drawing.Point(415, 303);
+            this.btnBorrar.Location = new System.Drawing.Point(417, 280);
             this.btnBorrar.Name = "btnBorrar";
             this.btnBorrar.Size = new System.Drawing.Size(105, 43);
             this.btnBorrar.TabIndex = 17;
@@ -234,7 +291,7 @@
             // btnModificar
             // 
             this.btnModificar.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnModificar.Location = new System.Drawing.Point(415, 355);
+            this.btnModificar.Location = new System.Drawing.Point(417, 332);
             this.btnModificar.Name = "btnModificar";
             this.btnModificar.Size = new System.Drawing.Size(105, 43);
             this.btnModificar.TabIndex = 18;
@@ -245,9 +302,9 @@
             // btnDesbloquear
             // 
             this.btnDesbloquear.Font = new System.Drawing.Font("Maiandra GD", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDesbloquear.Location = new System.Drawing.Point(782, 294);
+            this.btnDesbloquear.Location = new System.Drawing.Point(597, 307);
             this.btnDesbloquear.Name = "btnDesbloquear";
-            this.btnDesbloquear.Size = new System.Drawing.Size(96, 24);
+            this.btnDesbloquear.Size = new System.Drawing.Size(100, 31);
             this.btnDesbloquear.TabIndex = 19;
             this.btnDesbloquear.Text = "Desbloquear";
             this.btnDesbloquear.UseVisualStyleBackColor = true;
@@ -257,7 +314,7 @@
             // 
             this.labFiltrar.AutoSize = true;
             this.labFiltrar.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labFiltrar.Location = new System.Drawing.Point(626, 246);
+            this.labFiltrar.Location = new System.Drawing.Point(593, 246);
             this.labFiltrar.Name = "labFiltrar";
             this.labFiltrar.Size = new System.Drawing.Size(50, 19);
             this.labFiltrar.TabIndex = 21;
@@ -267,7 +324,7 @@
             // 
             this.cbBloqueados.AutoSize = true;
             this.cbBloqueados.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbBloqueados.Location = new System.Drawing.Point(8, 13);
+            this.cbBloqueados.Location = new System.Drawing.Point(597, 280);
             this.cbBloqueados.Name = "cbBloqueados";
             this.cbBloqueados.Size = new System.Drawing.Size(103, 22);
             this.cbBloqueados.TabIndex = 24;
@@ -279,7 +336,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::GUI.Properties.Resources.logo;
-            this.pictureBox1.Location = new System.Drawing.Point(585, 385);
+            this.pictureBox1.Location = new System.Drawing.Point(597, 391);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(203, 137);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -302,7 +359,7 @@
             this.rbAdministrador.AutoSize = true;
             this.rbAdministrador.Checked = true;
             this.rbAdministrador.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbAdministrador.Location = new System.Drawing.Point(415, 414);
+            this.rbAdministrador.Location = new System.Drawing.Point(417, 391);
             this.rbAdministrador.Name = "rbAdministrador";
             this.rbAdministrador.Size = new System.Drawing.Size(127, 23);
             this.rbAdministrador.TabIndex = 27;
@@ -314,104 +371,23 @@
             // 
             this.rbEmpleado.AutoSize = true;
             this.rbEmpleado.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbEmpleado.Location = new System.Drawing.Point(415, 448);
+            this.rbEmpleado.Location = new System.Drawing.Point(417, 425);
             this.rbEmpleado.Name = "rbEmpleado";
             this.rbEmpleado.Size = new System.Drawing.Size(97, 23);
             this.rbEmpleado.TabIndex = 28;
             this.rbEmpleado.Text = "Empleado";
             this.rbEmpleado.UseVisualStyleBackColor = true;
             // 
-            // cbActivos
+            // btnCambiarC
             // 
-            this.cbActivos.AutoSize = true;
-            this.cbActivos.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbActivos.Location = new System.Drawing.Point(8, 41);
-            this.cbActivos.Name = "cbActivos";
-            this.cbActivos.Size = new System.Drawing.Size(99, 22);
-            this.cbActivos.TabIndex = 30;
-            this.cbActivos.Text = "No Activos";
-            this.cbActivos.UseVisualStyleBackColor = true;
-            // 
-            // btnActivar
-            // 
-            this.btnActivar.Font = new System.Drawing.Font("Maiandra GD", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnActivar.Location = new System.Drawing.Point(782, 330);
-            this.btnActivar.Name = "btnActivar";
-            this.btnActivar.Size = new System.Drawing.Size(96, 24);
-            this.btnActivar.TabIndex = 32;
-            this.btnActivar.Text = "Activar";
-            this.btnActivar.UseVisualStyleBackColor = true;
-            this.btnActivar.Click += new System.EventHandler(this.btnActivar_Click);
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.cbActivos);
-            this.groupBox1.Controls.Add(this.cbBloqueados);
-            this.groupBox1.Location = new System.Drawing.Point(656, 283);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(120, 77);
-            this.groupBox1.TabIndex = 33;
-            this.groupBox1.TabStop = false;
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "Id";
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "DNI";
-            this.Column2.Name = "Column2";
-            this.Column2.ReadOnly = true;
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Nombre";
-            this.Column3.Name = "Column3";
-            this.Column3.ReadOnly = true;
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "Apellido";
-            this.Column4.Name = "Column4";
-            this.Column4.ReadOnly = true;
-            // 
-            // Column5
-            // 
-            this.Column5.HeaderText = "Email";
-            this.Column5.Name = "Column5";
-            this.Column5.ReadOnly = true;
-            // 
-            // Column6
-            // 
-            this.Column6.HeaderText = "Perfil";
-            this.Column6.Name = "Column6";
-            this.Column6.ReadOnly = true;
-            // 
-            // Column7
-            // 
-            this.Column7.HeaderText = "Usuario";
-            this.Column7.Name = "Column7";
-            this.Column7.ReadOnly = true;
-            // 
-            // Column8
-            // 
-            this.Column8.HeaderText = "Contraseña";
-            this.Column8.Name = "Column8";
-            this.Column8.ReadOnly = true;
-            // 
-            // Column9
-            // 
-            this.Column9.HeaderText = "Bloqueado";
-            this.Column9.Name = "Column9";
-            this.Column9.ReadOnly = true;
-            // 
-            // Column10
-            // 
-            this.Column10.HeaderText = "Activo";
-            this.Column10.Name = "Column10";
-            this.Column10.ReadOnly = true;
+            this.btnCambiarC.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCambiarC.Location = new System.Drawing.Point(417, 468);
+            this.btnCambiarC.Name = "btnCambiarC";
+            this.btnCambiarC.Size = new System.Drawing.Size(105, 54);
+            this.btnCambiarC.TabIndex = 34;
+            this.btnCambiarC.Text = "Cambiar clave";
+            this.btnCambiarC.UseVisualStyleBackColor = true;
+            this.btnCambiarC.Click += new System.EventHandler(this.btnCambiarC_Click);
             // 
             // GUsuarios
             // 
@@ -419,8 +395,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(211)))), ((int)(((byte)(131)))));
             this.ClientSize = new System.Drawing.Size(935, 546);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.btnActivar);
+            this.Controls.Add(this.cbBloqueados);
+            this.Controls.Add(this.btnCambiarC);
             this.Controls.Add(this.rbEmpleado);
             this.Controls.Add(this.rbAdministrador);
             this.Controls.Add(this.pictureBox1);
@@ -450,8 +426,6 @@
             this.Load += new System.EventHandler(this.GUsuarios_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvUsuarios)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -483,9 +457,6 @@
         private System.Windows.Forms.Button btnSalir;
         private System.Windows.Forms.RadioButton rbAdministrador;
         private System.Windows.Forms.RadioButton rbEmpleado;
-        private System.Windows.Forms.CheckBox cbActivos;
-        private System.Windows.Forms.Button btnActivar;
-        private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
@@ -496,5 +467,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column10;
+        private System.Windows.Forms.Button btnCambiarC;
     }
 }

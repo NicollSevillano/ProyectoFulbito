@@ -6,4 +6,4 @@ C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\ServicioClase\obj\Debug\Serv
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\ServicioClase\obj\Debug\ServicioClase.pdb
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\ServicioClase\bin\Debug\Interface.dll
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\ServicioClase\bin\Debug\Interface.pdb
-C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\ServicioClase\obj\Debug\ServicioClase.csproj.CopyComplete
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\ServicioClase\obj\Debug\Servicio.71A683D5.Up2Date

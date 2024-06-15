@@ -63,23 +63,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GCancha.cs">
+    <Compile Include="Bitacora.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GCancha.Designer.cs">
-      <DependentUpon>GCancha.cs</DependentUpon>
+    <Compile Include="Bitacora.Designer.cs">
+      <DependentUpon>Bitacora.cs</DependentUpon>
     </Compile>
-    <Compile Include="GCliente.cs">
+    <Compile Include="CambiarClave.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GCliente.Designer.cs">
-      <DependentUpon>GCliente.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GPago.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GPago.Designer.cs">
-      <DependentUpon>GPago.cs</DependentUpon>
+    <Compile Include="CambiarClave.Designer.cs">
+      <DependentUpon>CambiarClave.cs</DependentUpon>
     </Compile>
     <Compile Include="GRegistrarCliente.cs">
       <SubType>Form</SubType>
@@ -113,14 +107,14 @@
     <Compile Include="GUsuarios.Designer.cs">
       <DependentUpon>GUsuarios.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="GCancha.resx">
-      <DependentUpon>GCancha.cs</DependentUpon>
+    <EmbeddedResource Include="Bitacora.resx">
+      <DependentUpon>Bitacora.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GCliente.resx">
-      <DependentUpon>GCliente.cs</DependentUpon>
+    <EmbeddedResource Include="CambiarClave.resx">
+      <DependentUpon>CambiarClave.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GPago.resx">
-      <DependentUpon>GPago.cs</DependentUpon>
+    <EmbeddedResource Include="GRegistrarCliente.resx">
+      <DependentUpon>GRegistrarCliente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GReservas.resx">
       <DependentUpon>GReservas.cs</DependentUpon>

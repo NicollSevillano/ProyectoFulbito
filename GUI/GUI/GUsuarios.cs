@@ -22,6 +22,7 @@ namespace GUI
         List<BelUsuario> lUsuario;
         BllUsuario bllUsuario;
         BelUsuario beUsuario;
+        CambiarClave cambiarClave;
 
         public GUsuarios()
         {
@@ -33,6 +34,7 @@ namespace GUI
             bllUsuario = new BllUsuario();
             lUsuario = bllUsuario.Consulta();
             RefrescarDgv();
+            cambiarClave = new CambiarClave();
         }
         private bool CargarTxt()
         {
@@ -115,27 +117,36 @@ namespace GUI
                     usuarioAModificar.Apellido = txtApellido.Text;
                     usuarioAModificar.Email = txtEmail.Text;
                     usuarioAModificar.Usuario = txtUsuario.Text;
-                    usuarioAModificar.Contraseña = Encriptar.Encrypt(txtContraseña.Text);
+                    if(txtContraseña.ReadOnly == false)
+                    {
+                        txtContraseña.ReadOnly = true;
+                        MessageBox.Show("No se puede cambiar la contraseña del usuario desde este formulario");
+                    }
 
                     if (rbAdministrador.Checked == true)
                     {
                         usuarioAModificar.Perfil = PerfilManager.ConsultaPerfil().Find(x => x.Nombre == "Administrador");
+                        bllUsuario.Modificacion(usuarioAModificar);
+                        lUsuario = bllUsuario.Consulta();
+                        RefrescarDgv();
+                        MessageBox.Show("Usuario modificado exitosamente");
+
                     }
                     else if (rbEmpleado.Checked == true)
                     {
                         usuarioAModificar.Perfil = PerfilManager.ConsultaPerfil().Find(x => x.Nombre == "Empleado");
+                        bllUsuario.Modificacion(usuarioAModificar);
+                        lUsuario = bllUsuario.Consulta();
+                        RefrescarDgv();
+                        MessageBox.Show("Usuario modificado exitosamente");
                     }
-
-                    bllUsuario.Modificacion(usuarioAModificar);
-                    lUsuario = bllUsuario.Consulta();
-                    RefrescarDgv();
-                    MessageBox.Show("Usuario modificado exitosamente");
                 }
                 else
                 {
                     MessageBox.Show("Complete todos los campos", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
             }
+
 
             catch (Exception)
             {
@@ -256,6 +267,16 @@ namespace GUI
             List<BelUsuario> t = lUsuario;
             t = lUsuario.Where(x => x.Bloqueado == cbBloqueados.Checked).ToList<BelUsuario>();
             lUsuario = t;
+            RefrescarDgv();
+        }
+
+        private void btnCambiarC_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            cambiarClave.beUsuario = LlamarUsuario();
+            cambiarClave.ShowDialog();
+            this.Show();
+            lUsuario = bllUsuario.Consulta();
             RefrescarDgv();
         }
     }

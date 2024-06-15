@@ -6,3 +6,5 @@ C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Controles\bin\Debug\Controle
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Controles\bin\Debug\Controles.pdb
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Controles\obj\Debug\Controles.dll
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Controles\obj\Debug\Controles.pdb
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Controles\obj\Debug\Controles.Calendario.resources
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Controles\obj\Debug\Controles.Properties.Resources.resources

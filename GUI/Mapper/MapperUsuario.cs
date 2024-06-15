@@ -65,24 +65,6 @@ namespace Mapper
             p7.SqlDbType = SqlDbType.VarChar;
             arrayList.Add(p7);
 
-            //SqlParameter p8 = new SqlParameter();
-            //p8.ParameterName = "@Bloqueado";
-            //p8.Value = pObject.Bloqueado;
-            //p8.SqlDbType = SqlDbType.Bit;
-            //arrayList.Add(p8);
-
-            //SqlParameter p9 = new SqlParameter();
-            //p9.ParameterName = "@Activo";
-            //p9.Value = pObject.Activo;
-            //p9.SqlDbType = SqlDbType.Bit;
-            //arrayList.Add(p9);
-
-            //SqlParameter p10 = new SqlParameter();
-            //p10.ParameterName = "@Intentos";
-            //p10.Value = pObject.Intentos;
-            //p10.SqlDbType = SqlDbType.Bit;
-            //arrayList.Add(p10);
-
             dao.Escribir(storeAlta, arrayList);
         }
 

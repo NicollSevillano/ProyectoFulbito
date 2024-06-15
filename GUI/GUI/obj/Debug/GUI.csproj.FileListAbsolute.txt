@@ -8,7 +8,6 @@ C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\GUI\bin\Debug\GUI.exe
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\GUI\bin\Debug\GUI.pdb
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\GUI\bin\Debug\Controles.dll
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\GUI\bin\Debug\Controles.pdb
-C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\GUI\obj\Debug\GUI.csproj.CopyComplete
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\GUI\obj\Debug\GUI.exe
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\GUI\obj\Debug\GUI.pdb
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\GUI\bin\Debug\Be.dll
@@ -25,11 +24,7 @@ C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\GUI\bin\Debug\ServicioClase.
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\GUI\bin\Debug\Servicios.pdb
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\GUI\bin\Debug\Mapper.pdb
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\GUI\bin\Debug\Dal.pdb
-C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\GUI\obj\Debug\GUI.GCancha.resources
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\GUI\obj\Debug\GUI.GUsuarios.resources
-C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\GUI\obj\Debug\GUI.GCliente.resources
-C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\GUI\obj\Debug\GUI.GPago.resources
-C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\GUI\obj\Debug\GUI.GReservas.resources
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\GUI\obj\Debug\GUI.MenuPrincipal.resources
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\GUI\bin\Debug\BCrypt.Net-Next.dll
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\GUI\bin\Debug\System.Buffers.dll
@@ -41,3 +36,8 @@ C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\GUI\bin\Debug\System.Buffers
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\GUI\bin\Debug\System.Memory.xml
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\GUI\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\GUI\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\GUI\obj\Debug\GUI.CambiarClave.resources
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\GUI\obj\Debug\GUI.csproj.Up2Date
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\GUI\obj\Debug\GUI.GRegistrarCliente.resources
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\GUI\obj\Debug\GUI.GReservas.resources
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\GUI\obj\Debug\GUI.Bitacora.resources
