@@ -41,7 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BllCancha.cs" />
     <Compile Include="BllCliente.cs" />
+    <Compile Include="BllReserva.cs" />
     <Compile Include="BllUsuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

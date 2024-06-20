@@ -29,207 +29,231 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GReservas));
-            this.gbCliente = new System.Windows.Forms.GroupBox();
-            this.btnCliente = new System.Windows.Forms.Button();
-            this.txtNombre = new System.Windows.Forms.TextBox();
-            this.txtDni = new System.Windows.Forms.TextBox();
+            this.LabDni = new System.Windows.Forms.Label();
             this.labNombre = new System.Windows.Forms.Label();
-            this.labDNI = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnPagar = new System.Windows.Forms.Button();
-            this.calendario1 = new Controles.Calendario();
-            this.gbCliente.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.labCancha = new System.Windows.Forms.Label();
+            this.labHorario = new System.Windows.Forms.Label();
+            this.txtDni = new System.Windows.Forms.TextBox();
+            this.txtNombre = new System.Windows.Forms.TextBox();
+            this.cmbCancha = new System.Windows.Forms.ComboBox();
+            this.cmbHorario = new System.Windows.Forms.ComboBox();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
+            this.btnReservar = new System.Windows.Forms.Button();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.btnVolver = new System.Windows.Forms.Button();
+            this.btnDisponibilidad = new System.Windows.Forms.Button();
+            this.btnConfirmar = new System.Windows.Forms.Button();
+            this.labFecha = new System.Windows.Forms.Label();
+            this.btnRegistrar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // gbCliente
+            // LabDni
             // 
-            this.gbCliente.Controls.Add(this.btnCliente);
-            this.gbCliente.Controls.Add(this.txtNombre);
-            this.gbCliente.Controls.Add(this.txtDni);
-            this.gbCliente.Controls.Add(this.labNombre);
-            this.gbCliente.Controls.Add(this.labDNI);
-            this.gbCliente.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbCliente.Location = new System.Drawing.Point(22, 12);
-            this.gbCliente.Name = "gbCliente";
-            this.gbCliente.Size = new System.Drawing.Size(269, 196);
-            this.gbCliente.TabIndex = 0;
-            this.gbCliente.TabStop = false;
-            this.gbCliente.Text = "Datos del cliente";
-            // 
-            // btnCliente
-            // 
-            this.btnCliente.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCliente.Location = new System.Drawing.Point(145, 133);
-            this.btnCliente.Name = "btnCliente";
-            this.btnCliente.Size = new System.Drawing.Size(100, 42);
-            this.btnCliente.TabIndex = 7;
-            this.btnCliente.Text = "Agregar";
-            this.btnCliente.UseVisualStyleBackColor = true;
-            this.btnCliente.Click += new System.EventHandler(this.btnCliente_Click);
-            // 
-            // txtNombre
-            // 
-            this.txtNombre.Location = new System.Drawing.Point(92, 85);
-            this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(153, 27);
-            this.txtNombre.TabIndex = 3;
-            // 
-            // txtDni
-            // 
-            this.txtDni.Location = new System.Drawing.Point(92, 42);
-            this.txtDni.Name = "txtDni";
-            this.txtDni.Size = new System.Drawing.Size(153, 27);
-            this.txtDni.TabIndex = 2;
+            this.LabDni.AutoSize = true;
+            this.LabDni.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabDni.Location = new System.Drawing.Point(28, 27);
+            this.LabDni.Name = "LabDni";
+            this.LabDni.Size = new System.Drawing.Size(39, 19);
+            this.LabDni.TabIndex = 0;
+            this.LabDni.Text = "DNI";
             // 
             // labNombre
             // 
             this.labNombre.AutoSize = true;
-            this.labNombre.Location = new System.Drawing.Point(17, 88);
+            this.labNombre.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labNombre.Location = new System.Drawing.Point(28, 73);
             this.labNombre.Name = "labNombre";
             this.labNombre.Size = new System.Drawing.Size(69, 19);
             this.labNombre.TabIndex = 1;
             this.labNombre.Text = "Nombre";
             // 
-            // labDNI
+            // labCancha
             // 
-            this.labDNI.AutoSize = true;
-            this.labDNI.Location = new System.Drawing.Point(17, 45);
-            this.labDNI.Name = "labDNI";
-            this.labDNI.Size = new System.Drawing.Size(39, 19);
-            this.labDNI.TabIndex = 0;
-            this.labDNI.Text = "DNI";
+            this.labCancha.AutoSize = true;
+            this.labCancha.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labCancha.Location = new System.Drawing.Point(28, 119);
+            this.labCancha.Name = "labCancha";
+            this.labCancha.Size = new System.Drawing.Size(61, 19);
+            this.labCancha.TabIndex = 2;
+            this.labCancha.Text = "Cancha";
             // 
-            // comboBox1
+            // labHorario
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "30min",
-            "1h",
-            "2h",
-            "3h"});
-            this.comboBox1.Location = new System.Drawing.Point(512, 26);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 3;
+            this.labHorario.AutoSize = true;
+            this.labHorario.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labHorario.Location = new System.Drawing.Point(28, 166);
+            this.labHorario.Name = "labHorario";
+            this.labHorario.Size = new System.Drawing.Size(66, 19);
+            this.labHorario.TabIndex = 3;
+            this.labHorario.Text = "Horario";
             // 
-            // dataGridView1
+            // txtDni
             // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2,
-            this.Column3,
-            this.Column4,
-            this.Column5,
-            this.Column6});
-            this.dataGridView1.Location = new System.Drawing.Point(317, 110);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(644, 342);
-            this.dataGridView1.TabIndex = 5;
+            this.txtDni.Location = new System.Drawing.Point(130, 28);
+            this.txtDni.Name = "txtDni";
+            this.txtDni.Size = new System.Drawing.Size(128, 20);
+            this.txtDni.TabIndex = 4;
             // 
-            // Column1
+            // txtNombre
             // 
-            this.Column1.HeaderText = "Martes";
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
+            this.txtNombre.Location = new System.Drawing.Point(130, 72);
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(128, 20);
+            this.txtNombre.TabIndex = 5;
             // 
-            // Column2
+            // cmbCancha
             // 
-            this.Column2.HeaderText = "Miercoles";
-            this.Column2.Name = "Column2";
-            this.Column2.ReadOnly = true;
+            this.cmbCancha.FormattingEnabled = true;
+            this.cmbCancha.Location = new System.Drawing.Point(130, 118);
+            this.cmbCancha.Name = "cmbCancha";
+            this.cmbCancha.Size = new System.Drawing.Size(128, 21);
+            this.cmbCancha.TabIndex = 6;
             // 
-            // Column3
+            // cmbHorario
             // 
-            this.Column3.HeaderText = "Jueves";
-            this.Column3.Name = "Column3";
-            this.Column3.ReadOnly = true;
+            this.cmbHorario.FormattingEnabled = true;
+            this.cmbHorario.Location = new System.Drawing.Point(130, 165);
+            this.cmbHorario.Name = "cmbHorario";
+            this.cmbHorario.Size = new System.Drawing.Size(128, 21);
+            this.cmbHorario.TabIndex = 7;
             // 
-            // Column4
+            // dateTimePicker1
             // 
-            this.Column4.HeaderText = "Viernes";
-            this.Column4.Name = "Column4";
-            this.Column4.ReadOnly = true;
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker1.Location = new System.Drawing.Point(290, 59);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(112, 20);
+            this.dateTimePicker1.TabIndex = 8;
             // 
-            // Column5
+            // monthCalendar1
             // 
-            this.Column5.HeaderText = "Sábado";
-            this.Column5.Name = "Column5";
-            this.Column5.ReadOnly = true;
+            this.monthCalendar1.Location = new System.Drawing.Point(545, 26);
+            this.monthCalendar1.Name = "monthCalendar1";
+            this.monthCalendar1.TabIndex = 9;
             // 
-            // Column6
+            // btnReservar
             // 
-            this.Column6.HeaderText = "Domingo";
-            this.Column6.Name = "Column6";
-            this.Column6.ReadOnly = true;
+            this.btnReservar.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReservar.Location = new System.Drawing.Point(414, 144);
+            this.btnReservar.Name = "btnReservar";
+            this.btnReservar.Size = new System.Drawing.Size(107, 44);
+            this.btnReservar.TabIndex = 10;
+            this.btnReservar.Text = "Reservar";
+            this.btnReservar.UseVisualStyleBackColor = true;
+            this.btnReservar.Click += new System.EventHandler(this.btnReservar_Click);
             // 
-            // btnPagar
+            // listBox1
             // 
-            this.btnPagar.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPagar.Location = new System.Drawing.Point(662, 39);
-            this.btnPagar.Name = "btnPagar";
-            this.btnPagar.Size = new System.Drawing.Size(97, 42);
-            this.btnPagar.TabIndex = 6;
-            this.btnPagar.Text = "Pagar";
-            this.btnPagar.UseVisualStyleBackColor = true;
+            this.listBox1.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 19;
+            this.listBox1.Location = new System.Drawing.Point(32, 221);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(761, 194);
+            this.listBox1.TabIndex = 11;
             // 
-            // calendario1
+            // btnVolver
             // 
-            this.calendario1.Location = new System.Drawing.Point(22, 225);
-            this.calendario1.Name = "calendario1";
-            this.calendario1.Size = new System.Drawing.Size(269, 227);
-            this.calendario1.TabIndex = 7;
+            this.btnVolver.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVolver.Location = new System.Drawing.Point(32, 458);
+            this.btnVolver.Name = "btnVolver";
+            this.btnVolver.Size = new System.Drawing.Size(107, 44);
+            this.btnVolver.TabIndex = 12;
+            this.btnVolver.Text = "Volver";
+            this.btnVolver.UseVisualStyleBackColor = true;
+            // 
+            // btnDisponibilidad
+            // 
+            this.btnDisponibilidad.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDisponibilidad.Location = new System.Drawing.Point(151, 458);
+            this.btnDisponibilidad.Name = "btnDisponibilidad";
+            this.btnDisponibilidad.Size = new System.Drawing.Size(148, 44);
+            this.btnDisponibilidad.TabIndex = 13;
+            this.btnDisponibilidad.Text = "Ver disponibilidad";
+            this.btnDisponibilidad.UseVisualStyleBackColor = true;
+            // 
+            // btnConfirmar
+            // 
+            this.btnConfirmar.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConfirmar.Location = new System.Drawing.Point(686, 448);
+            this.btnConfirmar.Name = "btnConfirmar";
+            this.btnConfirmar.Size = new System.Drawing.Size(107, 64);
+            this.btnConfirmar.TabIndex = 14;
+            this.btnConfirmar.Text = "Confirmar Reserva";
+            this.btnConfirmar.UseVisualStyleBackColor = true;
+            this.btnConfirmar.Click += new System.EventHandler(this.btnConfirmar_Click);
+            // 
+            // labFecha
+            // 
+            this.labFecha.AutoSize = true;
+            this.labFecha.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labFecha.Location = new System.Drawing.Point(286, 26);
+            this.labFecha.Name = "labFecha";
+            this.labFecha.Size = new System.Drawing.Size(49, 19);
+            this.labFecha.TabIndex = 15;
+            this.labFecha.Text = "Fecha";
+            // 
+            // btnRegistrar
+            // 
+            this.btnRegistrar.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegistrar.Location = new System.Drawing.Point(301, 144);
+            this.btnRegistrar.Name = "btnRegistrar";
+            this.btnRegistrar.Size = new System.Drawing.Size(107, 44);
+            this.btnRegistrar.TabIndex = 16;
+            this.btnRegistrar.Text = "Registrar";
+            this.btnRegistrar.UseVisualStyleBackColor = true;
             // 
             // GReservas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(211)))), ((int)(((byte)(131)))));
-            this.ClientSize = new System.Drawing.Size(973, 481);
-            this.Controls.Add(this.calendario1);
-            this.Controls.Add(this.btnPagar);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.gbCliente);
+            this.ClientSize = new System.Drawing.Size(828, 524);
+            this.Controls.Add(this.btnRegistrar);
+            this.Controls.Add(this.labFecha);
+            this.Controls.Add(this.btnConfirmar);
+            this.Controls.Add(this.btnDisponibilidad);
+            this.Controls.Add(this.btnVolver);
+            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.btnReservar);
+            this.Controls.Add(this.monthCalendar1);
+            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.cmbHorario);
+            this.Controls.Add(this.cmbCancha);
+            this.Controls.Add(this.txtNombre);
+            this.Controls.Add(this.txtDni);
+            this.Controls.Add(this.labHorario);
+            this.Controls.Add(this.labCancha);
+            this.Controls.Add(this.labNombre);
+            this.Controls.Add(this.LabDni);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "GReservas";
             this.Text = "GReservas";
             this.Load += new System.EventHandler(this.GReservas_Load);
-            this.gbCliente.ResumeLayout(false);
-            this.gbCliente.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.GroupBox gbCliente;
+        private System.Windows.Forms.Label LabDni;
         private System.Windows.Forms.Label labNombre;
-        private System.Windows.Forms.Label labDNI;
-        private System.Windows.Forms.TextBox txtNombre;
+        private System.Windows.Forms.Label labCancha;
+        private System.Windows.Forms.Label labHorario;
         private System.Windows.Forms.TextBox txtDni;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
-        private System.Windows.Forms.Button btnPagar;
-        private System.Windows.Forms.Button btnCliente;
-        private Controles.Calendario calendario1;
+        private System.Windows.Forms.TextBox txtNombre;
+        private System.Windows.Forms.ComboBox cmbCancha;
+        private System.Windows.Forms.ComboBox cmbHorario;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.MonthCalendar monthCalendar1;
+        private System.Windows.Forms.Button btnReservar;
+        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.Button btnVolver;
+        private System.Windows.Forms.Button btnDisponibilidad;
+        private System.Windows.Forms.Button btnConfirmar;
+        private System.Windows.Forms.Label labFecha;
+        private System.Windows.Forms.Button btnRegistrar;
     }
 }

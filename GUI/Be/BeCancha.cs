@@ -9,9 +9,18 @@ namespace Be
 {
     public class BeCancha : IEntity
     {
+        public BeCancha(string pNombre)
+        {
+            Nombre = pNombre;
+        }
+        public BeCancha() { }
+        public BeCancha(object[] array)
+        {
+            id = array[0].ToString();
+            Nombre = array[1].ToString();
+        }
         public string id { get ; set ; }
         public string Nombre { get; set; }
-        public string TipoPago { get; set; }
         
     }
 }

@@ -98,9 +98,9 @@
             this.labTitulo.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labTitulo.Location = new System.Drawing.Point(21, 26);
             this.labTitulo.Name = "labTitulo";
-            this.labTitulo.Size = new System.Drawing.Size(120, 19);
+            this.labTitulo.Size = new System.Drawing.Size(125, 19);
             this.labTitulo.TabIndex = 1;
-            this.labTitulo.Text = "Dato del cliente";
+            this.labTitulo.Text = "Datos del cliente";
             // 
             // labDNI
             // 
