@@ -1,30 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\",
+  "WorkspaceRootPath": "C:\\Users\\Nicoll\\Desktop\\Sistema\\Campo\\ProyectoFulbito\\GUI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|c:\\users\\nicol\\escritorio\\proyectocampo-diploma\\gui\\gui\\greservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|solutionrelative:gui\\greservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE930A84-64DA-47BB-BA21-2B8B7430F29C}|Be\\Be.csproj|c:\\users\\nicol\\escritorio\\proyectocampo-diploma\\gui\\be\\bereserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE930A84-64DA-47BB-BA21-2B8B7430F29C}|Be\\Be.csproj|solutionrelative:be\\bereserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|c:\\users\\nicol\\escritorio\\proyectocampo-diploma\\gui\\gui\\gusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|solutionrelative:gui\\gusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|c:\\users\\nicol\\escritorio\\proyectocampo-diploma\\gui\\gui\\greservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|C:\\Users\\Nicoll\\Desktop\\Sistema\\Campo\\ProyectoFulbito\\GUI\\gui\\greservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|solutionrelative:gui\\greservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|c:\\users\\nicol\\escritorio\\proyectocampo-diploma\\gui\\gui\\gusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|solutionrelative:gui\\gusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|c:\\users\\nicoll\\desktop\\sistema\\campo\\proyectofulbito\\gui\\gui\\greservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|solutionrelative:gui\\greservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26DF20EB-7137-456D-A132-518528613F97}|Mapper\\Mapper.csproj|c:\\users\\nicol\\escritorio\\proyectocampo-diploma\\gui\\mapper\\mapperreserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26DF20EB-7137-456D-A132-518528613F97}|Mapper\\Mapper.csproj|solutionrelative:mapper\\mapperreserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|C:\\Users\\Nicoll\\Desktop\\Sistema\\Campo\\ProyectoFulbito\\GUI\\gui\\registroreservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|solutionrelative:gui\\registroreservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|C:\\Users\\Nicoll\\Desktop\\Sistema\\Campo\\ProyectoFulbito\\GUI\\gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|solutionrelative:gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|C:\\Users\\Nicoll\\Desktop\\Sistema\\Campo\\ProyectoFulbito\\GUI\\gui\\registroreservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|solutionrelative:gui\\registroreservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|C:\\Users\\Nicoll\\Desktop\\Sistema\\Campo\\ProyectoFulbito\\GUI\\gui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|solutionrelative:gui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|C:\\Users\\Nicoll\\Desktop\\Sistema\\Campo\\ProyectoFulbito\\GUI\\gui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|solutionrelative:gui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,83 +38,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GUsuarios.cs",
-              "DocumentMoniker": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\GUI\\GUsuarios.cs",
-              "RelativeDocumentMoniker": "GUI\\GUsuarios.cs",
-              "ToolTip": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\GUI\\GUsuarios.cs",
-              "RelativeToolTip": "GUI\\GUsuarios.cs",
-              "ViewState": "AQIAAFEAAAAAAAAAAAAIwCEAAAAMAAAA",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Nicoll\\Desktop\\Sistema\\Campo\\ProyectoFulbito\\GUI\\GUI\\Program.cs",
+              "RelativeDocumentMoniker": "GUI\\Program.cs",
+              "ToolTip": "C:\\Users\\Nicoll\\Desktop\\Sistema\\Campo\\ProyectoFulbito\\GUI\\GUI\\Program.cs",
+              "RelativeToolTip": "GUI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T01:16:38.039Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GUsuarios.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\GUI\\GUsuarios.cs",
-              "RelativeDocumentMoniker": "GUI\\GUsuarios.cs",
-              "ToolTip": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\GUI\\GUsuarios.cs [Dise\u00F1o]",
-              "RelativeToolTip": "GUI\\GUsuarios.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T01:16:37.094Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-06-24T15:14:16.054Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BeReserva.cs",
-              "DocumentMoniker": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\Be\\BeReserva.cs",
-              "RelativeDocumentMoniker": "Be\\BeReserva.cs",
-              "ToolTip": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\Be\\BeReserva.cs",
-              "RelativeToolTip": "Be\\BeReserva.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAADwvwsAAABKAAAA",
+              "Title": "GReservas.cs",
+              "DocumentMoniker": "C:\\Users\\Nicoll\\Desktop\\Sistema\\Campo\\ProyectoFulbito\\GUI\\GUI\\GReservas.cs",
+              "RelativeDocumentMoniker": "GUI\\GReservas.cs",
+              "ToolTip": "C:\\Users\\Nicoll\\Desktop\\Sistema\\Campo\\ProyectoFulbito\\GUI\\GUI\\GReservas.cs",
+              "RelativeToolTip": "GUI\\GReservas.cs",
+              "ViewState": "AQIAAJAAAAAAAAAAAAAAAJUAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T01:15:13.234Z",
+              "WhenOpened": "2024-06-21T18:50:25.199Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GReservas.cs",
-              "DocumentMoniker": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\GUI\\GReservas.cs",
-              "RelativeDocumentMoniker": "GUI\\GReservas.cs",
-              "ToolTip": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\GUI\\GReservas.cs",
-              "RelativeToolTip": "GUI\\GReservas.cs",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAgwFMAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T01:06:21.925Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "GReservas.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\GUI\\GReservas.cs",
+              "DocumentMoniker": "C:\\Users\\Nicoll\\Desktop\\Sistema\\Campo\\ProyectoFulbito\\GUI\\GUI\\GReservas.cs",
               "RelativeDocumentMoniker": "GUI\\GReservas.cs",
-              "ToolTip": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\GUI\\GReservas.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Nicoll\\Desktop\\Sistema\\Campo\\ProyectoFulbito\\GUI\\GUI\\GReservas.cs [Dise\u00F1o]",
               "RelativeToolTip": "GUI\\GReservas.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T01:06:20.717Z",
+              "WhenOpened": "2024-06-21T18:50:24.087Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "MapperReserva.cs",
-              "DocumentMoniker": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\Mapper\\MapperReserva.cs",
-              "RelativeDocumentMoniker": "Mapper\\MapperReserva.cs",
-              "ToolTip": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\Mapper\\MapperReserva.cs",
-              "RelativeToolTip": "Mapper\\MapperReserva.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAAAEQAAAAcAAAA",
+              "Title": "LogIn.cs",
+              "DocumentMoniker": "C:\\Users\\Nicoll\\Desktop\\Sistema\\Campo\\ProyectoFulbito\\GUI\\GUI\\LogIn.cs",
+              "RelativeDocumentMoniker": "GUI\\LogIn.cs",
+              "ToolTip": "C:\\Users\\Nicoll\\Desktop\\Sistema\\Campo\\ProyectoFulbito\\GUI\\GUI\\LogIn.cs",
+              "RelativeToolTip": "GUI\\LogIn.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAmwFcAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T00:34:45.113Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-21T18:48:24.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LogIn.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Nicoll\\Desktop\\Sistema\\Campo\\ProyectoFulbito\\GUI\\GUI\\LogIn.cs",
+              "RelativeDocumentMoniker": "GUI\\LogIn.cs",
+              "ToolTip": "D:\\3ero\\Campo\\Sistema\\Campo\\ProyectoFulbito\\GUI\\GUI\\LogIn.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T18:48:23.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegistroReservas.cs",
+              "DocumentMoniker": "C:\\Users\\Nicoll\\Desktop\\Sistema\\Campo\\ProyectoFulbito\\GUI\\GUI\\RegistroReservas.cs",
+              "RelativeDocumentMoniker": "GUI\\RegistroReservas.cs",
+              "ToolTip": "C:\\Users\\Nicoll\\Desktop\\Sistema\\Campo\\ProyectoFulbito\\GUI\\GUI\\RegistroReservas.cs",
+              "RelativeToolTip": "GUI\\RegistroReservas.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAywB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T18:20:09.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegistroReservas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Nicoll\\Desktop\\Sistema\\Campo\\ProyectoFulbito\\GUI\\GUI\\RegistroReservas.cs",
+              "RelativeDocumentMoniker": "GUI\\RegistroReservas.cs",
+              "ToolTip": "C:\\Users\\Nicoll\\Desktop\\Sistema\\Campo\\ProyectoFulbito\\GUI\\GUI\\RegistroReservas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "GUI\\RegistroReservas.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T18:18:39.952Z"
             }
           ]
         }

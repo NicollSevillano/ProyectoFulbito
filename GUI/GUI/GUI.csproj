@@ -37,6 +37,9 @@
       <HintPath>..\packages\BCrypt.Net-Next.4.0.3\lib\net48\BCrypt.Net-Next.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
@@ -75,6 +78,12 @@
     <Compile Include="CambiarClave.Designer.cs">
       <DependentUpon>CambiarClave.cs</DependentUpon>
     </Compile>
+    <Compile Include="CobrarReserva.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CobrarReserva.Designer.cs">
+      <DependentUpon>CobrarReserva.cs</DependentUpon>
+    </Compile>
     <Compile Include="GRegistrarCliente.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,6 +116,12 @@
     <Compile Include="GUsuarios.Designer.cs">
       <DependentUpon>GUsuarios.cs</DependentUpon>
     </Compile>
+    <Compile Include="RegistroReservas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistroReservas.Designer.cs">
+      <DependentUpon>RegistroReservas.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Bitacora.resx">
       <DependentUpon>Bitacora.cs</DependentUpon>
     </EmbeddedResource>
@@ -137,6 +152,9 @@
     </Compile>
     <EmbeddedResource Include="GUsuarios.resx">
       <DependentUpon>GUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistroReservas.resx">
+      <DependentUpon>RegistroReservas.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

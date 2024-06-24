@@ -4,3 +4,9 @@ C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Dal\obj\Debug\Dal.csproj.Ass
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Dal\obj\Debug\Dal.csproj.CoreCompileInputs.cache
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Dal\obj\Debug\Dal.dll
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Dal\obj\Debug\Dal.pdb
+D:\3ero\Campo\Sistema\Campo\ProyectoFulbito\GUI\Dal\bin\Debug\Dal.dll
+D:\3ero\Campo\Sistema\Campo\ProyectoFulbito\GUI\Dal\bin\Debug\Dal.pdb
+D:\3ero\Campo\Sistema\Campo\ProyectoFulbito\GUI\Dal\obj\Debug\Dal.csproj.AssemblyReference.cache
+D:\3ero\Campo\Sistema\Campo\ProyectoFulbito\GUI\Dal\obj\Debug\Dal.csproj.CoreCompileInputs.cache
+D:\3ero\Campo\Sistema\Campo\ProyectoFulbito\GUI\Dal\obj\Debug\Dal.dll
+D:\3ero\Campo\Sistema\Campo\ProyectoFulbito\GUI\Dal\obj\Debug\Dal.pdb

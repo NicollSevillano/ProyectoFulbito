@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -35,6 +37,10 @@ namespace Bll
         public void Modificacion(BeReserva pObject)
         {
             throw new NotImplementedException();
+        }
+        public void VerificarDisponibilidad(BeCancha pCanchaNombre, DateTime pFecha)
+        {
+            //mReserva.Disponibilidad(pCanchaNombre, pFecha);
         }
     }
 }

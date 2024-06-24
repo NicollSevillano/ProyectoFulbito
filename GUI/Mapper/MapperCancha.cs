@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,6 +13,8 @@ namespace Mapper
 {
     public class MapperCancha : IABMC<BeCancha>
     {
+        Dao dao = new Dao();
+        ArrayList arraylist;
         public void Alta(BeCancha pObject)
         {
             throw new NotImplementedException();
@@ -23,7 +27,15 @@ namespace Mapper
 
         public List<BeCancha> Consulta()
         {
-            throw new NotImplementedException();
+            string listarCancha = "sp_Listar_Cancha";
+            DataTable dt = dao.Leer(listarCancha);
+            List<BeCancha> lCancha = new List<BeCancha>();
+            foreach (DataRow dr in dt.Rows)
+            {
+                BeCancha aux = new BeCancha(dr.ItemArray);
+                lCancha.Add(aux);
+            }
+            return lCancha;
         }
 
         public List<BeCancha> ConsultaCondicional(string pCondicion, string pCondicion2 = null)

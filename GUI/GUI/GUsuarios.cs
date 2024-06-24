@@ -90,6 +90,7 @@ namespace GUI
                 {
                     int userId = Convert.ToInt32(row.Cells[0].Value);
                     bllUsuario.Baja(userId);
+                    lUsuario = bllUsuario.Consulta();
                 }
                 MessageBox.Show("Usuario eliminado");
             }

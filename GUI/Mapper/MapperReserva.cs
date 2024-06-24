@@ -5,6 +5,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Net;
+using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 using Be;
@@ -26,25 +27,25 @@ namespace Mapper
             SqlParameter p1 = new SqlParameter();
             p1.ParameterName = "@CodigoCancha";
             p1.Value = pObject.Cancha.id;
-            p1.SqlDbType = System.Data.SqlDbType.NVarChar;
+            p1.SqlDbType = SqlDbType.Int;
             al.Add(p1);
 
             SqlParameter p2 = new SqlParameter();
             p2.ParameterName = "@CodigoCliente";
             p2.Value = pObject.Cliente.id;
-            p2.SqlDbType = System.Data.SqlDbType.Int;
+            p2.SqlDbType = SqlDbType.Int;
             al.Add(p2);
 
             SqlParameter p3 = new SqlParameter();
             p3.ParameterName = "@Fecha";
             p3.Value = pObject.Fecha;
-            p3.SqlDbType = System.Data.SqlDbType.DateTime;
+            p3.SqlDbType = SqlDbType.Date;
             al.Add(p3);
 
             SqlParameter p4 = new SqlParameter();
             p4.ParameterName = "@Hora";
             p4.Value = pObject.Hora;
-            p4.SqlDbType = System.Data.SqlDbType.Timestamp;
+            p4.SqlDbType = SqlDbType.Time;
             al.Add(p4);
 
             dao.Escribir(storeAltaRerva, al);
@@ -78,5 +79,16 @@ namespace Mapper
         {
             throw new NotImplementedException();
         }
+        //public void Disponibilidad(BeCancha pCanchaNombre, DateTime pFecha)
+        //{
+        //    string storeDiposnibilida = "sp_Hora_Reserva";
+        //    DataTable dt = dao.Leer(storeDiposnibilida, al);
+        //    List<BeReserva> Lcancha = new List<BeReserva>();
+        //    foreach (BeReserva l in Lcancha)
+        //    {
+        //        pCanchaNombre.Nombre = l.Cancha.Nombre;
+        //        pFecha = l.Fecha;                
+        //    }
+        //}
     }
 }

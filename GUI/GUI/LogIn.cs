@@ -79,14 +79,14 @@ namespace GUI
                     }
                     else if(_usuario.Perfil.Nombre == "Empleado")
                     {
-                        //GReservas gr = new GReservas();
+                        GReservas gr = new GReservas();
                         SessionManager.LogIn(_usuario);
-                        //gr.smanager = SessionManager.getInstance;
-                        //_usuario.Intentos = 0;
-                        //bUsuario.Modificacion(_usuario);
-                        //this.Hide();
-                        //gr.ShowDialog();
-                        //this.Show();
+                        gr.smanager = SessionManager.getInstance;
+                        _usuario.Intentos = 0;
+                        bUsuario.Modificacion(_usuario);
+                        this.Hide();
+                        gr.ShowDialog();
+                        this.Show();
                     }
 
                 }

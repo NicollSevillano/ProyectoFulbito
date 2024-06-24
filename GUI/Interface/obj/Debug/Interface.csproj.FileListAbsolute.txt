@@ -4,3 +4,9 @@ C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Interface\obj\Debug\Interfac
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Interface\obj\Debug\Interface.csproj.CoreCompileInputs.cache
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Interface\obj\Debug\Interface.dll
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Interface\obj\Debug\Interface.pdb
+D:\3ero\Campo\Sistema\Campo\ProyectoFulbito\GUI\Interface\bin\Debug\Interface.dll
+D:\3ero\Campo\Sistema\Campo\ProyectoFulbito\GUI\Interface\bin\Debug\Interface.pdb
+D:\3ero\Campo\Sistema\Campo\ProyectoFulbito\GUI\Interface\obj\Debug\Interface.csproj.AssemblyReference.cache
+D:\3ero\Campo\Sistema\Campo\ProyectoFulbito\GUI\Interface\obj\Debug\Interface.csproj.CoreCompileInputs.cache
+D:\3ero\Campo\Sistema\Campo\ProyectoFulbito\GUI\Interface\obj\Debug\Interface.dll
+D:\3ero\Campo\Sistema\Campo\ProyectoFulbito\GUI\Interface\obj\Debug\Interface.pdb

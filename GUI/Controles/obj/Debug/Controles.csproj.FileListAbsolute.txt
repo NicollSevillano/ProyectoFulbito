@@ -8,3 +8,13 @@ C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Controles\obj\Debug\Controle
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Controles\obj\Debug\Controles.pdb
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Controles\obj\Debug\Controles.Calendario.resources
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\Controles\obj\Debug\Controles.Properties.Resources.resources
+D:\3ero\Campo\Sistema\Campo\ProyectoFulbito\GUI\Controles\bin\Debug\Controles.dll
+D:\3ero\Campo\Sistema\Campo\ProyectoFulbito\GUI\Controles\bin\Debug\Controles.pdb
+D:\3ero\Campo\Sistema\Campo\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.csproj.AssemblyReference.cache
+D:\3ero\Campo\Sistema\Campo\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.Calendario.resources
+D:\3ero\Campo\Sistema\Campo\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.ComboIdioma.resources
+D:\3ero\Campo\Sistema\Campo\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.Properties.Resources.resources
+D:\3ero\Campo\Sistema\Campo\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.csproj.GenerateResource.cache
+D:\3ero\Campo\Sistema\Campo\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.csproj.CoreCompileInputs.cache
+D:\3ero\Campo\Sistema\Campo\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.dll
+D:\3ero\Campo\Sistema\Campo\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.pdb

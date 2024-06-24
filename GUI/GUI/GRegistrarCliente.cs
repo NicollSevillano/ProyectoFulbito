@@ -16,6 +16,7 @@ namespace GUI
     {
         List<BeCliente> lCliente;
         BllCliente blCliente;
+        GReservas reservas;
 
         public GRegistrarCliente()
         {
@@ -25,6 +26,7 @@ namespace GUI
         private void GRegistrarCliente_Load(object sender, EventArgs e)
         {
             blCliente = new BllCliente();
+            reservas = new GReservas();
             lCliente = blCliente.Consulta();
             Refrescar();
         }
@@ -65,8 +67,9 @@ namespace GUI
                 {
                     int id = Convert.ToInt32(d.Cells[0].Value);
                     blCliente.Baja(id);
+                    lCliente = blCliente.Consulta();
                 }
-                MessageBox.Show("Usuario eliminadp"); 
+                MessageBox.Show("Usuario eliminado"); 
             }
             Refrescar();
         }
@@ -134,6 +137,11 @@ namespace GUI
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

@@ -11,9 +11,12 @@ namespace Be
     {
         public BeReserva(BeCancha pCancha, BeCliente pCliente, DateTime pFecha, TimeSpan pHora)
         {
-            Cancha = pCancha; Cliente = pCliente;
-            Fecha = pFecha; Hora = pHora;
+            Cancha = pCancha; 
+            Cliente = pCliente;
+            Fecha = pFecha; 
+            Hora = pHora;
         }
+        public BeReserva() { }
         public BeReserva(object[] array)
         {
             id = array[0].ToString();

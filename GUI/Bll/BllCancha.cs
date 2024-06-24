@@ -5,14 +5,16 @@ using System.Text;
 using System.Threading.Tasks;
 using Be;
 using Interface;
+using Mapper;
 
 namespace Bll
 {
     public class BllCancha : IABMC<BeCancha>
     {
+        MapperCancha mCancha = new MapperCancha();
         public void Alta(BeCancha pObject)
         {
-            throw new NotImplementedException();
+            mCancha.Alta(pObject);
         }
 
         public void Baja(int pId)
@@ -22,7 +24,7 @@ namespace Bll
 
         public List<BeCancha> Consulta()
         {
-            throw new NotImplementedException();
+            return mCancha.Consulta();
         }
 
         public List<BeCancha> ConsultaCondicional(string pCondicion, string pCondicion2 = null)

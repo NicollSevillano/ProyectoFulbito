@@ -7,3 +7,12 @@ C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\ServicioClase\obj\Debug\Serv
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\ServicioClase\bin\Debug\Interface.dll
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\ServicioClase\bin\Debug\Interface.pdb
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\ServicioClase\obj\Debug\Servicio.71A683D5.Up2Date
+D:\3ero\Campo\Sistema\Campo\ProyectoFulbito\GUI\ServicioClase\bin\Debug\ServicioClase.dll
+D:\3ero\Campo\Sistema\Campo\ProyectoFulbito\GUI\ServicioClase\bin\Debug\ServicioClase.pdb
+D:\3ero\Campo\Sistema\Campo\ProyectoFulbito\GUI\ServicioClase\bin\Debug\Interface.dll
+D:\3ero\Campo\Sistema\Campo\ProyectoFulbito\GUI\ServicioClase\bin\Debug\Interface.pdb
+D:\3ero\Campo\Sistema\Campo\ProyectoFulbito\GUI\ServicioClase\obj\Debug\ServicioClase.csproj.AssemblyReference.cache
+D:\3ero\Campo\Sistema\Campo\ProyectoFulbito\GUI\ServicioClase\obj\Debug\ServicioClase.csproj.CoreCompileInputs.cache
+D:\3ero\Campo\Sistema\Campo\ProyectoFulbito\GUI\ServicioClase\obj\Debug\Servicio.71A683D5.Up2Date
+D:\3ero\Campo\Sistema\Campo\ProyectoFulbito\GUI\ServicioClase\obj\Debug\ServicioClase.dll
+D:\3ero\Campo\Sistema\Campo\ProyectoFulbito\GUI\ServicioClase\obj\Debug\ServicioClase.pdb
