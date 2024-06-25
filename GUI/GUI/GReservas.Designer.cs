@@ -110,7 +110,7 @@
             // btnReservar
             // 
             this.btnReservar.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReservar.Location = new System.Drawing.Point(640, 480);
+            this.btnReservar.Location = new System.Drawing.Point(640, 387);
             this.btnReservar.Name = "btnReservar";
             this.btnReservar.Size = new System.Drawing.Size(107, 44);
             this.btnReservar.TabIndex = 10;
@@ -121,7 +121,7 @@
             // btnCancelar
             // 
             this.btnCancelar.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelar.Location = new System.Drawing.Point(640, 285);
+            this.btnCancelar.Location = new System.Drawing.Point(640, 192);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(107, 44);
             this.btnCancelar.TabIndex = 12;
@@ -153,7 +153,7 @@
             // btnRegistrar
             // 
             this.btnRegistrar.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegistrar.Location = new System.Drawing.Point(599, 350);
+            this.btnRegistrar.Location = new System.Drawing.Point(599, 257);
             this.btnRegistrar.Name = "btnRegistrar";
             this.btnRegistrar.Size = new System.Drawing.Size(148, 44);
             this.btnRegistrar.TabIndex = 16;
@@ -176,7 +176,7 @@
             this.dgvReservas.Location = new System.Drawing.Point(12, 242);
             this.dgvReservas.Name = "dgvReservas";
             this.dgvReservas.ReadOnly = true;
-            this.dgvReservas.Size = new System.Drawing.Size(555, 332);
+            this.dgvReservas.Size = new System.Drawing.Size(555, 211);
             this.dgvReservas.TabIndex = 17;
             // 
             // Column1
@@ -226,7 +226,7 @@
             // btnPagar
             // 
             this.btnPagar.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPagar.Location = new System.Drawing.Point(640, 415);
+            this.btnPagar.Location = new System.Drawing.Point(640, 322);
             this.btnPagar.Name = "btnPagar";
             this.btnPagar.Size = new System.Drawing.Size(107, 44);
             this.btnPagar.TabIndex = 23;
@@ -237,7 +237,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::GUI.Properties.Resources.logo;
-            this.pictureBox1.Location = new System.Drawing.Point(573, 64);
+            this.pictureBox1.Location = new System.Drawing.Point(573, 18);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(174, 138);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -249,7 +249,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(211)))), ((int)(((byte)(131)))));
-            this.ClientSize = new System.Drawing.Size(771, 586);
+            this.ClientSize = new System.Drawing.Size(771, 465);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnPagar);
             this.Controls.Add(this.txtDni);

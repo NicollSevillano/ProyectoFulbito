@@ -51,7 +51,6 @@ namespace GUI
             return txtValidad;
 
         }
-
         Perfil perfil;
         private void btnAgregar_Click(object sender, EventArgs e)
         {
@@ -199,8 +198,6 @@ namespace GUI
         {
             return lUsuario.Find(x => x.id == dgvUsuarios.SelectedRows[0].Cells[0].Value.ToString());
         }
-        
-
         private void btnDesbloquear_Click(object sender, EventArgs e)
         {
             BelUsuario x = LlamarUsuario();
@@ -216,7 +213,6 @@ namespace GUI
             lUsuario = bllUsuario.Consulta();
             RefrescarDgv();
         }
-
         private void btnActivar_Click(object sender, EventArgs e)
         {
             BelUsuario x = LlamarUsuario();
@@ -232,14 +228,11 @@ namespace GUI
             lUsuario = bllUsuario.Consulta();
             RefrescarDgv();
         }
-
-
         private void btnSalir_Click(object sender, EventArgs e)
         {
             SessionManager.LogOut();
             this.Close();
         }
-
         private void dgvUsuarios_RowEnter(object sender, DataGridViewCellEventArgs e)
         {
             try
@@ -257,12 +250,10 @@ namespace GUI
 
             }
         }
-
         private void dgvUsuarios_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             
         }
-
         private void cbBloqueados_CheckedChanged(object sender, EventArgs e)
         {
             List<BelUsuario> t = lUsuario;
@@ -270,7 +261,6 @@ namespace GUI
             lUsuario = t;
             RefrescarDgv();
         }
-
         private void btnCambiarC_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -279,6 +269,15 @@ namespace GUI
             this.Show();
             lUsuario = bllUsuario.Consulta();
             RefrescarDgv();
+        }
+        private void btnPerfil_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            PerfilesForm perfil = new PerfilesForm(LlamarUsuario());
+            perfil.ShowDialog();
+            bllUsuario.Consulta();
+            this.Show();
+            
         }
     }
 }

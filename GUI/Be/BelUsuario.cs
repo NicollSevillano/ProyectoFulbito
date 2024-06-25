@@ -10,6 +10,10 @@ namespace Be
 {
     public class BelUsuario : IEntity
     {
+        public BelUsuario()
+        {
+
+        }
         public BelUsuario(string pDNi, string pNombre, string pApellido, string pEmail, Perfil pPerfil, 
             string pUsuario, string pContraseña)
         {

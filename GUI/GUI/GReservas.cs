@@ -23,7 +23,7 @@ namespace GUI
         BeReserva breserva = new BeReserva();
         BllReserva blReserva;
         BllCliente blCliente;
-        RegistroReservas registroReservas;
+        PerfilesForm registroReservas;
         GRegistrarCliente regisCliente;
         public GReservas()
         {
@@ -40,7 +40,6 @@ namespace GUI
             lCliente = blCliente.Consulta();
             lReserva = new List<BeReserva>();
             blReserva = new BllReserva();
-            registroReservas = new RegistroReservas();
             regisCliente = new GRegistrarCliente();
             lCliente = blCliente.Consulta();
             ValidarCliente();

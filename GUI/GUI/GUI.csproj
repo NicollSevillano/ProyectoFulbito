@@ -116,17 +116,20 @@
     <Compile Include="GUsuarios.Designer.cs">
       <DependentUpon>GUsuarios.cs</DependentUpon>
     </Compile>
-    <Compile Include="RegistroReservas.cs">
+    <Compile Include="PerfilesForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RegistroReservas.Designer.cs">
-      <DependentUpon>RegistroReservas.cs</DependentUpon>
+    <Compile Include="PerfilesForm.Designer.cs">
+      <DependentUpon>PerfilesForm.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Bitacora.resx">
       <DependentUpon>Bitacora.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CambiarClave.resx">
       <DependentUpon>CambiarClave.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CobrarReserva.resx">
+      <DependentUpon>CobrarReserva.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GRegistrarCliente.resx">
       <DependentUpon>GRegistrarCliente.cs</DependentUpon>
@@ -153,8 +156,8 @@
     <EmbeddedResource Include="GUsuarios.resx">
       <DependentUpon>GUsuarios.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="RegistroReservas.resx">
-      <DependentUpon>RegistroReservas.cs</DependentUpon>
+    <EmbeddedResource Include="PerfilesForm.resx">
+      <DependentUpon>PerfilesForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -208,6 +211,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\oculto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

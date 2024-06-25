@@ -1,4 +1,5 @@
-﻿using Servicios;
+﻿using Be;
+using Servicios;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -15,6 +16,7 @@ namespace GUI
     {
         public SessionManager smanager;
         GRegistrarCliente registrarCliente;
+        GReservas reservas;
         GUsuarios usuarios;
 
         public MenuPrincipal()
@@ -24,6 +26,7 @@ namespace GUI
 
         private void MenuPrincipal_Load(object sender, EventArgs e)
         {
+            reservas = new GReservas();
             registrarCliente = new GRegistrarCliente();
             usuarios = new GUsuarios();
         }
@@ -43,7 +46,7 @@ namespace GUI
         private void toolStripMenuItem2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            //reservas.ShowDialog();
+            reservas.ShowDialog();
             this.Show();
         }
 
@@ -65,6 +68,5 @@ namespace GUI
             SessionManager.LogOut();
             this.Close();
         }
-
     }
 }
