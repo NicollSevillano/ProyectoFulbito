@@ -13,9 +13,9 @@ using Servicios;
 
 namespace GUI
 {
-    public partial class CambiarClave : Form
+    public partial class CambiarClaveForm : Form
     {
-        public CambiarClave()
+        public CambiarClaveForm()
         {
             InitializeComponent();
         }

@@ -22,7 +22,7 @@ namespace GUI
         List<BelUsuario> lUsuario;
         BllUsuario bllUsuario;
         BelUsuario beUsuario;
-        CambiarClave cambiarClave;
+        CambiarClaveForm cambiarClave;
 
         public GUsuarios()
         {
@@ -34,7 +34,7 @@ namespace GUI
             bllUsuario = new BllUsuario();
             lUsuario = bllUsuario.Consulta();
             RefrescarDgv();
-            cambiarClave = new CambiarClave();
+            cambiarClave = new CambiarClaveForm();
         }
         private bool CargarTxt()
         {

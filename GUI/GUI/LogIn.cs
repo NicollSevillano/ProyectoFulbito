@@ -17,13 +17,13 @@ using Microsoft.VisualBasic.ApplicationServices;
 
 namespace GUI
 {
-    public partial class LogIn : Form
+    public partial class InicioSesionForm : Form
     {
         List<BelUsuario> lUsuario;
         BllUsuario bUsuario;
         private bool mostrar = false;
 
-        public LogIn()
+        public InicioSesionForm()
         {
             InitializeComponent();
         }
@@ -68,7 +68,7 @@ namespace GUI
 
                     if (_usuario.Perfil.Nombre == "Administrador")
                     {
-                        MenuPrincipal mp = new MenuPrincipal();
+                        MenuPrincipalForm mp = new MenuPrincipalForm();
                         SessionManager.LogIn(_usuario);
                         mp.smanager = SessionManager.getInstance;
                         _usuario.Intentos = 0;
@@ -79,7 +79,7 @@ namespace GUI
                     }
                     else if(_usuario.Perfil.Nombre == "Empleado")
                     {
-                        GReservas gr = new GReservas();
+                        GReservasForm gr = new GReservasForm();
                         SessionManager.LogIn(_usuario);
                         gr.smanager = SessionManager.getInstance;
                         _usuario.Intentos = 0;

@@ -217,9 +217,9 @@
             // btnDesbloquear
             // 
             this.btnDesbloquear.Font = new System.Drawing.Font("Maiandra GD", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDesbloquear.Location = new System.Drawing.Point(597, 307);
+            this.btnDesbloquear.Location = new System.Drawing.Point(597, 313);
             this.btnDesbloquear.Name = "btnDesbloquear";
-            this.btnDesbloquear.Size = new System.Drawing.Size(100, 31);
+            this.btnDesbloquear.Size = new System.Drawing.Size(100, 43);
             this.btnDesbloquear.TabIndex = 19;
             this.btnDesbloquear.Text = "Desbloquear";
             this.btnDesbloquear.UseVisualStyleBackColor = true;

@@ -12,13 +12,13 @@ using System.Windows.Forms;
 
 namespace GUI
 {
-    public partial class GRegistrarCliente : Form
+    public partial class GRegistrarClienteForm : Form
     {
         List<BeCliente> lCliente;
         BllCliente blCliente;
-        GReservas reservas;
+        GReservasForm reservas;
 
-        public GRegistrarCliente()
+        public GRegistrarClienteForm()
         {
             InitializeComponent();
         }
@@ -26,7 +26,7 @@ namespace GUI
         private void GRegistrarCliente_Load(object sender, EventArgs e)
         {
             blCliente = new BllCliente();
-            reservas = new GReservas();
+            reservas = new GReservasForm();
             lCliente = blCliente.Consulta();
             Refrescar();
         }

@@ -14,7 +14,7 @@ using System.Windows.Forms;
 
 namespace GUI
 {
-    public partial class GReservas : Form
+    public partial class GReservasForm : Form
     {
         public SessionManager smanager;
         List<BeCliente> lCliente;
@@ -24,8 +24,8 @@ namespace GUI
         BllReserva blReserva;
         BllCliente blCliente;
         PerfilesForm registroReservas;
-        GRegistrarCliente regisCliente;
-        public GReservas()
+        GRegistrarClienteForm regisCliente;
+        public GReservasForm()
         {
             InitializeComponent();
         }
@@ -40,7 +40,7 @@ namespace GUI
             lCliente = blCliente.Consulta();
             lReserva = new List<BeReserva>();
             blReserva = new BllReserva();
-            regisCliente = new GRegistrarCliente();
+            regisCliente = new GRegistrarClienteForm();
             lCliente = blCliente.Consulta();
             ValidarCliente();
             Canchas();
@@ -139,7 +139,7 @@ namespace GUI
 
         private void btnRegistrar_Click(object sender, EventArgs e)
         {
-            GRegistrarCliente gRegistrarC = new GRegistrarCliente();
+            GRegistrarClienteForm gRegistrarC = new GRegistrarClienteForm();
             gRegistrarC.Hide();
             gRegistrarC.ShowDialog();
         }
@@ -165,7 +165,7 @@ namespace GUI
 
         private void btnPagar_Click(object sender, EventArgs e)
         {
-            CobrarReserva cobrarReserva = new CobrarReserva();
+            CobrarReservaForm cobrarReserva = new CobrarReservaForm();
             cobrarReserva.Hide();
             cobrarReserva.ShowDialog();
         }

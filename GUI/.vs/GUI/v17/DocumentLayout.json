@@ -3,52 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6E20F9EA-5FAC-45B7-AD48-AF60456B4996}|Servicios\\Servicios.csproj|c:\\users\\nicol\\escritorio\\proyectocampo-diploma\\gui\\servicios\\perfilmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E20F9EA-5FAC-45B7-AD48-AF60456B4996}|Servicios\\Servicios.csproj|solutionrelative:servicios\\perfilmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|c:\\users\\nicol\\escritorio\\proyectocampo-diploma\\gui\\gui\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|solutionrelative:gui\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|c:\\users\\nicol\\escritorio\\proyectocampo-diploma\\gui\\gui\\perfilesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|solutionrelative:gui\\perfilesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B759C64-E4B3-418C-AB99-3FC3B1BB9C19}|ServicioClase\\ServicioClase.csproj|c:\\users\\nicol\\escritorio\\proyectocampo-diploma\\gui\\servicioclase\\idioma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B759C64-E4B3-418C-AB99-3FC3B1BB9C19}|ServicioClase\\ServicioClase.csproj|solutionrelative:servicioclase\\idioma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|c:\\users\\nicol\\escritorio\\proyectocampo-diploma\\gui\\gui\\perfilesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|solutionrelative:gui\\perfilesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9B759C64-E4B3-418C-AB99-3FC3B1BB9C19}|ServicioClase\\ServicioClase.csproj|c:\\users\\nicol\\escritorio\\proyectocampo-diploma\\gui\\servicioclase\\etiqueta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B759C64-E4B3-418C-AB99-3FC3B1BB9C19}|ServicioClase\\ServicioClase.csproj|solutionrelative:servicioclase\\etiqueta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B759C64-E4B3-418C-AB99-3FC3B1BB9C19}|ServicioClase\\ServicioClase.csproj|c:\\users\\nicol\\escritorio\\proyectocampo-diploma\\gui\\servicioclase\\perfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B759C64-E4B3-418C-AB99-3FC3B1BB9C19}|ServicioClase\\ServicioClase.csproj|solutionrelative:servicioclase\\perfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E20F9EA-5FAC-45B7-AD48-AF60456B4996}|Servicios\\Servicios.csproj|c:\\users\\nicol\\escritorio\\proyectocampo-diploma\\gui\\servicios\\languagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E20F9EA-5FAC-45B7-AD48-AF60456B4996}|Servicios\\Servicios.csproj|solutionrelative:servicios\\languagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B759C64-E4B3-418C-AB99-3FC3B1BB9C19}|ServicioClase\\ServicioClase.csproj|c:\\users\\nicol\\escritorio\\proyectocampo-diploma\\gui\\servicioclase\\permisosimple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B759C64-E4B3-418C-AB99-3FC3B1BB9C19}|ServicioClase\\ServicioClase.csproj|solutionrelative:servicioclase\\permisosimple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26DF20EB-7137-456D-A132-518528613F97}|Mapper\\Mapper.csproj|c:\\users\\nicol\\escritorio\\proyectocampo-diploma\\gui\\mapper\\mapperusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26DF20EB-7137-456D-A132-518528613F97}|Mapper\\Mapper.csproj|solutionrelative:mapper\\mapperusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B759C64-E4B3-418C-AB99-3FC3B1BB9C19}|ServicioClase\\ServicioClase.csproj|c:\\users\\nicol\\escritorio\\proyectocampo-diploma\\gui\\servicioclase\\permiso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B759C64-E4B3-418C-AB99-3FC3B1BB9C19}|ServicioClase\\ServicioClase.csproj|solutionrelative:servicioclase\\permiso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B759C64-E4B3-418C-AB99-3FC3B1BB9C19}|ServicioClase\\ServicioClase.csproj|c:\\users\\nicol\\escritorio\\proyectocampo-diploma\\gui\\servicioclase\\permisocompuesto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B759C64-E4B3-418C-AB99-3FC3B1BB9C19}|ServicioClase\\ServicioClase.csproj|solutionrelative:servicioclase\\permisocompuesto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE930A84-64DA-47BB-BA21-2B8B7430F29C}|Be\\Be.csproj|c:\\users\\nicol\\escritorio\\proyectocampo-diploma\\gui\\be\\belusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE930A84-64DA-47BB-BA21-2B8B7430F29C}|Be\\Be.csproj|solutionrelative:be\\belusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|c:\\users\\nicol\\escritorio\\proyectocampo-diploma\\gui\\gui\\gusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|solutionrelative:gui\\gusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|c:\\users\\nicol\\escritorio\\proyectocampo-diploma\\gui\\gui\\gusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|solutionrelative:gui\\gusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|c:\\users\\nicol\\escritorio\\proyectocampo-diploma\\gui\\gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|solutionrelative:gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{94C78E2C-4564-4B96-97D1-D01049C041E1}|Interface\\Interface.csproj|c:\\users\\nicol\\escritorio\\proyectocampo-diploma\\gui\\interface\\itraducible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94C78E2C-4564-4B96-97D1-D01049C041E1}|Interface\\Interface.csproj|solutionrelative:interface\\itraducible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -63,156 +35,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PerfilManager.cs",
-              "DocumentMoniker": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\Servicios\\PerfilManager.cs",
-              "RelativeDocumentMoniker": "Servicios\\PerfilManager.cs",
-              "ToolTip": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\Servicios\\PerfilManager.cs",
-              "RelativeToolTip": "Servicios\\PerfilManager.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAIAywDIAAAAMAAAA",
+              "Title": "MenuPrincipal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\GUI\\MenuPrincipal.cs",
+              "RelativeDocumentMoniker": "GUI\\MenuPrincipal.cs",
+              "ToolTip": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\GUI\\MenuPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "GUI\\MenuPrincipal.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T00:17:46.976Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MapperUsuario.cs",
-              "DocumentMoniker": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\Mapper\\MapperUsuario.cs",
-              "RelativeDocumentMoniker": "Mapper\\MapperUsuario.cs",
-              "ToolTip": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\Mapper\\MapperUsuario.cs",
-              "RelativeToolTip": "Mapper\\MapperUsuario.cs",
-              "ViewState": "AQIAALAAAAAAAAAAAAAYwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T00:17:37.496Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Perfil.cs",
-              "DocumentMoniker": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\ServicioClase\\Perfil.cs",
-              "RelativeDocumentMoniker": "ServicioClase\\Perfil.cs",
-              "ToolTip": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\ServicioClase\\Perfil.cs",
-              "RelativeToolTip": "ServicioClase\\Perfil.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAIwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T00:17:33.865Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PermisoSimple.cs",
-              "DocumentMoniker": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\ServicioClase\\PermisoSimple.cs",
-              "RelativeDocumentMoniker": "ServicioClase\\PermisoSimple.cs",
-              "ToolTip": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\ServicioClase\\PermisoSimple.cs",
-              "RelativeToolTip": "ServicioClase\\PermisoSimple.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAywAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T00:17:31.961Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PermisoCompuesto.cs",
-              "DocumentMoniker": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\ServicioClase\\PermisoCompuesto.cs",
-              "RelativeDocumentMoniker": "ServicioClase\\PermisoCompuesto.cs",
-              "ToolTip": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\ServicioClase\\PermisoCompuesto.cs",
-              "RelativeToolTip": "ServicioClase\\PermisoCompuesto.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAmwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T00:17:27.601Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Permiso.cs",
-              "DocumentMoniker": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\ServicioClase\\Permiso.cs",
-              "RelativeDocumentMoniker": "ServicioClase\\Permiso.cs",
-              "ToolTip": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\ServicioClase\\Permiso.cs",
-              "RelativeToolTip": "ServicioClase\\Permiso.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T00:17:25.96Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BelUsuario.cs",
-              "DocumentMoniker": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\Be\\BelUsuario.cs",
-              "RelativeDocumentMoniker": "Be\\BelUsuario.cs",
-              "ToolTip": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\Be\\BelUsuario.cs",
-              "RelativeToolTip": "Be\\BelUsuario.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAwwA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T22:51:02.879Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GUsuarios.cs",
-              "DocumentMoniker": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\GUI\\GUsuarios.cs",
-              "RelativeDocumentMoniker": "GUI\\GUsuarios.cs",
-              "ToolTip": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\GUI\\GUsuarios.cs",
-              "RelativeToolTip": "GUI\\GUsuarios.cs",
-              "ViewState": "AQIAAOsAAAAAAAAAAAAWwL0AAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T21:45:31.71Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "GUsuarios.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\GUI\\GUsuarios.cs",
-              "RelativeDocumentMoniker": "GUI\\GUsuarios.cs",
-              "ToolTip": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\GUI\\GUsuarios.cs [Dise\u00F1o]",
-              "RelativeToolTip": "GUI\\GUsuarios.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T21:32:53.48Z",
+              "WhenOpened": "2024-06-26T01:46:13.299Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\GUI\\Program.cs",
-              "RelativeDocumentMoniker": "GUI\\Program.cs",
-              "ToolTip": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\GUI\\Program.cs",
-              "RelativeToolTip": "GUI\\Program.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAIA6wBMAAAAlAAAA",
+              "DocumentIndex": 2,
+              "Title": "Etiqueta.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\ServicioClase\\Etiqueta.cs",
+              "RelativeDocumentMoniker": "ServicioClase\\Etiqueta.cs",
+              "ToolTip": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\ServicioClase\\Etiqueta.cs",
+              "RelativeToolTip": "ServicioClase\\Etiqueta.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T21:25:19.949Z",
+              "WhenOpened": "2024-06-25T21:40:27.827Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PerfilesForm.cs",
-              "DocumentMoniker": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\GUI\\PerfilesForm.cs",
-              "RelativeDocumentMoniker": "GUI\\PerfilesForm.cs",
-              "ToolTip": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\GUI\\PerfilesForm.cs",
-              "RelativeToolTip": "GUI\\PerfilesForm.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAjwB4AAAAhAAAA",
+              "Title": "Idioma.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\ServicioClase\\Idioma.cs",
+              "RelativeDocumentMoniker": "ServicioClase\\Idioma.cs",
+              "ToolTip": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\ServicioClase\\Idioma.cs",
+              "RelativeToolTip": "ServicioClase\\Idioma.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAA1wBcAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T18:20:09.571Z",
+              "WhenOpened": "2024-06-25T21:39:36.363Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PerfilesForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\GUI\\PerfilesForm.cs",
-              "RelativeDocumentMoniker": "GUI\\PerfilesForm.cs",
-              "ToolTip": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\GUI\\PerfilesForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "GUI\\PerfilesForm.cs [Dise\u00F1o]",
+              "DocumentIndex": 4,
+              "Title": "ITraducible.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\Interface\\ITraducible.cs",
+              "RelativeDocumentMoniker": "Interface\\ITraducible.cs",
+              "ToolTip": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\Interface\\ITraducible.cs",
+              "RelativeToolTip": "Interface\\ITraducible.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T18:18:39.952Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-06-25T21:39:21.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LanguageManager.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\Servicios\\LanguageManager.cs",
+              "RelativeDocumentMoniker": "Servicios\\LanguageManager.cs",
+              "ToolTip": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\Servicios\\LanguageManager.cs",
+              "RelativeToolTip": "Servicios\\LanguageManager.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAuwDIAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T21:29:41.405Z",
+              "EditorCaption": ""
             }
           ]
         }

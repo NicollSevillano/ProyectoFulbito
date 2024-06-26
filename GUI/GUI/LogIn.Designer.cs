@@ -1,6 +1,6 @@
 ﻿namespace GUI
 {
-    partial class LogIn
+    partial class InicioSesionForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LogIn));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InicioSesionForm));
             this.lblInicioSesion = new System.Windows.Forms.Label();
             this.lblUsuario = new System.Windows.Forms.Label();
             this.lblContraseña = new System.Windows.Forms.Label();
@@ -128,7 +128,7 @@
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
-            // LogIn
+            // InicioSesionForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -144,7 +144,7 @@
             this.Controls.Add(this.lblUsuario);
             this.Controls.Add(this.lblInicioSesion);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "LogIn";
+            this.Name = "InicioSesionForm";
             this.Text = "Inicio de sesión";
             this.Load += new System.EventHandler(this.LogIn_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pMostrar)).EndInit();

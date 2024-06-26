@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace GUI
 {
-    public partial class CobrarReserva : Form
+    public partial class CobrarReservaForm : Form
     {
-        public CobrarReserva()
+        public CobrarReservaForm()
         {
             InitializeComponent();
         }

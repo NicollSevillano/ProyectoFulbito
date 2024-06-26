@@ -1,6 +1,6 @@
 ﻿namespace GUI
 {
-    partial class GReservas
+    partial class GReservasForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GReservas));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GReservasForm));
             this.LabDni = new System.Windows.Forms.Label();
             this.labCancha = new System.Windows.Forms.Label();
             this.labHorario = new System.Windows.Forms.Label();
@@ -48,7 +48,7 @@
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.txtHorario = new System.Windows.Forms.TextBox();
             this.txtDni = new System.Windows.Forms.TextBox();
-            this.btnPagar = new System.Windows.Forms.Button();
+            this.btnCobrar = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvReservas)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -223,16 +223,16 @@
             this.txtDni.Size = new System.Drawing.Size(128, 20);
             this.txtDni.TabIndex = 21;
             // 
-            // btnPagar
+            // btnCobrar
             // 
-            this.btnPagar.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPagar.Location = new System.Drawing.Point(640, 322);
-            this.btnPagar.Name = "btnPagar";
-            this.btnPagar.Size = new System.Drawing.Size(107, 44);
-            this.btnPagar.TabIndex = 23;
-            this.btnPagar.Text = "Pagar";
-            this.btnPagar.UseVisualStyleBackColor = true;
-            this.btnPagar.Click += new System.EventHandler(this.btnPagar_Click);
+            this.btnCobrar.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCobrar.Location = new System.Drawing.Point(640, 322);
+            this.btnCobrar.Name = "btnCobrar";
+            this.btnCobrar.Size = new System.Drawing.Size(107, 44);
+            this.btnCobrar.TabIndex = 23;
+            this.btnCobrar.Text = "Cobrar";
+            this.btnCobrar.UseVisualStyleBackColor = true;
+            this.btnCobrar.Click += new System.EventHandler(this.btnPagar_Click);
             // 
             // pictureBox1
             // 
@@ -244,14 +244,14 @@
             this.pictureBox1.TabIndex = 24;
             this.pictureBox1.TabStop = false;
             // 
-            // GReservas
+            // GReservasForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(211)))), ((int)(((byte)(131)))));
             this.ClientSize = new System.Drawing.Size(771, 465);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.btnPagar);
+            this.Controls.Add(this.btnCobrar);
             this.Controls.Add(this.txtDni);
             this.Controls.Add(this.txtHorario);
             this.Controls.Add(this.dgvReservas);
@@ -267,8 +267,8 @@
             this.Controls.Add(this.labCancha);
             this.Controls.Add(this.LabDni);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "GReservas";
-            this.Text = "GReservas";
+            this.Name = "GReservasForm";
+            this.Text = "Reservas ";
             this.Load += new System.EventHandler(this.GReservas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvReservas)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -298,7 +298,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.TextBox txtHorario;
         private System.Windows.Forms.TextBox txtDni;
-        private System.Windows.Forms.Button btnPagar;
+        private System.Windows.Forms.Button btnCobrar;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

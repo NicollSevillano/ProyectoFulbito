@@ -12,22 +12,22 @@ using System.Windows.Forms;
 
 namespace GUI
 {
-    public partial class MenuPrincipal : Form
+    public partial class MenuPrincipalForm : Form
     {
         public SessionManager smanager;
-        GRegistrarCliente registrarCliente;
-        GReservas reservas;
+        GRegistrarClienteForm registrarCliente;
+        GReservasForm reservas;
         GUsuarios usuarios;
 
-        public MenuPrincipal()
+        public MenuPrincipalForm()
         {
             InitializeComponent();
         }
 
         private void MenuPrincipal_Load(object sender, EventArgs e)
         {
-            reservas = new GReservas();
-            registrarCliente = new GRegistrarCliente();
+            reservas = new GReservasForm();
+            registrarCliente = new GRegistrarClienteForm();
             usuarios = new GUsuarios();
         }
 

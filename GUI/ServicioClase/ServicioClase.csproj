@@ -41,6 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Etiqueta.cs" />
+    <Compile Include="Idioma.cs" />
     <Compile Include="Perfil.cs" />
     <Compile Include="Permiso.cs" />
     <Compile Include="PermisoCompuesto.cs" />

@@ -1,6 +1,6 @@
 ﻿namespace GUI
 {
-    partial class GRegistrarCliente
+    partial class GRegistrarClienteForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GRegistrarCliente));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GRegistrarClienteForm));
             this.dgvCliente = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -208,7 +208,7 @@
             this.btnVolver.UseVisualStyleBackColor = true;
             this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
             // 
-            // GRegistrarCliente
+            // GRegistrarClienteForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -228,7 +228,7 @@
             this.Controls.Add(this.labTitulo);
             this.Controls.Add(this.dgvCliente);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "GRegistrarCliente";
+            this.Name = "GRegistrarClienteForm";
             this.Text = "Registrar cliente";
             this.Load += new System.EventHandler(this.GRegistrarCliente_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvCliente)).EndInit();

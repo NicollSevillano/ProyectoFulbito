@@ -58,6 +58,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LanguageManager.cs" />
     <Compile Include="LogBitacora.cs" />
     <Compile Include="Encriptar.cs" />
     <Compile Include="PerfilManager.cs" />
@@ -75,6 +76,10 @@
     <ProjectReference Include="..\Dal\Dal.csproj">
       <Project>{d1c95dbf-0701-4180-8deb-7dc4975d8e2c}</Project>
       <Name>Dal</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Interface\Interface.csproj">
+      <Project>{94c78e2c-4564-4b96-97d1-d01049c041e1}</Project>
+      <Name>Interface</Name>
     </ProjectReference>
     <ProjectReference Include="..\ServicioClase\ServicioClase.csproj">
       <Project>{9b759c64-e4b3-418c-ab99-3fc3b1bb9c19}</Project>

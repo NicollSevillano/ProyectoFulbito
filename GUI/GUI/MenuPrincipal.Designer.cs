@@ -1,6 +1,6 @@
 ﻿namespace GUI
 {
-    partial class MenuPrincipal
+    partial class MenuPrincipalForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuPrincipal));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuPrincipalForm));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.reservaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -43,6 +43,10 @@
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.labNombre = new System.Windows.Forms.Label();
+            this.labUsuario = new System.Windows.Forms.Label();
+            this.labRol = new System.Windows.Forms.Label();
+            this.labPerfil = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -119,20 +123,20 @@
             // usuariosToolStripMenuItem
             // 
             this.usuariosToolStripMenuItem.Name = "usuariosToolStripMenuItem";
-            this.usuariosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.usuariosToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
             this.usuariosToolStripMenuItem.Text = "Usuarios";
             this.usuariosToolStripMenuItem.Click += new System.EventHandler(this.usuariosToolStripMenuItem_Click);
             // 
             // idiomasToolStripMenuItem
             // 
             this.idiomasToolStripMenuItem.Name = "idiomasToolStripMenuItem";
-            this.idiomasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.idiomasToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
             this.idiomasToolStripMenuItem.Text = "Idiomas";
             // 
             // inventarioToolStripMenuItem
             // 
             this.inventarioToolStripMenuItem.Name = "inventarioToolStripMenuItem";
-            this.inventarioToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.inventarioToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
             this.inventarioToolStripMenuItem.Text = "Inventario";
             // 
             // ayudaToolStripMenuItem
@@ -158,18 +162,62 @@
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
-            // MenuPrincipal
+            // labNombre
+            // 
+            this.labNombre.AutoSize = true;
+            this.labNombre.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labNombre.Location = new System.Drawing.Point(12, 290);
+            this.labNombre.Name = "labNombre";
+            this.labNombre.Size = new System.Drawing.Size(74, 19);
+            this.labNombre.TabIndex = 2;
+            this.labNombre.Text = "Nombre:";
+            // 
+            // labUsuario
+            // 
+            this.labUsuario.AutoSize = true;
+            this.labUsuario.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labUsuario.Location = new System.Drawing.Point(92, 290);
+            this.labUsuario.Name = "labUsuario";
+            this.labUsuario.Size = new System.Drawing.Size(29, 19);
+            this.labUsuario.TabIndex = 3;
+            this.labUsuario.Text = "----";
+            // 
+            // labRol
+            // 
+            this.labRol.AutoSize = true;
+            this.labRol.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labRol.Location = new System.Drawing.Point(184, 290);
+            this.labRol.Name = "labRol";
+            this.labRol.Size = new System.Drawing.Size(38, 19);
+            this.labRol.TabIndex = 4;
+            this.labRol.Text = "Rol:";
+            // 
+            // labPerfil
+            // 
+            this.labPerfil.AutoSize = true;
+            this.labPerfil.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labPerfil.Location = new System.Drawing.Point(235, 290);
+            this.labPerfil.Name = "labPerfil";
+            this.labPerfil.Size = new System.Drawing.Size(29, 19);
+            this.labPerfil.TabIndex = 5;
+            this.labPerfil.Text = "----";
+            // 
+            // MenuPrincipalForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(211)))), ((int)(((byte)(131)))));
-            this.ClientSize = new System.Drawing.Size(358, 299);
+            this.ClientSize = new System.Drawing.Size(358, 321);
+            this.Controls.Add(this.labPerfil);
+            this.Controls.Add(this.labRol);
+            this.Controls.Add(this.labUsuario);
+            this.Controls.Add(this.labNombre);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "MenuPrincipal";
-            this.Text = "MenuPrincipal";
+            this.Name = "MenuPrincipalForm";
+            this.Text = "Menu principal ";
             this.Load += new System.EventHandler(this.MenuPrincipal_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -195,5 +243,9 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem controlDeCanchasToolStripMenuItem;
+        private System.Windows.Forms.Label labNombre;
+        private System.Windows.Forms.Label labUsuario;
+        private System.Windows.Forms.Label labRol;
+        private System.Windows.Forms.Label labPerfil;
     }
 }

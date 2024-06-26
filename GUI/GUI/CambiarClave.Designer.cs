@@ -1,6 +1,6 @@
 ﻿namespace GUI
 {
-    partial class CambiarClave
+    partial class CambiarClaveForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CambiarClave));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CambiarClaveForm));
             this.labCC = new System.Windows.Forms.Label();
             this.labContraseñaN = new System.Windows.Forms.Label();
             this.labConfirmarC = new System.Windows.Forms.Label();
@@ -116,7 +116,7 @@
             this.btnSalir.UseVisualStyleBackColor = true;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
-            // CambiarClave
+            // CambiarClaveForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -131,7 +131,7 @@
             this.Controls.Add(this.labContraseñaN);
             this.Controls.Add(this.labCC);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "CambiarClave";
+            this.Name = "CambiarClaveForm";
             this.Text = "Cambiar Clave";
             this.Load += new System.EventHandler(this.CambiarClave_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
