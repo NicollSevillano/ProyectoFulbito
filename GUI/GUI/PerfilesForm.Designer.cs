@@ -33,8 +33,8 @@
             this.btnCrear = new System.Windows.Forms.Button();
             this.btnAgregar = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.lbNombre = new System.Windows.Forms.Label();
+            this.labPerfil = new System.Windows.Forms.Label();
+            this.lbNombrePerfil = new System.Windows.Forms.Label();
             this.lbPerfil = new System.Windows.Forms.Label();
             this.lbPermiso = new System.Windows.Forms.Label();
             this.listBox2 = new System.Windows.Forms.ListBox();
@@ -71,37 +71,39 @@
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(133, 41);
             this.btnAgregar.TabIndex = 3;
-            this.btnAgregar.Text = "Agregar permiso";
+            this.btnAgregar.Text = "Asignar permiso";
             this.btnAgregar.UseVisualStyleBackColor = true;
             this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
+            this.listBox1.Items.AddRange(new object[] {
+            "Lista de perfiles:"});
             this.listBox1.Location = new System.Drawing.Point(12, 84);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(172, 290);
             this.listBox1.TabIndex = 4;
             // 
-            // label1
+            // labPerfil
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 12);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(96, 19);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Perfil actual:";
+            this.labPerfil.AutoSize = true;
+            this.labPerfil.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labPerfil.Location = new System.Drawing.Point(12, 12);
+            this.labPerfil.Name = "labPerfil";
+            this.labPerfil.Size = new System.Drawing.Size(96, 19);
+            this.labPerfil.TabIndex = 5;
+            this.labPerfil.Text = "Perfil actual:";
             // 
-            // lbNombre
+            // lbNombrePerfil
             // 
-            this.lbNombre.AutoSize = true;
-            this.lbNombre.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbNombre.Location = new System.Drawing.Point(118, 12);
-            this.lbNombre.Name = "lbNombre";
-            this.lbNombre.Size = new System.Drawing.Size(132, 19);
-            this.lbNombre.TabIndex = 6;
-            this.lbNombre.Text = "nombre del perfil";
+            this.lbNombrePerfil.AutoSize = true;
+            this.lbNombrePerfil.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbNombrePerfil.Location = new System.Drawing.Point(118, 12);
+            this.lbNombrePerfil.Name = "lbNombrePerfil";
+            this.lbNombrePerfil.Size = new System.Drawing.Size(132, 19);
+            this.lbNombrePerfil.TabIndex = 6;
+            this.lbNombrePerfil.Text = "nombre del perfil";
             // 
             // lbPerfil
             // 
@@ -126,6 +128,8 @@
             // listBox2
             // 
             this.listBox2.FormattingEnabled = true;
+            this.listBox2.Items.AddRange(new object[] {
+            "Lista de permisos:"});
             this.listBox2.Location = new System.Drawing.Point(190, 84);
             this.listBox2.Name = "listBox2";
             this.listBox2.Size = new System.Drawing.Size(172, 290);
@@ -160,8 +164,8 @@
             this.Controls.Add(this.listBox2);
             this.Controls.Add(this.lbPermiso);
             this.Controls.Add(this.lbPerfil);
-            this.Controls.Add(this.lbNombre);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lbNombrePerfil);
+            this.Controls.Add(this.labPerfil);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.btnCrear);
@@ -180,8 +184,8 @@
         private System.Windows.Forms.Button btnCrear;
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label lbNombre;
+        private System.Windows.Forms.Label labPerfil;
+        private System.Windows.Forms.Label lbNombrePerfil;
         private System.Windows.Forms.Label lbPerfil;
         private System.Windows.Forms.Label lbPermiso;
         private System.Windows.Forms.ListBox listBox2;

@@ -29,115 +29,115 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GUsuarios));
-            this.lbDatos = new System.Windows.Forms.Label();
-            this.labDNI = new System.Windows.Forms.Label();
-            this.labNombre = new System.Windows.Forms.Label();
-            this.labApellido = new System.Windows.Forms.Label();
-            this.labEmail = new System.Windows.Forms.Label();
-            this.labUsuario = new System.Windows.Forms.Label();
-            this.labContraseña = new System.Windows.Forms.Label();
+            this.lbDatosU = new System.Windows.Forms.Label();
+            this.labDniU = new System.Windows.Forms.Label();
+            this.labNombreU = new System.Windows.Forms.Label();
+            this.labApellidoU = new System.Windows.Forms.Label();
+            this.labEmailU = new System.Windows.Forms.Label();
+            this.labUsuarioU = new System.Windows.Forms.Label();
+            this.labContraseñaU = new System.Windows.Forms.Label();
             this.txtDni = new System.Windows.Forms.TextBox();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.txtApellido = new System.Windows.Forms.TextBox();
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.txtContraseña = new System.Windows.Forms.TextBox();
-            this.btnAgregar = new System.Windows.Forms.Button();
-            this.btnBorrar = new System.Windows.Forms.Button();
-            this.btnModificar = new System.Windows.Forms.Button();
-            this.btnDesbloquear = new System.Windows.Forms.Button();
-            this.labFiltrar = new System.Windows.Forms.Label();
-            this.cbBloqueados = new System.Windows.Forms.CheckBox();
+            this.btnAgregarU = new System.Windows.Forms.Button();
+            this.btnBorrarU = new System.Windows.Forms.Button();
+            this.btnModificarU = new System.Windows.Forms.Button();
+            this.btnDesbloquearU = new System.Windows.Forms.Button();
+            this.labFiltrarU = new System.Windows.Forms.Label();
+            this.cbBloqueadosU = new System.Windows.Forms.CheckBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnSalir = new System.Windows.Forms.Button();
-            this.rbAdministrador = new System.Windows.Forms.RadioButton();
-            this.rbEmpleado = new System.Windows.Forms.RadioButton();
-            this.btnCambiarC = new System.Windows.Forms.Button();
+            this.btnSalirU = new System.Windows.Forms.Button();
+            this.rbAdministradorU = new System.Windows.Forms.RadioButton();
+            this.rbEmpleadoU = new System.Windows.Forms.RadioButton();
+            this.btnCambiarCU = new System.Windows.Forms.Button();
             this.dgvUsuarios = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnPerfil = new System.Windows.Forms.Button();
+            this.btnPerfilU = new System.Windows.Forms.Button();
+            this.ColumnaIdU = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnaDniU = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnaNombreU = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnaApellidoU = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnaEmailU = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnaPerfilU = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnaUsuarioU = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnaContraseñaU = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnaBloqueadoU = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnaActivoU = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvUsuarios)).BeginInit();
             this.SuspendLayout();
             // 
-            // lbDatos
+            // lbDatosU
             // 
-            this.lbDatos.AutoSize = true;
-            this.lbDatos.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbDatos.Location = new System.Drawing.Point(45, 224);
-            this.lbDatos.Name = "lbDatos";
-            this.lbDatos.Size = new System.Drawing.Size(127, 19);
-            this.lbDatos.TabIndex = 1;
-            this.lbDatos.Text = "Datos de usuario";
+            this.lbDatosU.AutoSize = true;
+            this.lbDatosU.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbDatosU.Location = new System.Drawing.Point(45, 224);
+            this.lbDatosU.Name = "lbDatosU";
+            this.lbDatosU.Size = new System.Drawing.Size(127, 19);
+            this.lbDatosU.TabIndex = 1;
+            this.lbDatosU.Text = "Datos de usuario";
             // 
-            // labDNI
+            // labDniU
             // 
-            this.labDNI.AutoSize = true;
-            this.labDNI.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labDNI.Location = new System.Drawing.Point(45, 271);
-            this.labDNI.Name = "labDNI";
-            this.labDNI.Size = new System.Drawing.Size(39, 19);
-            this.labDNI.TabIndex = 2;
-            this.labDNI.Text = "DNI";
+            this.labDniU.AutoSize = true;
+            this.labDniU.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labDniU.Location = new System.Drawing.Point(45, 271);
+            this.labDniU.Name = "labDniU";
+            this.labDniU.Size = new System.Drawing.Size(39, 19);
+            this.labDniU.TabIndex = 2;
+            this.labDniU.Text = "DNI";
             // 
-            // labNombre
+            // labNombreU
             // 
-            this.labNombre.AutoSize = true;
-            this.labNombre.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labNombre.Location = new System.Drawing.Point(45, 313);
-            this.labNombre.Name = "labNombre";
-            this.labNombre.Size = new System.Drawing.Size(69, 19);
-            this.labNombre.TabIndex = 3;
-            this.labNombre.Text = "Nombre";
+            this.labNombreU.AutoSize = true;
+            this.labNombreU.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labNombreU.Location = new System.Drawing.Point(45, 313);
+            this.labNombreU.Name = "labNombreU";
+            this.labNombreU.Size = new System.Drawing.Size(69, 19);
+            this.labNombreU.TabIndex = 3;
+            this.labNombreU.Text = "Nombre";
             // 
-            // labApellido
+            // labApellidoU
             // 
-            this.labApellido.AutoSize = true;
-            this.labApellido.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labApellido.Location = new System.Drawing.Point(45, 355);
-            this.labApellido.Name = "labApellido";
-            this.labApellido.Size = new System.Drawing.Size(68, 19);
-            this.labApellido.TabIndex = 4;
-            this.labApellido.Text = "Apellido";
+            this.labApellidoU.AutoSize = true;
+            this.labApellidoU.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labApellidoU.Location = new System.Drawing.Point(45, 355);
+            this.labApellidoU.Name = "labApellidoU";
+            this.labApellidoU.Size = new System.Drawing.Size(68, 19);
+            this.labApellidoU.TabIndex = 4;
+            this.labApellidoU.Text = "Apellido";
             // 
-            // labEmail
+            // labEmailU
             // 
-            this.labEmail.AutoSize = true;
-            this.labEmail.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labEmail.Location = new System.Drawing.Point(45, 397);
-            this.labEmail.Name = "labEmail";
-            this.labEmail.Size = new System.Drawing.Size(47, 19);
-            this.labEmail.TabIndex = 5;
-            this.labEmail.Text = "Email";
+            this.labEmailU.AutoSize = true;
+            this.labEmailU.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labEmailU.Location = new System.Drawing.Point(45, 397);
+            this.labEmailU.Name = "labEmailU";
+            this.labEmailU.Size = new System.Drawing.Size(47, 19);
+            this.labEmailU.TabIndex = 5;
+            this.labEmailU.Text = "Email";
             // 
-            // labUsuario
+            // labUsuarioU
             // 
-            this.labUsuario.AutoSize = true;
-            this.labUsuario.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labUsuario.Location = new System.Drawing.Point(45, 439);
-            this.labUsuario.Name = "labUsuario";
-            this.labUsuario.Size = new System.Drawing.Size(63, 19);
-            this.labUsuario.TabIndex = 7;
-            this.labUsuario.Text = "Usuario";
+            this.labUsuarioU.AutoSize = true;
+            this.labUsuarioU.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labUsuarioU.Location = new System.Drawing.Point(45, 439);
+            this.labUsuarioU.Name = "labUsuarioU";
+            this.labUsuarioU.Size = new System.Drawing.Size(63, 19);
+            this.labUsuarioU.TabIndex = 7;
+            this.labUsuarioU.Text = "Usuario";
             // 
-            // labContraseña
+            // labContraseñaU
             // 
-            this.labContraseña.AutoSize = true;
-            this.labContraseña.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labContraseña.Location = new System.Drawing.Point(45, 481);
-            this.labContraseña.Name = "labContraseña";
-            this.labContraseña.Size = new System.Drawing.Size(88, 19);
-            this.labContraseña.TabIndex = 8;
-            this.labContraseña.Text = "Contraseña";
+            this.labContraseñaU.AutoSize = true;
+            this.labContraseñaU.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labContraseñaU.Location = new System.Drawing.Point(45, 481);
+            this.labContraseñaU.Name = "labContraseñaU";
+            this.labContraseñaU.Size = new System.Drawing.Size(88, 19);
+            this.labContraseñaU.TabIndex = 8;
+            this.labContraseñaU.Text = "Contraseña";
             // 
             // txtDni
             // 
@@ -181,72 +181,72 @@
             this.txtContraseña.Size = new System.Drawing.Size(145, 20);
             this.txtContraseña.TabIndex = 15;
             // 
-            // btnAgregar
+            // btnAgregarU
             // 
-            this.btnAgregar.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregar.Location = new System.Drawing.Point(417, 231);
-            this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(105, 43);
-            this.btnAgregar.TabIndex = 16;
-            this.btnAgregar.Text = "Agregar";
-            this.btnAgregar.UseVisualStyleBackColor = true;
-            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
+            this.btnAgregarU.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregarU.Location = new System.Drawing.Point(417, 231);
+            this.btnAgregarU.Name = "btnAgregarU";
+            this.btnAgregarU.Size = new System.Drawing.Size(105, 43);
+            this.btnAgregarU.TabIndex = 16;
+            this.btnAgregarU.Text = "Agregar";
+            this.btnAgregarU.UseVisualStyleBackColor = true;
+            this.btnAgregarU.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
-            // btnBorrar
+            // btnBorrarU
             // 
-            this.btnBorrar.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBorrar.Location = new System.Drawing.Point(417, 280);
-            this.btnBorrar.Name = "btnBorrar";
-            this.btnBorrar.Size = new System.Drawing.Size(105, 43);
-            this.btnBorrar.TabIndex = 17;
-            this.btnBorrar.Text = "Borrar";
-            this.btnBorrar.UseVisualStyleBackColor = true;
-            this.btnBorrar.Click += new System.EventHandler(this.btnBorrar_Click);
+            this.btnBorrarU.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBorrarU.Location = new System.Drawing.Point(417, 280);
+            this.btnBorrarU.Name = "btnBorrarU";
+            this.btnBorrarU.Size = new System.Drawing.Size(105, 43);
+            this.btnBorrarU.TabIndex = 17;
+            this.btnBorrarU.Text = "Borrar";
+            this.btnBorrarU.UseVisualStyleBackColor = true;
+            this.btnBorrarU.Click += new System.EventHandler(this.btnBorrar_Click);
             // 
-            // btnModificar
+            // btnModificarU
             // 
-            this.btnModificar.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnModificar.Location = new System.Drawing.Point(417, 332);
-            this.btnModificar.Name = "btnModificar";
-            this.btnModificar.Size = new System.Drawing.Size(105, 43);
-            this.btnModificar.TabIndex = 18;
-            this.btnModificar.Text = "Modificar";
-            this.btnModificar.UseVisualStyleBackColor = true;
-            this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
+            this.btnModificarU.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnModificarU.Location = new System.Drawing.Point(417, 332);
+            this.btnModificarU.Name = "btnModificarU";
+            this.btnModificarU.Size = new System.Drawing.Size(105, 43);
+            this.btnModificarU.TabIndex = 18;
+            this.btnModificarU.Text = "Modificar";
+            this.btnModificarU.UseVisualStyleBackColor = true;
+            this.btnModificarU.Click += new System.EventHandler(this.btnModificar_Click);
             // 
-            // btnDesbloquear
+            // btnDesbloquearU
             // 
-            this.btnDesbloquear.Font = new System.Drawing.Font("Maiandra GD", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDesbloquear.Location = new System.Drawing.Point(597, 313);
-            this.btnDesbloquear.Name = "btnDesbloquear";
-            this.btnDesbloquear.Size = new System.Drawing.Size(100, 43);
-            this.btnDesbloquear.TabIndex = 19;
-            this.btnDesbloquear.Text = "Desbloquear";
-            this.btnDesbloquear.UseVisualStyleBackColor = true;
-            this.btnDesbloquear.Click += new System.EventHandler(this.btnDesbloquear_Click);
+            this.btnDesbloquearU.Font = new System.Drawing.Font("Maiandra GD", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDesbloquearU.Location = new System.Drawing.Point(597, 313);
+            this.btnDesbloquearU.Name = "btnDesbloquearU";
+            this.btnDesbloquearU.Size = new System.Drawing.Size(100, 43);
+            this.btnDesbloquearU.TabIndex = 19;
+            this.btnDesbloquearU.Text = "Desbloquear";
+            this.btnDesbloquearU.UseVisualStyleBackColor = true;
+            this.btnDesbloquearU.Click += new System.EventHandler(this.btnDesbloquear_Click);
             // 
-            // labFiltrar
+            // labFiltrarU
             // 
-            this.labFiltrar.AutoSize = true;
-            this.labFiltrar.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labFiltrar.Location = new System.Drawing.Point(593, 246);
-            this.labFiltrar.Name = "labFiltrar";
-            this.labFiltrar.Size = new System.Drawing.Size(50, 19);
-            this.labFiltrar.TabIndex = 21;
-            this.labFiltrar.Text = "Filtrar";
+            this.labFiltrarU.AutoSize = true;
+            this.labFiltrarU.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labFiltrarU.Location = new System.Drawing.Point(593, 246);
+            this.labFiltrarU.Name = "labFiltrarU";
+            this.labFiltrarU.Size = new System.Drawing.Size(50, 19);
+            this.labFiltrarU.TabIndex = 21;
+            this.labFiltrarU.Text = "Filtrar";
             // 
-            // cbBloqueados
+            // cbBloqueadosU
             // 
-            this.cbBloqueados.AutoSize = true;
-            this.cbBloqueados.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbBloqueados.Location = new System.Drawing.Point(597, 280);
-            this.cbBloqueados.Name = "cbBloqueados";
-            this.cbBloqueados.Size = new System.Drawing.Size(103, 22);
-            this.cbBloqueados.TabIndex = 24;
-            this.cbBloqueados.Text = "Bloqueados";
-            this.cbBloqueados.UseVisualStyleBackColor = true;
-            this.cbBloqueados.CheckedChanged += new System.EventHandler(this.cbBloqueados_CheckedChanged);
-            this.cbBloqueados.TextChanged += new System.EventHandler(this.cbBloqueados_TextChanged);
+            this.cbBloqueadosU.AutoSize = true;
+            this.cbBloqueadosU.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbBloqueadosU.Location = new System.Drawing.Point(597, 280);
+            this.cbBloqueadosU.Name = "cbBloqueadosU";
+            this.cbBloqueadosU.Size = new System.Drawing.Size(103, 22);
+            this.cbBloqueadosU.TabIndex = 24;
+            this.cbBloqueadosU.Text = "Bloqueados";
+            this.cbBloqueadosU.UseVisualStyleBackColor = true;
+            this.cbBloqueadosU.CheckedChanged += new System.EventHandler(this.cbBloqueados_CheckedChanged);
+            this.cbBloqueadosU.TextChanged += new System.EventHandler(this.cbBloqueados_TextChanged);
             // 
             // pictureBox1
             // 
@@ -258,51 +258,51 @@
             this.pictureBox1.TabIndex = 25;
             this.pictureBox1.TabStop = false;
             // 
-            // btnSalir
+            // btnSalirU
             // 
-            this.btnSalir.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalir.Location = new System.Drawing.Point(818, 491);
-            this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(105, 43);
-            this.btnSalir.TabIndex = 20;
-            this.btnSalir.Text = "Salir";
-            this.btnSalir.UseVisualStyleBackColor = true;
-            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            this.btnSalirU.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalirU.Location = new System.Drawing.Point(818, 491);
+            this.btnSalirU.Name = "btnSalirU";
+            this.btnSalirU.Size = new System.Drawing.Size(105, 43);
+            this.btnSalirU.TabIndex = 20;
+            this.btnSalirU.Text = "Salir";
+            this.btnSalirU.UseVisualStyleBackColor = true;
+            this.btnSalirU.Click += new System.EventHandler(this.btnSalir_Click);
             // 
-            // rbAdministrador
+            // rbAdministradorU
             // 
-            this.rbAdministrador.AutoSize = true;
-            this.rbAdministrador.Checked = true;
-            this.rbAdministrador.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbAdministrador.Location = new System.Drawing.Point(417, 391);
-            this.rbAdministrador.Name = "rbAdministrador";
-            this.rbAdministrador.Size = new System.Drawing.Size(127, 23);
-            this.rbAdministrador.TabIndex = 27;
-            this.rbAdministrador.TabStop = true;
-            this.rbAdministrador.Text = "Administrador";
-            this.rbAdministrador.UseVisualStyleBackColor = true;
+            this.rbAdministradorU.AutoSize = true;
+            this.rbAdministradorU.Checked = true;
+            this.rbAdministradorU.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbAdministradorU.Location = new System.Drawing.Point(417, 391);
+            this.rbAdministradorU.Name = "rbAdministradorU";
+            this.rbAdministradorU.Size = new System.Drawing.Size(127, 23);
+            this.rbAdministradorU.TabIndex = 27;
+            this.rbAdministradorU.TabStop = true;
+            this.rbAdministradorU.Text = "Administrador";
+            this.rbAdministradorU.UseVisualStyleBackColor = true;
             // 
-            // rbEmpleado
+            // rbEmpleadoU
             // 
-            this.rbEmpleado.AutoSize = true;
-            this.rbEmpleado.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbEmpleado.Location = new System.Drawing.Point(417, 425);
-            this.rbEmpleado.Name = "rbEmpleado";
-            this.rbEmpleado.Size = new System.Drawing.Size(97, 23);
-            this.rbEmpleado.TabIndex = 28;
-            this.rbEmpleado.Text = "Empleado";
-            this.rbEmpleado.UseVisualStyleBackColor = true;
+            this.rbEmpleadoU.AutoSize = true;
+            this.rbEmpleadoU.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbEmpleadoU.Location = new System.Drawing.Point(417, 425);
+            this.rbEmpleadoU.Name = "rbEmpleadoU";
+            this.rbEmpleadoU.Size = new System.Drawing.Size(97, 23);
+            this.rbEmpleadoU.TabIndex = 28;
+            this.rbEmpleadoU.Text = "Empleado";
+            this.rbEmpleadoU.UseVisualStyleBackColor = true;
             // 
-            // btnCambiarC
+            // btnCambiarCU
             // 
-            this.btnCambiarC.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCambiarC.Location = new System.Drawing.Point(417, 468);
-            this.btnCambiarC.Name = "btnCambiarC";
-            this.btnCambiarC.Size = new System.Drawing.Size(105, 54);
-            this.btnCambiarC.TabIndex = 34;
-            this.btnCambiarC.Text = "Cambiar clave";
-            this.btnCambiarC.UseVisualStyleBackColor = true;
-            this.btnCambiarC.Click += new System.EventHandler(this.btnCambiarC_Click);
+            this.btnCambiarCU.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCambiarCU.Location = new System.Drawing.Point(417, 468);
+            this.btnCambiarCU.Name = "btnCambiarCU";
+            this.btnCambiarCU.Size = new System.Drawing.Size(105, 54);
+            this.btnCambiarCU.TabIndex = 34;
+            this.btnCambiarCU.Text = "Cambiar clave";
+            this.btnCambiarCU.UseVisualStyleBackColor = true;
+            this.btnCambiarCU.Click += new System.EventHandler(this.btnCambiarC_Click);
             // 
             // dgvUsuarios
             // 
@@ -311,92 +311,92 @@
             this.dgvUsuarios.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvUsuarios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvUsuarios.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2,
-            this.Column3,
-            this.Column4,
-            this.Column5,
-            this.Column6,
-            this.Column7,
-            this.Column8,
-            this.Column9,
-            this.Column10});
+            this.ColumnaIdU,
+            this.ColumnaDniU,
+            this.ColumnaNombreU,
+            this.ColumnaApellidoU,
+            this.ColumnaEmailU,
+            this.ColumnaPerfilU,
+            this.ColumnaUsuarioU,
+            this.ColumnaContraseñaU,
+            this.ColumnaBloqueadoU,
+            this.ColumnaActivoU});
             this.dgvUsuarios.Location = new System.Drawing.Point(12, 12);
             this.dgvUsuarios.Name = "dgvUsuarios";
             this.dgvUsuarios.ReadOnly = true;
             this.dgvUsuarios.Size = new System.Drawing.Size(911, 194);
             this.dgvUsuarios.TabIndex = 35;
             // 
-            // Column1
+            // btnPerfilU
             // 
-            this.Column1.HeaderText = "Id";
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
+            this.btnPerfilU.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPerfilU.Location = new System.Drawing.Point(818, 231);
+            this.btnPerfilU.Name = "btnPerfilU";
+            this.btnPerfilU.Size = new System.Drawing.Size(105, 43);
+            this.btnPerfilU.TabIndex = 36;
+            this.btnPerfilU.Text = "Perfiles";
+            this.btnPerfilU.UseVisualStyleBackColor = true;
+            this.btnPerfilU.Click += new System.EventHandler(this.btnPerfil_Click);
             // 
-            // Column2
+            // ColumnaIdU
             // 
-            this.Column2.HeaderText = "DNI";
-            this.Column2.Name = "Column2";
-            this.Column2.ReadOnly = true;
+            this.ColumnaIdU.HeaderText = "Id";
+            this.ColumnaIdU.Name = "ColumnaIdU";
+            this.ColumnaIdU.ReadOnly = true;
             // 
-            // Column3
+            // ColumnaDniU
             // 
-            this.Column3.HeaderText = "Nombre";
-            this.Column3.Name = "Column3";
-            this.Column3.ReadOnly = true;
+            this.ColumnaDniU.HeaderText = "DNI";
+            this.ColumnaDniU.Name = "ColumnaDniU";
+            this.ColumnaDniU.ReadOnly = true;
             // 
-            // Column4
+            // ColumnaNombreU
             // 
-            this.Column4.HeaderText = "Apellido";
-            this.Column4.Name = "Column4";
-            this.Column4.ReadOnly = true;
+            this.ColumnaNombreU.HeaderText = "Nombre";
+            this.ColumnaNombreU.Name = "ColumnaNombreU";
+            this.ColumnaNombreU.ReadOnly = true;
             // 
-            // Column5
+            // ColumnaApellidoU
             // 
-            this.Column5.HeaderText = "Email";
-            this.Column5.Name = "Column5";
-            this.Column5.ReadOnly = true;
+            this.ColumnaApellidoU.HeaderText = "Apellido";
+            this.ColumnaApellidoU.Name = "ColumnaApellidoU";
+            this.ColumnaApellidoU.ReadOnly = true;
             // 
-            // Column6
+            // ColumnaEmailU
             // 
-            this.Column6.HeaderText = "Perfil";
-            this.Column6.Name = "Column6";
-            this.Column6.ReadOnly = true;
+            this.ColumnaEmailU.HeaderText = "Email";
+            this.ColumnaEmailU.Name = "ColumnaEmailU";
+            this.ColumnaEmailU.ReadOnly = true;
             // 
-            // Column7
+            // ColumnaPerfilU
             // 
-            this.Column7.HeaderText = "Usuario";
-            this.Column7.Name = "Column7";
-            this.Column7.ReadOnly = true;
+            this.ColumnaPerfilU.HeaderText = "Rol";
+            this.ColumnaPerfilU.Name = "ColumnaPerfilU";
+            this.ColumnaPerfilU.ReadOnly = true;
             // 
-            // Column8
+            // ColumnaUsuarioU
             // 
-            this.Column8.HeaderText = "Contraseña";
-            this.Column8.Name = "Column8";
-            this.Column8.ReadOnly = true;
+            this.ColumnaUsuarioU.HeaderText = "Usuario";
+            this.ColumnaUsuarioU.Name = "ColumnaUsuarioU";
+            this.ColumnaUsuarioU.ReadOnly = true;
             // 
-            // Column9
+            // ColumnaContraseñaU
             // 
-            this.Column9.HeaderText = "Bloqueado";
-            this.Column9.Name = "Column9";
-            this.Column9.ReadOnly = true;
+            this.ColumnaContraseñaU.HeaderText = "Contraseña";
+            this.ColumnaContraseñaU.Name = "ColumnaContraseñaU";
+            this.ColumnaContraseñaU.ReadOnly = true;
             // 
-            // Column10
+            // ColumnaBloqueadoU
             // 
-            this.Column10.HeaderText = "Activo";
-            this.Column10.Name = "Column10";
-            this.Column10.ReadOnly = true;
+            this.ColumnaBloqueadoU.HeaderText = "Bloqueado";
+            this.ColumnaBloqueadoU.Name = "ColumnaBloqueadoU";
+            this.ColumnaBloqueadoU.ReadOnly = true;
             // 
-            // btnPerfil
+            // ColumnaActivoU
             // 
-            this.btnPerfil.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPerfil.Location = new System.Drawing.Point(818, 231);
-            this.btnPerfil.Name = "btnPerfil";
-            this.btnPerfil.Size = new System.Drawing.Size(105, 43);
-            this.btnPerfil.TabIndex = 36;
-            this.btnPerfil.Text = "Perfiles";
-            this.btnPerfil.UseVisualStyleBackColor = true;
-            this.btnPerfil.Click += new System.EventHandler(this.btnPerfil_Click);
+            this.ColumnaActivoU.HeaderText = "Activo";
+            this.ColumnaActivoU.Name = "ColumnaActivoU";
+            this.ColumnaActivoU.ReadOnly = true;
             // 
             // GUsuarios
             // 
@@ -404,32 +404,32 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(211)))), ((int)(((byte)(131)))));
             this.ClientSize = new System.Drawing.Size(935, 546);
-            this.Controls.Add(this.btnPerfil);
+            this.Controls.Add(this.btnPerfilU);
             this.Controls.Add(this.dgvUsuarios);
-            this.Controls.Add(this.cbBloqueados);
-            this.Controls.Add(this.btnCambiarC);
-            this.Controls.Add(this.rbEmpleado);
-            this.Controls.Add(this.rbAdministrador);
+            this.Controls.Add(this.cbBloqueadosU);
+            this.Controls.Add(this.btnCambiarCU);
+            this.Controls.Add(this.rbEmpleadoU);
+            this.Controls.Add(this.rbAdministradorU);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.labFiltrar);
-            this.Controls.Add(this.btnSalir);
-            this.Controls.Add(this.btnDesbloquear);
-            this.Controls.Add(this.btnModificar);
-            this.Controls.Add(this.btnBorrar);
-            this.Controls.Add(this.btnAgregar);
+            this.Controls.Add(this.labFiltrarU);
+            this.Controls.Add(this.btnSalirU);
+            this.Controls.Add(this.btnDesbloquearU);
+            this.Controls.Add(this.btnModificarU);
+            this.Controls.Add(this.btnBorrarU);
+            this.Controls.Add(this.btnAgregarU);
             this.Controls.Add(this.txtContraseña);
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.txtApellido);
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.txtDni);
-            this.Controls.Add(this.labContraseña);
-            this.Controls.Add(this.labUsuario);
-            this.Controls.Add(this.labEmail);
-            this.Controls.Add(this.labApellido);
-            this.Controls.Add(this.labNombre);
-            this.Controls.Add(this.labDNI);
-            this.Controls.Add(this.lbDatos);
+            this.Controls.Add(this.labContraseñaU);
+            this.Controls.Add(this.labUsuarioU);
+            this.Controls.Add(this.labEmailU);
+            this.Controls.Add(this.labApellidoU);
+            this.Controls.Add(this.labNombreU);
+            this.Controls.Add(this.labDniU);
+            this.Controls.Add(this.lbDatosU);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "GUsuarios";
             this.Text = "Usuarios";
@@ -442,41 +442,41 @@
         }
 
         #endregion
-        private System.Windows.Forms.Label lbDatos;
-        private System.Windows.Forms.Label labDNI;
-        private System.Windows.Forms.Label labNombre;
-        private System.Windows.Forms.Label labApellido;
-        private System.Windows.Forms.Label labEmail;
-        private System.Windows.Forms.Label labUsuario;
-        private System.Windows.Forms.Label labContraseña;
+        private System.Windows.Forms.Label lbDatosU;
+        private System.Windows.Forms.Label labDniU;
+        private System.Windows.Forms.Label labNombreU;
+        private System.Windows.Forms.Label labApellidoU;
+        private System.Windows.Forms.Label labEmailU;
+        private System.Windows.Forms.Label labUsuarioU;
+        private System.Windows.Forms.Label labContraseñaU;
         private System.Windows.Forms.TextBox txtDni;
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.TextBox txtApellido;
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.TextBox txtUsuario;
         private System.Windows.Forms.TextBox txtContraseña;
-        private System.Windows.Forms.Button btnAgregar;
-        private System.Windows.Forms.Button btnBorrar;
-        private System.Windows.Forms.Button btnModificar;
-        private System.Windows.Forms.Button btnDesbloquear;
-        private System.Windows.Forms.Label labFiltrar;
-        private System.Windows.Forms.CheckBox cbBloqueados;
+        private System.Windows.Forms.Button btnAgregarU;
+        private System.Windows.Forms.Button btnBorrarU;
+        private System.Windows.Forms.Button btnModificarU;
+        private System.Windows.Forms.Button btnDesbloquearU;
+        private System.Windows.Forms.Label labFiltrarU;
+        private System.Windows.Forms.CheckBox cbBloqueadosU;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button btnSalir;
-        private System.Windows.Forms.RadioButton rbAdministrador;
-        private System.Windows.Forms.RadioButton rbEmpleado;
-        private System.Windows.Forms.Button btnCambiarC;
+        private System.Windows.Forms.Button btnSalirU;
+        private System.Windows.Forms.RadioButton rbAdministradorU;
+        private System.Windows.Forms.RadioButton rbEmpleadoU;
+        private System.Windows.Forms.Button btnCambiarCU;
         private System.Windows.Forms.DataGridView dgvUsuarios;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column10;
-        private System.Windows.Forms.Button btnPerfil;
+        private System.Windows.Forms.Button btnPerfilU;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnaIdU;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnaDniU;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnaNombreU;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnaApellidoU;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnaEmailU;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnaPerfilU;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnaUsuarioU;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnaContraseñaU;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnaBloqueadoU;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnaActivoU;
     }
 }

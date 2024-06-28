@@ -33,7 +33,6 @@
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.reservaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.controlDeCanchasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.clientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.registrarClienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.administradorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -43,10 +42,10 @@
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.labNombre = new System.Windows.Forms.Label();
-            this.labUsuario = new System.Windows.Forms.Label();
-            this.labRol = new System.Windows.Forms.Label();
-            this.labPerfil = new System.Windows.Forms.Label();
+            this.labNombreMp = new System.Windows.Forms.Label();
+            this.labUsuarioMp = new System.Windows.Forms.Label();
+            this.labRolMp = new System.Windows.Forms.Label();
+            this.labPerfilMp = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -81,26 +80,17 @@
             // 
             // toolStripMenuItem2
             // 
-            this.toolStripMenuItem2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.controlDeCanchasToolStripMenuItem});
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(118, 22);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem2.Text = "Reservar";
             this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
-            // 
-            // controlDeCanchasToolStripMenuItem
-            // 
-            this.controlDeCanchasToolStripMenuItem.Name = "controlDeCanchasToolStripMenuItem";
-            this.controlDeCanchasToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
-            this.controlDeCanchasToolStripMenuItem.Text = "Control de canchas";
-            this.controlDeCanchasToolStripMenuItem.Click += new System.EventHandler(this.controlDeCanchasToolStripMenuItem_Click);
             // 
             // clientesToolStripMenuItem
             // 
             this.clientesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.registrarClienteToolStripMenuItem});
             this.clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
-            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.clientesToolStripMenuItem.Text = "Clientes";
             // 
             // registrarClienteToolStripMenuItem
@@ -162,45 +152,45 @@
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
-            // labNombre
+            // labNombreMp
             // 
-            this.labNombre.AutoSize = true;
-            this.labNombre.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labNombre.Location = new System.Drawing.Point(12, 290);
-            this.labNombre.Name = "labNombre";
-            this.labNombre.Size = new System.Drawing.Size(74, 19);
-            this.labNombre.TabIndex = 2;
-            this.labNombre.Text = "Nombre:";
+            this.labNombreMp.AutoSize = true;
+            this.labNombreMp.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labNombreMp.Location = new System.Drawing.Point(11, 282);
+            this.labNombreMp.Name = "labNombreMp";
+            this.labNombreMp.Size = new System.Drawing.Size(74, 19);
+            this.labNombreMp.TabIndex = 2;
+            this.labNombreMp.Text = "Nombre:";
             // 
-            // labUsuario
+            // labUsuarioMp
             // 
-            this.labUsuario.AutoSize = true;
-            this.labUsuario.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labUsuario.Location = new System.Drawing.Point(92, 290);
-            this.labUsuario.Name = "labUsuario";
-            this.labUsuario.Size = new System.Drawing.Size(29, 19);
-            this.labUsuario.TabIndex = 3;
-            this.labUsuario.Text = "----";
+            this.labUsuarioMp.AutoSize = true;
+            this.labUsuarioMp.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labUsuarioMp.Location = new System.Drawing.Point(91, 282);
+            this.labUsuarioMp.Name = "labUsuarioMp";
+            this.labUsuarioMp.Size = new System.Drawing.Size(29, 19);
+            this.labUsuarioMp.TabIndex = 3;
+            this.labUsuarioMp.Text = "----";
             // 
-            // labRol
+            // labRolMp
             // 
-            this.labRol.AutoSize = true;
-            this.labRol.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labRol.Location = new System.Drawing.Point(184, 290);
-            this.labRol.Name = "labRol";
-            this.labRol.Size = new System.Drawing.Size(38, 19);
-            this.labRol.TabIndex = 4;
-            this.labRol.Text = "Rol:";
+            this.labRolMp.AutoSize = true;
+            this.labRolMp.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labRolMp.Location = new System.Drawing.Point(183, 282);
+            this.labRolMp.Name = "labRolMp";
+            this.labRolMp.Size = new System.Drawing.Size(38, 19);
+            this.labRolMp.TabIndex = 4;
+            this.labRolMp.Text = "Rol:";
             // 
-            // labPerfil
+            // labPerfilMp
             // 
-            this.labPerfil.AutoSize = true;
-            this.labPerfil.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labPerfil.Location = new System.Drawing.Point(235, 290);
-            this.labPerfil.Name = "labPerfil";
-            this.labPerfil.Size = new System.Drawing.Size(29, 19);
-            this.labPerfil.TabIndex = 5;
-            this.labPerfil.Text = "----";
+            this.labPerfilMp.AutoSize = true;
+            this.labPerfilMp.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labPerfilMp.Location = new System.Drawing.Point(234, 282);
+            this.labPerfilMp.Name = "labPerfilMp";
+            this.labPerfilMp.Size = new System.Drawing.Size(29, 19);
+            this.labPerfilMp.TabIndex = 5;
+            this.labPerfilMp.Text = "----";
             // 
             // MenuPrincipalForm
             // 
@@ -208,10 +198,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(211)))), ((int)(((byte)(131)))));
             this.ClientSize = new System.Drawing.Size(358, 321);
-            this.Controls.Add(this.labPerfil);
-            this.Controls.Add(this.labRol);
-            this.Controls.Add(this.labUsuario);
-            this.Controls.Add(this.labNombre);
+            this.Controls.Add(this.labPerfilMp);
+            this.Controls.Add(this.labRolMp);
+            this.Controls.Add(this.labUsuarioMp);
+            this.Controls.Add(this.labNombreMp);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -242,10 +232,9 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem controlDeCanchasToolStripMenuItem;
-        private System.Windows.Forms.Label labNombre;
-        private System.Windows.Forms.Label labUsuario;
-        private System.Windows.Forms.Label labRol;
-        private System.Windows.Forms.Label labPerfil;
+        private System.Windows.Forms.Label labNombreMp;
+        private System.Windows.Forms.Label labUsuarioMp;
+        private System.Windows.Forms.Label labRolMp;
+        private System.Windows.Forms.Label labPerfilMp;
     }
 }

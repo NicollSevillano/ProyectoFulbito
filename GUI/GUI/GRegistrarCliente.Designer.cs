@@ -30,10 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GRegistrarClienteForm));
             this.dgvCliente = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.labTitulo = new System.Windows.Forms.Label();
             this.labDNI = new System.Windows.Forms.Label();
             this.labNombre = new System.Windows.Forms.Label();
@@ -46,6 +42,10 @@
             this.btnModificar = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnVolver = new System.Windows.Forms.Button();
+            this.ColumnaId = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnaDni = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnaNombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnaTelefono = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCliente)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -57,10 +57,10 @@
             this.dgvCliente.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvCliente.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvCliente.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2,
-            this.Column3,
-            this.Column4});
+            this.ColumnaId,
+            this.ColumnaDni,
+            this.ColumnaNombre,
+            this.ColumnaTelefono});
             this.dgvCliente.Location = new System.Drawing.Point(313, 12);
             this.dgvCliente.Name = "dgvCliente";
             this.dgvCliente.ReadOnly = true;
@@ -68,30 +68,6 @@
             this.dgvCliente.Size = new System.Drawing.Size(429, 344);
             this.dgvCliente.TabIndex = 0;
             this.dgvCliente.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvCliente_RowEnter);
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "id";
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "DNI";
-            this.Column2.Name = "Column2";
-            this.Column2.ReadOnly = true;
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Nombre";
-            this.Column3.Name = "Column3";
-            this.Column3.ReadOnly = true;
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "Teléfono";
-            this.Column4.Name = "Column4";
-            this.Column4.ReadOnly = true;
             // 
             // labTitulo
             // 
@@ -208,6 +184,30 @@
             this.btnVolver.UseVisualStyleBackColor = true;
             this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
             // 
+            // ColumnaId
+            // 
+            this.ColumnaId.HeaderText = "id";
+            this.ColumnaId.Name = "ColumnaId";
+            this.ColumnaId.ReadOnly = true;
+            // 
+            // ColumnaDni
+            // 
+            this.ColumnaDni.HeaderText = "DNI";
+            this.ColumnaDni.Name = "ColumnaDni";
+            this.ColumnaDni.ReadOnly = true;
+            // 
+            // ColumnaNombre
+            // 
+            this.ColumnaNombre.HeaderText = "Nombre";
+            this.ColumnaNombre.Name = "ColumnaNombre";
+            this.ColumnaNombre.ReadOnly = true;
+            // 
+            // ColumnaTelefono
+            // 
+            this.ColumnaTelefono.HeaderText = "Teléfono";
+            this.ColumnaTelefono.Name = "ColumnaTelefono";
+            this.ColumnaTelefono.ReadOnly = true;
+            // 
             // GRegistrarClienteForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -248,14 +248,14 @@
         private System.Windows.Forms.TextBox txtDni;
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.TextBox txtTelefono;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.Button btnBorrar;
         private System.Windows.Forms.Button btnModificar;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnVolver;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnaId;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnaDni;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnaNombre;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnaTelefono;
     }
 }

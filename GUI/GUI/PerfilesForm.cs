@@ -25,7 +25,7 @@ namespace GUI
             InitializeComponent();
             beUsuario = pUsuario;
             bllUsuario = new BllUsuario();
-            lbNombre.Text = pUsuario.Perfil.Nombre;
+            lbNombrePerfil.Text = pUsuario.Perfil.Nombre;
             ActualizarPermisos();
             actualizarTree();
             ActualizarPerfiles();
@@ -129,7 +129,7 @@ namespace GUI
         {
             Perfil aux = PerfilManager.lPerfil.Find(x => x.Nombre == listBox1.Text);
             beUsuario.Perfil = aux;
-            lbNombre.Text = beUsuario.Perfil.Nombre;
+            lbNombrePerfil.Text = beUsuario.Perfil.Nombre;
             bllUsuario.Modificacion(beUsuario);
         }
 

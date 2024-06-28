@@ -59,13 +59,13 @@ namespace GUI
                 if (!CargarTxt())
                 {
                     BelUsuario nuevoUsuario;
-                    if (rbAdministrador.Checked == true)
+                    if (rbAdministradorU.Checked == true)
                     {
                         perfil = PerfilManager.ConsultaPerfil().Find(x => x.Nombre == "Administrador");
                         nuevoUsuario = new BelUsuario(txtDni.Text, txtNombre.Text, txtApellido.Text, txtEmail.Text, perfil, txtUsuario.Text, Encriptar.Encrypt(txtContraseña.Text));
                         bllUsuario.Alta(nuevoUsuario);
                     }
-                    else if(rbEmpleado.Checked == true)
+                    else if(rbEmpleadoU.Checked == true)
                     {
                         perfil = PerfilManager.ConsultaPerfil().Find(x => x.Nombre == "Empleado");
                         nuevoUsuario = new BelUsuario(txtDni.Text, txtNombre.Text, txtApellido.Text, txtEmail.Text, perfil, txtUsuario.Text, Encriptar.Encrypt(txtContraseña.Text));
@@ -123,7 +123,7 @@ namespace GUI
                         MessageBox.Show("No se puede cambiar la contraseña del usuario desde este formulario");
                     }
 
-                    if (rbAdministrador.Checked == true)
+                    if (rbAdministradorU.Checked == true)
                     {
                         usuarioAModificar.Perfil = PerfilManager.ConsultaPerfil().Find(x => x.Nombre == "Administrador");
                         bllUsuario.Modificacion(usuarioAModificar);
@@ -132,7 +132,7 @@ namespace GUI
                         MessageBox.Show("Usuario modificado exitosamente");
 
                     }
-                    else if (rbEmpleado.Checked == true)
+                    else if (rbEmpleadoU.Checked == true)
                     {
                         usuarioAModificar.Perfil = PerfilManager.ConsultaPerfil().Find(x => x.Nombre == "Empleado");
                         bllUsuario.Modificacion(usuarioAModificar);
@@ -192,7 +192,7 @@ namespace GUI
         private void cbBloqueados_TextChanged(object sender, EventArgs e)
         {
             List<BelUsuario> t = lUsuario;
-            if (cbBloqueados.Checked) t = lUsuario.Where(x => x.Bloqueado == cbBloqueados.Checked).ToList<BelUsuario>();
+            if (cbBloqueadosU.Checked) t = lUsuario.Where(x => x.Bloqueado == cbBloqueadosU.Checked).ToList<BelUsuario>();
         }
         private BelUsuario LlamarUsuario()
         {
@@ -257,7 +257,7 @@ namespace GUI
         private void cbBloqueados_CheckedChanged(object sender, EventArgs e)
         {
             List<BelUsuario> t = lUsuario;
-            t = lUsuario.Where(x => x.Bloqueado == cbBloqueados.Checked).ToList<BelUsuario>();
+            t = lUsuario.Where(x => x.Bloqueado == cbBloqueadosU.Checked).ToList<BelUsuario>();
             lUsuario = t;
             RefrescarDgv();
         }

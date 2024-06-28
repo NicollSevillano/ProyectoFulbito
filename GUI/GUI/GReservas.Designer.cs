@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GReservasForm));
-            this.LabDni = new System.Windows.Forms.Label();
+            this.labDni = new System.Windows.Forms.Label();
             this.labCancha = new System.Windows.Forms.Label();
             this.labHorario = new System.Windows.Forms.Label();
             this.cmbCancha = new System.Windows.Forms.ComboBox();
@@ -41,28 +41,28 @@
             this.labFecha = new System.Windows.Forms.Label();
             this.btnRegistrar = new System.Windows.Forms.Button();
             this.dgvReservas = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.txtHorario = new System.Windows.Forms.TextBox();
             this.txtDni = new System.Windows.Forms.TextBox();
             this.btnCobrar = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.ColumnaIdR = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnaCanchaR = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnaClienteR = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnaFechaR = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnaHorarioR = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvReservas)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // LabDni
+            // labDni
             // 
-            this.LabDni.AutoSize = true;
-            this.LabDni.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LabDni.Location = new System.Drawing.Point(24, 80);
-            this.LabDni.Name = "LabDni";
-            this.LabDni.Size = new System.Drawing.Size(39, 19);
-            this.LabDni.TabIndex = 0;
-            this.LabDni.Text = "DNI";
+            this.labDni.AutoSize = true;
+            this.labDni.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labDni.Location = new System.Drawing.Point(24, 80);
+            this.labDni.Name = "labDni";
+            this.labDni.Size = new System.Drawing.Size(39, 19);
+            this.labDni.TabIndex = 0;
+            this.labDni.Text = "DNI";
             // 
             // labCancha
             // 
@@ -168,46 +168,16 @@
             this.dgvReservas.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvReservas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvReservas.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2,
-            this.Column3,
-            this.Column4,
-            this.Column5});
+            this.ColumnaIdR,
+            this.ColumnaCanchaR,
+            this.ColumnaClienteR,
+            this.ColumnaFechaR,
+            this.ColumnaHorarioR});
             this.dgvReservas.Location = new System.Drawing.Point(12, 242);
             this.dgvReservas.Name = "dgvReservas";
             this.dgvReservas.ReadOnly = true;
             this.dgvReservas.Size = new System.Drawing.Size(555, 211);
             this.dgvReservas.TabIndex = 17;
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "ID";
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Cancha";
-            this.Column2.Name = "Column2";
-            this.Column2.ReadOnly = true;
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Cliente";
-            this.Column3.Name = "Column3";
-            this.Column3.ReadOnly = true;
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "Fecha";
-            this.Column4.Name = "Column4";
-            this.Column4.ReadOnly = true;
-            // 
-            // Column5
-            // 
-            this.Column5.HeaderText = "Horario";
-            this.Column5.Name = "Column5";
-            this.Column5.ReadOnly = true;
             // 
             // txtHorario
             // 
@@ -244,6 +214,36 @@
             this.pictureBox1.TabIndex = 24;
             this.pictureBox1.TabStop = false;
             // 
+            // ColumnaIdR
+            // 
+            this.ColumnaIdR.HeaderText = "Id";
+            this.ColumnaIdR.Name = "ColumnaIdR";
+            this.ColumnaIdR.ReadOnly = true;
+            // 
+            // ColumnaCanchaR
+            // 
+            this.ColumnaCanchaR.HeaderText = "Cancha";
+            this.ColumnaCanchaR.Name = "ColumnaCanchaR";
+            this.ColumnaCanchaR.ReadOnly = true;
+            // 
+            // ColumnaClienteR
+            // 
+            this.ColumnaClienteR.HeaderText = "Cliente";
+            this.ColumnaClienteR.Name = "ColumnaClienteR";
+            this.ColumnaClienteR.ReadOnly = true;
+            // 
+            // ColumnaFechaR
+            // 
+            this.ColumnaFechaR.HeaderText = "Fecha";
+            this.ColumnaFechaR.Name = "ColumnaFechaR";
+            this.ColumnaFechaR.ReadOnly = true;
+            // 
+            // ColumnaHorarioR
+            // 
+            this.ColumnaHorarioR.HeaderText = "Horario";
+            this.ColumnaHorarioR.Name = "ColumnaHorarioR";
+            this.ColumnaHorarioR.ReadOnly = true;
+            // 
             // GReservasForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -265,7 +265,7 @@
             this.Controls.Add(this.cmbCancha);
             this.Controls.Add(this.labHorario);
             this.Controls.Add(this.labCancha);
-            this.Controls.Add(this.LabDni);
+            this.Controls.Add(this.labDni);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "GReservasForm";
             this.Text = "Reservas ";
@@ -279,7 +279,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label LabDni;
+        private System.Windows.Forms.Label labDni;
         private System.Windows.Forms.Label labCancha;
         private System.Windows.Forms.Label labHorario;
         private System.Windows.Forms.ComboBox cmbCancha;
@@ -291,14 +291,14 @@
         private System.Windows.Forms.Label labFecha;
         private System.Windows.Forms.Button btnRegistrar;
         private System.Windows.Forms.DataGridView dgvReservas;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.TextBox txtHorario;
         private System.Windows.Forms.TextBox txtDni;
         private System.Windows.Forms.Button btnCobrar;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnaIdR;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnaCanchaR;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnaClienteR;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnaFechaR;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnaHorarioR;
     }
 }
