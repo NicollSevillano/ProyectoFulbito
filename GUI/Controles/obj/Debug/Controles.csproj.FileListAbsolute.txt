@@ -18,3 +18,13 @@ D:\3ero\Campo\Sistema\Campo\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.cs
 D:\3ero\Campo\Sistema\Campo\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.csproj.CoreCompileInputs.cache
 D:\3ero\Campo\Sistema\Campo\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.dll
 D:\3ero\Campo\Sistema\Campo\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.pdb
+C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Controles\bin\Debug\Controles.dll
+C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Controles\bin\Debug\Controles.pdb
+C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.csproj.AssemblyReference.cache
+C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.Calendario.resources
+C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.ComboIdioma.resources
+C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.Properties.Resources.resources
+C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.csproj.GenerateResource.cache
+C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.csproj.CoreCompileInputs.cache
+C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.dll
+C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.pdb

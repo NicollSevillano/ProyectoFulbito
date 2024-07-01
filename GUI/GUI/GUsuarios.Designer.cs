@@ -1,6 +1,6 @@
 ﻿namespace GUI
 {
-    partial class GUsuarios
+    partial class GUsuariosForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GUsuarios));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GUsuariosForm));
             this.lbDatosU = new System.Windows.Forms.Label();
             this.labDniU = new System.Windows.Forms.Label();
             this.labNombreU = new System.Windows.Forms.Label();
@@ -50,11 +50,8 @@
             this.cbBloqueadosU = new System.Windows.Forms.CheckBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnSalirU = new System.Windows.Forms.Button();
-            this.rbAdministradorU = new System.Windows.Forms.RadioButton();
-            this.rbEmpleadoU = new System.Windows.Forms.RadioButton();
             this.btnCambiarCU = new System.Windows.Forms.Button();
             this.dgvUsuarios = new System.Windows.Forms.DataGridView();
-            this.btnPerfilU = new System.Windows.Forms.Button();
             this.ColumnaIdU = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnaDniU = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnaNombreU = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -65,6 +62,9 @@
             this.ColumnaContraseñaU = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnaBloqueadoU = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnaActivoU = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnPerfilU = new System.Windows.Forms.Button();
+            this.cmbPerfiles = new System.Windows.Forms.ComboBox();
+            this.labRol = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvUsuarios)).BeginInit();
             this.SuspendLayout();
@@ -269,30 +269,6 @@
             this.btnSalirU.UseVisualStyleBackColor = true;
             this.btnSalirU.Click += new System.EventHandler(this.btnSalir_Click);
             // 
-            // rbAdministradorU
-            // 
-            this.rbAdministradorU.AutoSize = true;
-            this.rbAdministradorU.Checked = true;
-            this.rbAdministradorU.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbAdministradorU.Location = new System.Drawing.Point(417, 391);
-            this.rbAdministradorU.Name = "rbAdministradorU";
-            this.rbAdministradorU.Size = new System.Drawing.Size(127, 23);
-            this.rbAdministradorU.TabIndex = 27;
-            this.rbAdministradorU.TabStop = true;
-            this.rbAdministradorU.Text = "Administrador";
-            this.rbAdministradorU.UseVisualStyleBackColor = true;
-            // 
-            // rbEmpleadoU
-            // 
-            this.rbEmpleadoU.AutoSize = true;
-            this.rbEmpleadoU.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbEmpleadoU.Location = new System.Drawing.Point(417, 425);
-            this.rbEmpleadoU.Name = "rbEmpleadoU";
-            this.rbEmpleadoU.Size = new System.Drawing.Size(97, 23);
-            this.rbEmpleadoU.TabIndex = 28;
-            this.rbEmpleadoU.Text = "Empleado";
-            this.rbEmpleadoU.UseVisualStyleBackColor = true;
-            // 
             // btnCambiarCU
             // 
             this.btnCambiarCU.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -326,17 +302,6 @@
             this.dgvUsuarios.ReadOnly = true;
             this.dgvUsuarios.Size = new System.Drawing.Size(911, 194);
             this.dgvUsuarios.TabIndex = 35;
-            // 
-            // btnPerfilU
-            // 
-            this.btnPerfilU.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPerfilU.Location = new System.Drawing.Point(818, 231);
-            this.btnPerfilU.Name = "btnPerfilU";
-            this.btnPerfilU.Size = new System.Drawing.Size(105, 43);
-            this.btnPerfilU.TabIndex = 36;
-            this.btnPerfilU.Text = "Perfiles";
-            this.btnPerfilU.UseVisualStyleBackColor = true;
-            this.btnPerfilU.Click += new System.EventHandler(this.btnPerfil_Click);
             // 
             // ColumnaIdU
             // 
@@ -398,18 +363,47 @@
             this.ColumnaActivoU.Name = "ColumnaActivoU";
             this.ColumnaActivoU.ReadOnly = true;
             // 
-            // GUsuarios
+            // btnPerfilU
+            // 
+            this.btnPerfilU.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPerfilU.Location = new System.Drawing.Point(818, 231);
+            this.btnPerfilU.Name = "btnPerfilU";
+            this.btnPerfilU.Size = new System.Drawing.Size(105, 43);
+            this.btnPerfilU.TabIndex = 36;
+            this.btnPerfilU.Text = "Perfiles";
+            this.btnPerfilU.UseVisualStyleBackColor = true;
+            this.btnPerfilU.Click += new System.EventHandler(this.btnPerfil_Click);
+            // 
+            // cmbPerfiles
+            // 
+            this.cmbPerfiles.FormattingEnabled = true;
+            this.cmbPerfiles.Location = new System.Drawing.Point(417, 420);
+            this.cmbPerfiles.Name = "cmbPerfiles";
+            this.cmbPerfiles.Size = new System.Drawing.Size(119, 21);
+            this.cmbPerfiles.TabIndex = 37;
+            // 
+            // labRol
+            // 
+            this.labRol.AutoSize = true;
+            this.labRol.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labRol.Location = new System.Drawing.Point(413, 396);
+            this.labRol.Name = "labRol";
+            this.labRol.Size = new System.Drawing.Size(33, 19);
+            this.labRol.TabIndex = 38;
+            this.labRol.Text = "Rol";
+            // 
+            // GUsuariosForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(211)))), ((int)(((byte)(131)))));
             this.ClientSize = new System.Drawing.Size(935, 546);
+            this.Controls.Add(this.labRol);
+            this.Controls.Add(this.cmbPerfiles);
             this.Controls.Add(this.btnPerfilU);
             this.Controls.Add(this.dgvUsuarios);
             this.Controls.Add(this.cbBloqueadosU);
             this.Controls.Add(this.btnCambiarCU);
-            this.Controls.Add(this.rbEmpleadoU);
-            this.Controls.Add(this.rbAdministradorU);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.labFiltrarU);
             this.Controls.Add(this.btnSalirU);
@@ -431,7 +425,7 @@
             this.Controls.Add(this.labDniU);
             this.Controls.Add(this.lbDatosU);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "GUsuarios";
+            this.Name = "GUsuariosForm";
             this.Text = "Usuarios";
             this.Load += new System.EventHandler(this.GUsuarios_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -463,8 +457,6 @@
         private System.Windows.Forms.CheckBox cbBloqueadosU;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnSalirU;
-        private System.Windows.Forms.RadioButton rbAdministradorU;
-        private System.Windows.Forms.RadioButton rbEmpleadoU;
         private System.Windows.Forms.Button btnCambiarCU;
         private System.Windows.Forms.DataGridView dgvUsuarios;
         private System.Windows.Forms.Button btnPerfilU;
@@ -478,5 +470,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn ColumnaContraseñaU;
         private System.Windows.Forms.DataGridViewTextBoxColumn ColumnaBloqueadoU;
         private System.Windows.Forms.DataGridViewTextBoxColumn ColumnaActivoU;
+        private System.Windows.Forms.ComboBox cmbPerfiles;
+        private System.Windows.Forms.Label labRol;
     }
 }

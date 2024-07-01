@@ -40,7 +40,6 @@
             this.idiomasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.inventarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.labNombreMp = new System.Windows.Forms.Label();
             this.labUsuarioMp = new System.Windows.Forms.Label();
@@ -56,11 +55,10 @@
             this.toolStripMenuItem1,
             this.reservaToolStripMenuItem,
             this.administradorToolStripMenuItem,
-            this.ayudaToolStripMenuItem,
-            this.salirToolStripMenuItem});
+            this.ayudaToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(358, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(367, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -96,7 +94,7 @@
             // registrarClienteToolStripMenuItem
             // 
             this.registrarClienteToolStripMenuItem.Name = "registrarClienteToolStripMenuItem";
-            this.registrarClienteToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
+            this.registrarClienteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.registrarClienteToolStripMenuItem.Text = "Registrar cliente";
             this.registrarClienteToolStripMenuItem.Click += new System.EventHandler(this.registrarClienteToolStripMenuItem_Click);
             // 
@@ -113,20 +111,20 @@
             // usuariosToolStripMenuItem
             // 
             this.usuariosToolStripMenuItem.Name = "usuariosToolStripMenuItem";
-            this.usuariosToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
+            this.usuariosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.usuariosToolStripMenuItem.Text = "Usuarios";
             this.usuariosToolStripMenuItem.Click += new System.EventHandler(this.usuariosToolStripMenuItem_Click);
             // 
             // idiomasToolStripMenuItem
             // 
             this.idiomasToolStripMenuItem.Name = "idiomasToolStripMenuItem";
-            this.idiomasToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
+            this.idiomasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.idiomasToolStripMenuItem.Text = "Idiomas";
             // 
             // inventarioToolStripMenuItem
             // 
             this.inventarioToolStripMenuItem.Name = "inventarioToolStripMenuItem";
-            this.inventarioToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
+            this.inventarioToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.inventarioToolStripMenuItem.Text = "Inventario";
             // 
             // ayudaToolStripMenuItem
@@ -135,17 +133,10 @@
             this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
             this.ayudaToolStripMenuItem.Text = "Ayuda";
             // 
-            // salirToolStripMenuItem
-            // 
-            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(41, 20);
-            this.salirToolStripMenuItem.Text = "Salir";
-            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::GUI.Properties.Resources.logo;
-            this.pictureBox1.Location = new System.Drawing.Point(48, 62);
+            this.pictureBox1.Location = new System.Drawing.Point(54, 60);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(263, 202);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -156,7 +147,7 @@
             // 
             this.labNombreMp.AutoSize = true;
             this.labNombreMp.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labNombreMp.Location = new System.Drawing.Point(11, 282);
+            this.labNombreMp.Location = new System.Drawing.Point(50, 286);
             this.labNombreMp.Name = "labNombreMp";
             this.labNombreMp.Size = new System.Drawing.Size(74, 19);
             this.labNombreMp.TabIndex = 2;
@@ -166,7 +157,7 @@
             // 
             this.labUsuarioMp.AutoSize = true;
             this.labUsuarioMp.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labUsuarioMp.Location = new System.Drawing.Point(91, 282);
+            this.labUsuarioMp.Location = new System.Drawing.Point(129, 286);
             this.labUsuarioMp.Name = "labUsuarioMp";
             this.labUsuarioMp.Size = new System.Drawing.Size(29, 19);
             this.labUsuarioMp.TabIndex = 3;
@@ -176,7 +167,7 @@
             // 
             this.labRolMp.AutoSize = true;
             this.labRolMp.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labRolMp.Location = new System.Drawing.Point(183, 282);
+            this.labRolMp.Location = new System.Drawing.Point(50, 305);
             this.labRolMp.Name = "labRolMp";
             this.labRolMp.Size = new System.Drawing.Size(38, 19);
             this.labRolMp.TabIndex = 4;
@@ -186,7 +177,7 @@
             // 
             this.labPerfilMp.AutoSize = true;
             this.labPerfilMp.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labPerfilMp.Location = new System.Drawing.Point(234, 282);
+            this.labPerfilMp.Location = new System.Drawing.Point(94, 305);
             this.labPerfilMp.Name = "labPerfilMp";
             this.labPerfilMp.Size = new System.Drawing.Size(29, 19);
             this.labPerfilMp.TabIndex = 5;
@@ -197,7 +188,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(211)))), ((int)(((byte)(131)))));
-            this.ClientSize = new System.Drawing.Size(358, 321);
+            this.ClientSize = new System.Drawing.Size(367, 342);
             this.Controls.Add(this.labPerfilMp);
             this.Controls.Add(this.labRolMp);
             this.Controls.Add(this.labUsuarioMp);
@@ -207,7 +198,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "MenuPrincipalForm";
-            this.Text = "Menu principal ";
+            this.Text = "Menú principal ";
             this.Load += new System.EventHandler(this.MenuPrincipal_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -231,7 +222,6 @@
         private System.Windows.Forms.ToolStripMenuItem ayudaToolStripMenuItem;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
-        private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
         private System.Windows.Forms.Label labNombreMp;
         private System.Windows.Forms.Label labUsuarioMp;
         private System.Windows.Forms.Label labRolMp;

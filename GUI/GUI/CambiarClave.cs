@@ -20,13 +20,13 @@ namespace GUI
             InitializeComponent();
         }
         BllUsuario bllUsuario;
-        GUsuarios cClave;
+        GUsuariosForm cClave;
         public BelUsuario beUsuario { get; set; } 
 
         private void CambiarClave_Load(object sender, EventArgs e)
         {
             bllUsuario = new BllUsuario();
-            cClave = new GUsuarios();
+            cClave = new GUsuariosForm();
         }
         private bool AgregarTxt()
         {

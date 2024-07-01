@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace GUI
 {
-    public partial class Bitacora : Form
+    public partial class BitacoraForm : Form
     {
-        public Bitacora()
+        public BitacoraForm()
         {
             InitializeComponent();
         }

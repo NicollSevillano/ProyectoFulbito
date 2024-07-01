@@ -36,23 +36,30 @@ namespace ServicioClase
         //Buscar PermisoId(se busca el Id, raiz, PermisoBuscado) 
         public Permiso BuscarPermisoIdRecursiva(string pId, PermisoCompuesto pPermisoActual, Permiso pPermiso)
         {
-            if (pPermisoActual.lPermiso.Count > 0)
+            if(pPermisoActual.id != pId)
             {
-                foreach (Permiso p in pPermisoActual.lPermiso)
+                if (pPermisoActual.lPermiso.Count > 0)
                 {
-                    if (p is PermisoCompuesto)
+                    foreach (Permiso p in pPermisoActual.lPermiso)
                     {
-                        if ((p as PermisoCompuesto).lPermiso.Exists(x => x.id == id))
+                        if (p is PermisoCompuesto)
                         {
-                            pPermiso = (p as PermisoCompuesto).lPermiso.Find(x => x.id == id);
-                        }
-                        else
-                        {
-                            pPermiso = BuscarPermisoIdRecursiva(pId, p as PermisoCompuesto, pPermiso);
+                            if ((p as PermisoCompuesto).lPermiso.Exists(x => x.id == id))
+                            {
+                                pPermiso = (p as PermisoCompuesto).lPermiso.Find(x => x.id == id);
+                            }
+                            else
+                            {
+                                pPermiso = BuscarPermisoIdRecursiva(pId, p as PermisoCompuesto, pPermiso);
 
+                            }
                         }
                     }
                 }
+            }
+            else
+            {
+                pPermiso = pPermisoActual;
             }
             return pPermiso;
         }

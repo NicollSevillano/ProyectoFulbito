@@ -25,7 +25,7 @@ namespace GUI
             InitializeComponent();
             beUsuario = pUsuario;
             bllUsuario = new BllUsuario();
-            lbNombrePerfil.Text = pUsuario.Perfil.Nombre;
+            lbNombrePerfil.Text = pUsuario.Nombre;
             ActualizarPermisos();
             actualizarTree();
             ActualizarPerfiles();

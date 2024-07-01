@@ -10,3 +10,9 @@ D:\3ero\Campo\Sistema\Campo\ProyectoFulbito\GUI\Dal\obj\Debug\Dal.csproj.Assembl
 D:\3ero\Campo\Sistema\Campo\ProyectoFulbito\GUI\Dal\obj\Debug\Dal.csproj.CoreCompileInputs.cache
 D:\3ero\Campo\Sistema\Campo\ProyectoFulbito\GUI\Dal\obj\Debug\Dal.dll
 D:\3ero\Campo\Sistema\Campo\ProyectoFulbito\GUI\Dal\obj\Debug\Dal.pdb
+C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Dal\bin\Debug\Dal.dll
+C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Dal\bin\Debug\Dal.pdb
+C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Dal\obj\Debug\Dal.csproj.AssemblyReference.cache
+C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Dal\obj\Debug\Dal.csproj.CoreCompileInputs.cache
+C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Dal\obj\Debug\Dal.dll
+C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Dal\obj\Debug\Dal.pdb

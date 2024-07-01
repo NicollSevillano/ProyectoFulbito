@@ -45,13 +45,14 @@ namespace GUI
             lUsuario = bUsuario.Consulta();
             string usuario = txtUsuario.Text;
             string contraseña = txtContraseña.Text;
-            try
+            
+            if (lUsuario.Exists(x => x.Usuario == usuario))
             {
-                if (lUsuario.Exists(x => x.Usuario == usuario))
+                BelUsuario _usuario = lUsuario.Find(x => x.Usuario == usuario);
+                bool error = false;
+                if (error)
                 {
-                    BelUsuario _usuario = lUsuario.Find(x => x.Usuario == usuario);
-
-                    if (_usuario.Intentos >= 3)
+                    if (_usuario.Intentos >= 3 && Encriptar.Encrypt(_usuario.Contraseña) != _usuario.Contraseña)
                     {
                         _usuario.Bloqueado = true;
                         _usuario.Intentos = 0;
@@ -65,38 +66,24 @@ namespace GUI
                         bUsuario.Modificacion(_usuario);
                         throw new Exception("Contraseña incorrecta");
                     }
-
-                    if (_usuario.Perfil.Nombre == "Administrador")
-                    {
-                        MenuPrincipalForm mp = new MenuPrincipalForm();
-                        SessionManager.LogIn(_usuario);
-                        mp.smanager = SessionManager.getInstance;
-                        _usuario.Intentos = 0;
-                        bUsuario.Modificacion(_usuario);
-                        this.Hide();
-                        mp.ShowDialog();
-                        this.Show();
-                    }
-                    else if(_usuario.Perfil.Nombre == "Empleado")
-                    {
-                        GReservasForm gr = new GReservasForm();
-                        SessionManager.LogIn(_usuario);
-                        gr.smanager = SessionManager.getInstance;
-                        _usuario.Intentos = 0;
-                        bUsuario.Modificacion(_usuario);
-                        this.Hide();
-                        gr.ShowDialog();
-                        this.Show();
-                    }
-
+                }
+                else
+                {
+                    Login();
+                }
+                void Login()
+                {
+                    MenuPrincipalForm mp = new MenuPrincipalForm();
+                    SessionManager.LogIn(_usuario);
+                    mp.smanager = SessionManager.getInstance;
+                    _usuario.Intentos = 0;
+                    bUsuario.Modificacion(_usuario);
+                    this.Hide();
+                    mp.ShowDialog();
+                    this.Show();
                 }
             }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
         }
-
         private void pMostrar_Click(object sender, EventArgs e)
         {
             mostrar = !mostrar;

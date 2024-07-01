@@ -17,14 +17,14 @@ using Microsoft.VisualBasic;
 
 namespace GUI
 {
-    public partial class GUsuarios : Form
+    public partial class GUsuariosForm : Form
     {
         List<BelUsuario> lUsuario;
         BllUsuario bllUsuario;
         BelUsuario beUsuario;
         CambiarClaveForm cambiarClave;
 
-        public GUsuarios()
+        public GUsuariosForm()
         {
             InitializeComponent();
         }
@@ -34,6 +34,7 @@ namespace GUI
             bllUsuario = new BllUsuario();
             lUsuario = bllUsuario.Consulta();
             RefrescarDgv();
+            CargarPerfiles();
             cambiarClave = new CambiarClaveForm();
         }
         private bool CargarTxt()
@@ -51,27 +52,28 @@ namespace GUI
             return txtValidad;
 
         }
+        private void CargarPerfiles()
+        {
+            List<Perfil> lPerfil = PerfilManager.lPerfil;
+            foreach (Perfil p in lPerfil)
+            {
+                cmbPerfiles.Items.Add(p.Nombre);
+            }
+        }
         Perfil perfil;
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             try
             {
-                if (!CargarTxt())
+                if (CargarTxt())
                 {
-                    BelUsuario nuevoUsuario;
-                    if (rbAdministradorU.Checked == true)
-                    {
-                        perfil = PerfilManager.ConsultaPerfil().Find(x => x.Nombre == "Administrador");
-                        nuevoUsuario = new BelUsuario(txtDni.Text, txtNombre.Text, txtApellido.Text, txtEmail.Text, perfil, txtUsuario.Text, Encriptar.Encrypt(txtContraseña.Text));
-                        bllUsuario.Alta(nuevoUsuario);
-                    }
-                    else if(rbEmpleadoU.Checked == true)
-                    {
-                        perfil = PerfilManager.ConsultaPerfil().Find(x => x.Nombre == "Empleado");
-                        nuevoUsuario = new BelUsuario(txtDni.Text, txtNombre.Text, txtApellido.Text, txtEmail.Text, perfil, txtUsuario.Text, Encriptar.Encrypt(txtContraseña.Text));
-                        bllUsuario.Alta(nuevoUsuario);
-                    }
-                    
+
+                    throw new Exception("Error al agregar el usuario");
+                }
+                else
+                {
+                    perfil = PerfilManager.ConsultaPerfil().Find(x => x.Nombre == "");
+                    bllUsuario.Alta(new BelUsuario(txtDni.Text, txtNombre.Text, txtApellido.Text, txtEmail.Text, perfil, txtUsuario.Text, Encriptar.Encrypt(txtContraseña.Text)));
                     lUsuario = bllUsuario.Consulta();
                     RefrescarDgv();
                 }
@@ -122,19 +124,9 @@ namespace GUI
                         txtContraseña.ReadOnly = true;
                         MessageBox.Show("No se puede cambiar la contraseña del usuario desde este formulario");
                     }
-
-                    if (rbAdministradorU.Checked == true)
+                    else
                     {
-                        usuarioAModificar.Perfil = PerfilManager.ConsultaPerfil().Find(x => x.Nombre == "Administrador");
-                        bllUsuario.Modificacion(usuarioAModificar);
-                        lUsuario = bllUsuario.Consulta();
-                        RefrescarDgv();
-                        MessageBox.Show("Usuario modificado exitosamente");
-
-                    }
-                    else if (rbEmpleadoU.Checked == true)
-                    {
-                        usuarioAModificar.Perfil = PerfilManager.ConsultaPerfil().Find(x => x.Nombre == "Empleado");
+                        usuarioAModificar.Perfil = PerfilManager.ConsultaPerfil().Find(x => x.Nombre == "");
                         bllUsuario.Modificacion(usuarioAModificar);
                         lUsuario = bllUsuario.Consulta();
                         RefrescarDgv();

@@ -10,3 +10,9 @@ D:\3ero\Campo\Sistema\Campo\ProyectoFulbito\GUI\Interface\obj\Debug\Interface.cs
 D:\3ero\Campo\Sistema\Campo\ProyectoFulbito\GUI\Interface\obj\Debug\Interface.csproj.CoreCompileInputs.cache
 D:\3ero\Campo\Sistema\Campo\ProyectoFulbito\GUI\Interface\obj\Debug\Interface.dll
 D:\3ero\Campo\Sistema\Campo\ProyectoFulbito\GUI\Interface\obj\Debug\Interface.pdb
+C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Interface\bin\Debug\Interface.dll
+C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Interface\bin\Debug\Interface.pdb
+C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Interface\obj\Debug\Interface.csproj.AssemblyReference.cache
+C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Interface\obj\Debug\Interface.csproj.CoreCompileInputs.cache
+C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Interface\obj\Debug\Interface.dll
+C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Interface\obj\Debug\Interface.pdb
