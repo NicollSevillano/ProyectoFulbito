@@ -23,7 +23,6 @@ C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\GUI\bin\Debug\ServicioClase.
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\GUI\bin\Debug\Servicios.pdb
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\GUI\bin\Debug\Mapper.pdb
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\GUI\bin\Debug\Dal.pdb
-C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\GUI\obj\Debug\GUI.GUsuarios.resources
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\GUI\bin\Debug\BCrypt.Net-Next.dll
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\GUI\bin\Debug\System.Buffers.dll
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\GUI\bin\Debug\System.Memory.dll
@@ -35,7 +34,6 @@ C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\GUI\bin\Debug\System.Memory.
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\GUI\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\GUI\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\GUI\obj\Debug\GUI.csproj.Up2Date
-C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\GUI\obj\Debug\GUI.Bitacora.resources
 D:\3ero\Campo\Sistema\Campo\ProyectoFulbito\GUI\GUI\bin\Debug\GUI.exe.config
 D:\3ero\Campo\Sistema\Campo\ProyectoFulbito\GUI\GUI\bin\Debug\GUI.exe
 D:\3ero\Campo\Sistema\Campo\ProyectoFulbito\GUI\GUI\bin\Debug\GUI.pdb
@@ -184,3 +182,5 @@ C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.csproj.CoreC
 C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.csproj.Up2Date
 C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.exe
 C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.pdb
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\GUI\obj\Debug\GUI.BitacoraForm.resources
+C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\GUI\obj\Debug\GUI.GUsuariosForm.resources

@@ -1,54 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Nicoll\\Desktop\\clone\\ProyectoFulbito\\GUI\\",
+  "WorkspaceRootPath": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|c:\\users\\nicoll\\desktop\\clone\\proyectofulbito\\gui\\gui\\perfilesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|solutionrelative:gui\\perfilesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|c:\\users\\nicol\\escritorio\\proyectocampo-diploma\\gui\\gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|solutionrelative:gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|C:\\Users\\Nicoll\\Desktop\\clone\\ProyectoFulbito\\GUI\\gui\\greservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|solutionrelative:gui\\greservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|c:\\users\\nicoll\\desktop\\clone\\proyectofulbito\\gui\\gui\\gusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|solutionrelative:gui\\gusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|C:\\Users\\Nicoll\\Desktop\\clone\\ProyectoFulbito\\GUI\\gui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\gui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|solutionrelative:gui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|C:\\Users\\Nicoll\\Desktop\\clone\\ProyectoFulbito\\GUI\\gui\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|solutionrelative:gui\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\gui\\gusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|solutionrelative:gui\\gusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|c:\\users\\nicoll\\desktop\\clone\\proyectofulbito\\gui\\gui\\cobrarreserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|solutionrelative:gui\\cobrarreserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|c:\\users\\nicoll\\desktop\\clone\\proyectofulbito\\gui\\gui\\gregistrarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|solutionrelative:gui\\gregistrarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|C:\\Users\\Nicoll\\Desktop\\clone\\ProyectoFulbito\\GUI\\gui\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|solutionrelative:gui\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|C:\\Users\\Nicoll\\Desktop\\clone\\ProyectoFulbito\\GUI\\gui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|solutionrelative:gui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|C:\\Users\\Nicoll\\Desktop\\clone\\ProyectoFulbito\\GUI\\gui\\gusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|solutionrelative:gui\\gusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|C:\\Users\\Nicoll\\Desktop\\clone\\ProyectoFulbito\\GUI\\gui\\greservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|solutionrelative:gui\\greservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DF1EF46-6022-451F-BF4D-F360621DEC0B}|Bll\\Bll.csproj|C:\\Users\\Nicoll\\Desktop\\clone\\ProyectoFulbito\\GUI\\bll\\bllusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DF1EF46-6022-451F-BF4D-F360621DEC0B}|Bll\\Bll.csproj|solutionrelative:bll\\bllusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\gui\\greservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|solutionrelative:gui\\greservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,155 +26,53 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CobrarReserva.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Nicoll\\Desktop\\clone\\ProyectoFulbito\\GUI\\GUI\\CobrarReserva.cs",
-              "RelativeDocumentMoniker": "GUI\\CobrarReserva.cs",
-              "ToolTip": "C:\\Users\\Nicoll\\Desktop\\clone\\ProyectoFulbito\\GUI\\GUI\\CobrarReserva.cs [Dise\u00F1o]",
-              "RelativeToolTip": "GUI\\CobrarReserva.cs [Dise\u00F1o]",
+              "DocumentIndex": 1,
+              "Title": "LogIn.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\GUI\\LogIn.cs",
+              "RelativeDocumentMoniker": "GUI\\LogIn.cs",
+              "ToolTip": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\GUI\\LogIn.cs [Dise\u00F1o]",
+              "RelativeToolTip": "GUI\\LogIn.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T16:24:05.441Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GRegistrarCliente.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Nicoll\\Desktop\\clone\\ProyectoFulbito\\GUI\\GUI\\GRegistrarCliente.cs",
-              "RelativeDocumentMoniker": "GUI\\GRegistrarCliente.cs",
-              "ToolTip": "C:\\Users\\Nicoll\\Desktop\\clone\\ProyectoFulbito\\GUI\\GUI\\GRegistrarCliente.cs [Dise\u00F1o]",
-              "RelativeToolTip": "GUI\\GRegistrarCliente.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T15:02:40.282Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-07-01T01:46:20.682Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PerfilesForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Nicoll\\Desktop\\clone\\ProyectoFulbito\\GUI\\GUI\\PerfilesForm.cs",
-              "RelativeDocumentMoniker": "GUI\\PerfilesForm.cs",
-              "ToolTip": "C:\\Users\\Nicoll\\Desktop\\clone\\ProyectoFulbito\\GUI\\GUI\\PerfilesForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "GUI\\PerfilesForm.cs [Dise\u00F1o]",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\GUI\\Program.cs",
+              "RelativeDocumentMoniker": "GUI\\Program.cs",
+              "ToolTip": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\GUI\\Program.cs",
+              "RelativeToolTip": "GUI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T15:02:35.216Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LogIn.cs",
-              "DocumentMoniker": "C:\\Users\\Nicoll\\Desktop\\clone\\ProyectoFulbito\\GUI\\GUI\\LogIn.cs",
-              "RelativeDocumentMoniker": "GUI\\LogIn.cs",
-              "ToolTip": "C:\\Users\\Nicoll\\Desktop\\clone\\ProyectoFulbito\\GUI\\GUI\\LogIn.cs",
-              "RelativeToolTip": "GUI\\LogIn.cs",
-              "ViewState": "AQIAADkAAAAAAAAAAAAwwEYAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T04:23:20.951Z",
+              "WhenOpened": "2024-07-01T01:43:37.862Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LogIn.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Nicoll\\Desktop\\clone\\ProyectoFulbito\\GUI\\GUI\\LogIn.cs",
-              "RelativeDocumentMoniker": "GUI\\LogIn.cs",
-              "ToolTip": "C:\\Users\\Nicoll\\Desktop\\clone\\ProyectoFulbito\\GUI\\GUI\\LogIn.cs [Dise\u00F1o]",
-              "RelativeToolTip": "GUI\\LogIn.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T04:23:19.437Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "GUsuarios.cs",
-              "DocumentMoniker": "C:\\Users\\Nicoll\\Desktop\\clone\\ProyectoFulbito\\GUI\\GUI\\GUsuarios.cs",
-              "RelativeDocumentMoniker": "GUI\\GUsuarios.cs",
-              "ToolTip": "C:\\Users\\Nicoll\\Desktop\\clone\\ProyectoFulbito\\GUI\\GUI\\GUsuarios.cs",
-              "RelativeToolTip": "GUI\\GUsuarios.cs",
-              "ViewState": "AQIAAG4AAAAAAAAAAIAywIQAAABLAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T04:04:38.908Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GReservas.cs",
-              "DocumentMoniker": "C:\\Users\\Nicoll\\Desktop\\clone\\ProyectoFulbito\\GUI\\GUI\\GReservas.cs",
-              "RelativeDocumentMoniker": "GUI\\GReservas.cs",
-              "ToolTip": "C:\\Users\\Nicoll\\Desktop\\clone\\ProyectoFulbito\\GUI\\GUI\\GReservas.cs",
-              "RelativeToolTip": "GUI\\GReservas.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAqwCIAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T04:04:31.605Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GReservas.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Nicoll\\Desktop\\clone\\ProyectoFulbito\\GUI\\GUI\\GReservas.cs",
-              "RelativeDocumentMoniker": "GUI\\GReservas.cs",
-              "ToolTip": "C:\\Users\\Nicoll\\Desktop\\clone\\ProyectoFulbito\\GUI\\GUI\\GReservas.cs [Dise\u00F1o]",
-              "RelativeToolTip": "GUI\\GReservas.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T04:04:30.314Z",
-              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "GUsuarios.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Nicoll\\Desktop\\clone\\ProyectoFulbito\\GUI\\GUI\\GUsuarios.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\GUI\\GUsuarios.cs",
               "RelativeDocumentMoniker": "GUI\\GUsuarios.cs",
-              "ToolTip": "C:\\Users\\Nicoll\\Desktop\\clone\\ProyectoFulbito\\GUI\\GUI\\GUsuarios.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\GUI\\GUsuarios.cs [Dise\u00F1o]",
               "RelativeToolTip": "GUI\\GUsuarios.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T03:59:50.245Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-07-01T01:43:26.872Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MenuPrincipal.cs",
-              "DocumentMoniker": "C:\\Users\\Nicoll\\Desktop\\clone\\ProyectoFulbito\\GUI\\GUI\\MenuPrincipal.cs",
-              "RelativeDocumentMoniker": "GUI\\MenuPrincipal.cs",
-              "ToolTip": "C:\\Users\\Nicoll\\Desktop\\clone\\ProyectoFulbito\\GUI\\GUI\\MenuPrincipal.cs",
-              "RelativeToolTip": "GUI\\MenuPrincipal.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAACcAAAAMAAAA",
+              "DocumentIndex": 3,
+              "Title": "GReservas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\GUI\\GReservas.cs",
+              "RelativeDocumentMoniker": "GUI\\GReservas.cs",
+              "ToolTip": "C:\\Users\\nicol\\Escritorio\\ProyectoCampo-Diploma\\GUI\\GUI\\GReservas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "GUI\\GReservas.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T03:28:16.158Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MenuPrincipal.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Nicoll\\Desktop\\clone\\ProyectoFulbito\\GUI\\GUI\\MenuPrincipal.cs",
-              "RelativeDocumentMoniker": "GUI\\MenuPrincipal.cs",
-              "ToolTip": "C:\\Users\\Nicoll\\Desktop\\clone\\ProyectoFulbito\\GUI\\GUI\\MenuPrincipal.cs [Dise\u00F1o]",
-              "RelativeToolTip": "GUI\\MenuPrincipal.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T03:26:07.264Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "BllUsuario.cs",
-              "DocumentMoniker": "C:\\Users\\Nicoll\\Desktop\\clone\\ProyectoFulbito\\GUI\\Bll\\BllUsuario.cs",
-              "RelativeDocumentMoniker": "Bll\\BllUsuario.cs",
-              "ToolTip": "C:\\Users\\Nicoll\\Desktop\\clone\\ProyectoFulbito\\GUI\\Bll\\BllUsuario.cs",
-              "RelativeToolTip": "Bll\\BllUsuario.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAIA0wBoAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T00:56:44.05Z"
+              "WhenOpened": "2024-07-01T01:42:47.637Z"
             }
           ]
         }
