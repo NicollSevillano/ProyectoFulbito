@@ -28,3 +28,14 @@ C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.
 C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.csproj.CoreCompileInputs.cache
 C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.dll
 C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.pdb
+C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Controles\bin\Debug\Servicios.dll
+C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Controles\bin\Debug\Dal.dll
+C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Controles\bin\Debug\Interface.dll
+C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Controles\bin\Debug\ServicioClase.dll
+C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Controles\bin\Debug\Be.dll
+C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Controles\bin\Debug\Servicios.pdb
+C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Controles\bin\Debug\Dal.pdb
+C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Controles\bin\Debug\Interface.pdb
+C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Controles\bin\Debug\ServicioClase.pdb
+C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Controles\bin\Debug\Be.pdb
+C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.csproj.Up2Date

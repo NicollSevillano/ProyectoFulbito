@@ -61,10 +61,25 @@ namespace Mapper
             string storeListReserva = "sp_Listar_Reserva";
             DataTable dt = dao.Leer(storeListReserva);
             List<BeReserva> lReserva = new List<BeReserva>();
-
+            List<BeCancha> lCancha = new List<BeCancha>();
+            lCancha.AddRange(new BeCancha[] {new BeCancha() { id = "1", Nombre = "Cancha 5 A"},
+                                             new BeCancha() { id = "2", Nombre = "Cancha 5 B"},
+                                             new BeCancha() { id = "3", Nombre = "Cancha 5 C"},
+                                             new BeCancha() { id = "4", Nombre = "Cancha 7 A"},
+                                             new BeCancha() { id = "5", Nombre = "Cancha 7 B"},
+                                             new BeCancha() { id = "7", Nombre = "Cancha 7 C"},
+                                             new BeCancha() { id = "8", Nombre = "Cancha 7 D"},
+                                             new BeCancha() { id = "9", Nombre = "Cancha 11 A"},
+                                             new BeCancha() { id = "10", Nombre = "Cancha 11 B"}});
+            List<BeCliente> lCliente = new List<BeCliente>();
+            MapperCliente mCliente = new MapperCliente();
+            lCliente = mCliente.Consulta();
+            
             foreach (DataRow dr in dt.Rows)
             {
                 BeReserva aux = new BeReserva(dr.ItemArray);
+                aux.Cancha = lCancha.Find(x => x.id == dr[1].ToString());
+                aux.Cliente = lCliente.Find(x => x.id == dr[2].ToString());
                 lReserva.Add(aux);
             }
             return lReserva;

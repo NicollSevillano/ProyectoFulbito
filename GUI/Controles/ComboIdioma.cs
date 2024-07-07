@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Servicios;
+using System.CodeDom.Compiler;
 
 namespace Controles
 {
@@ -51,11 +53,16 @@ namespace Controles
             if (comboBox.SelectedIndex >= 0)
             {
                 pictureBox1.Image = imageList1.Images[comboBox.SelectedIndex];
+                LanguageManager.Actualizar(comboBox1.SelectedIndex + 1);
             }
             else
             {
                 pictureBox1.Image = null;
             }
+        }
+        public ComboBox retornacmBox()
+        {
+            return comboBox1;
         }
     }
 }

@@ -14,10 +14,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Microsoft.VisualBasic;
+using Interface;
 
 namespace GUI
 {
-    public partial class GUsuariosForm : Form
+    public partial class GUsuariosForm : Form, ITraducible
     {
         List<BelUsuario> lUsuario;
         BllUsuario bllUsuario;
@@ -54,6 +55,7 @@ namespace GUI
         }
         private void CargarPerfiles()
         {
+            cmbPerfiles.Items.Clear();
             List<Perfil> lPerfil = PerfilManager.lPerfil;
             foreach (Perfil p in lPerfil)
             {
@@ -269,7 +271,40 @@ namespace GUI
             perfil.ShowDialog();
             bllUsuario.Consulta();
             this.Show();
-            
+            CargarPerfiles();
+        }
+
+        public void Actualizar(string pIdioma)
+        {
+            Idioma _idioma = LanguageManager.lIdioma.Find(x => x.id == pIdioma);
+            lbDatosU.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "lbDatosU").Texto;
+            labDniU.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "labDniU").Texto;
+            labNombreU.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "labNombreU").Texto;
+            labApellidoU.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "labApellidoU").Texto;
+            labEmailU.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "labEmailU").Texto;
+            labUsuarioU.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "labUsuarioU").Texto;
+            labContraseñaU.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "labContraseñaU").Texto;
+            btnAgregarU.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "btnAgregarU").Texto;
+            btnBorrarU.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "btnBorrarU").Texto;
+            btnModificarU.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "btnModificarU").Texto;
+            labRol.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "labRol").Texto;
+            btnCambiarCU.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "btnCambiarCU").Texto;
+            labFiltrarU.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "labFiltrarU").Texto;
+            cbBloqueadosU.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "cbBloqueadosU").Texto;
+            btnDesbloquearU.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "btnDesbloquearU").Texto;
+            btnPerfilU.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "btnPerfilU").Texto;
+            btnSalirU.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "btnSalirU").Texto;
+            ColumnaIdU.HeaderText = _idioma.lEtiqueta.Find(x => x.ControlT == "ColumnaIdU").Texto;
+            ColumnaDniU.HeaderText = _idioma.lEtiqueta.Find(x => x.ControlT == "ColumnaDniU").Texto;
+            ColumnaNombreU.HeaderText = _idioma.lEtiqueta.Find(x => x.ControlT == "ColumnaNombreU").Texto;
+            ColumnaApellidoU.HeaderText = _idioma.lEtiqueta.Find(x => x.ControlT == "ColumnaApellidoU").Texto;
+            ColumnaEmailU.HeaderText = _idioma.lEtiqueta.Find(x => x.ControlT == "ColumnaEmailU").Texto;
+            ColumnaPerfilU.HeaderText = _idioma.lEtiqueta.Find(x => x.ControlT == "ColumnaPerfilU").Texto;
+            ColumnaUsuarioU.HeaderText = _idioma.lEtiqueta.Find(x => x.ControlT == "ColumnaUsuarioU").Texto;
+            ColumnaContraseñaU.HeaderText = _idioma.lEtiqueta.Find(x => x.ControlT == "ColumnaContraseñaU").Texto;
+            ColumnaBloqueadoU.HeaderText = _idioma.lEtiqueta.Find(x => x.ControlT == "ColumnaBloqueadoU").Texto;
+            ColumnaActivoU.HeaderText = _idioma.lEtiqueta.Find(x => x.ControlT == "ColumnaActivoU").Texto;
+            this.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "GUsuariosForm").Texto;
         }
     }
 }

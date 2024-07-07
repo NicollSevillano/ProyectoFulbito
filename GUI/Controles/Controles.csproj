@@ -80,5 +80,11 @@
   <ItemGroup>
     <None Include="Resources\flecha-derecha %281%292.png" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Servicios\Servicios.csproj">
+      <Project>{6e20f9ea-5fac-45b7-ad48-af60456b4996}</Project>
+      <Name>Servicios</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Interface;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,21 +7,21 @@ using System.Threading.Tasks;
 
 namespace ServicioClase
 {
-    public class Etiqueta
+    public class Etiqueta : IEntity
     {
-        public Etiqueta(int pCodigo, string pControl, string pTexto)
+        public Etiqueta(Idioma pIdioma, string pControl, string pTexto)
         {
-            CodigoEtiqueta = pCodigo;
+            id = pIdioma.id;
             ControlT = pControl;
             Texto = pTexto;
         }
         public Etiqueta(object[] array)
         {
-            CodigoEtiqueta = int.Parse(array[0].ToString());
+            id = array[0].ToString();
             ControlT = array[1].ToString();
             Texto = array[2].ToString();
         }
-        public int CodigoEtiqueta { get; set; }
+        public string id { get; set; }
         public string ControlT { get; set; }
         public string Texto { get; set; }
     }

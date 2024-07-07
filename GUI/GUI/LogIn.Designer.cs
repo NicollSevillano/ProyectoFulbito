@@ -45,8 +45,8 @@
             // lblInicioSesion
             // 
             this.lblInicioSesion.AutoSize = true;
-            this.lblInicioSesion.Font = new System.Drawing.Font("Maiandra GD", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblInicioSesion.Location = new System.Drawing.Point(131, 48);
+            this.lblInicioSesion.Font = new System.Drawing.Font("Maiandra GD", 14.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInicioSesion.Location = new System.Drawing.Point(131, 53);
             this.lblInicioSesion.Name = "lblInicioSesion";
             this.lblInicioSesion.Size = new System.Drawing.Size(138, 22);
             this.lblInicioSesion.TabIndex = 1;
@@ -56,7 +56,7 @@
             // 
             this.lblUsuario.AutoSize = true;
             this.lblUsuario.Font = new System.Drawing.Font("Maiandra GD", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUsuario.Location = new System.Drawing.Point(37, 104);
+            this.lblUsuario.Location = new System.Drawing.Point(32, 106);
             this.lblUsuario.Name = "lblUsuario";
             this.lblUsuario.Size = new System.Drawing.Size(73, 22);
             this.lblUsuario.TabIndex = 2;
@@ -66,7 +66,7 @@
             // 
             this.lblContraseña.AutoSize = true;
             this.lblContraseña.Font = new System.Drawing.Font("Maiandra GD", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblContraseña.Location = new System.Drawing.Point(37, 151);
+            this.lblContraseña.Location = new System.Drawing.Point(32, 154);
             this.lblContraseña.Name = "lblContraseña";
             this.lblContraseña.Size = new System.Drawing.Size(102, 22);
             this.lblContraseña.TabIndex = 3;
@@ -75,7 +75,7 @@
             // txtUsuario
             // 
             this.txtUsuario.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsuario.Location = new System.Drawing.Point(163, 108);
+            this.txtUsuario.Location = new System.Drawing.Point(158, 104);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(141, 27);
             this.txtUsuario.TabIndex = 4;
@@ -83,7 +83,7 @@
             // txtContraseña
             // 
             this.txtContraseña.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtContraseña.Location = new System.Drawing.Point(163, 155);
+            this.txtContraseña.Location = new System.Drawing.Point(158, 152);
             this.txtContraseña.Name = "txtContraseña";
             this.txtContraseña.PasswordChar = '*';
             this.txtContraseña.Size = new System.Drawing.Size(141, 27);
@@ -92,7 +92,7 @@
             // btnIngresar
             // 
             this.btnIngresar.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnIngresar.Location = new System.Drawing.Point(135, 208);
+            this.btnIngresar.Location = new System.Drawing.Point(147, 209);
             this.btnIngresar.Name = "btnIngresar";
             this.btnIngresar.Size = new System.Drawing.Size(96, 42);
             this.btnIngresar.TabIndex = 7;
@@ -110,7 +110,7 @@
             // pMostrar
             // 
             this.pMostrar.Image = global::GUI.Properties.Resources.oculto;
-            this.pMostrar.Location = new System.Drawing.Point(310, 151);
+            this.pMostrar.Location = new System.Drawing.Point(305, 151);
             this.pMostrar.Name = "pMostrar";
             this.pMostrar.Size = new System.Drawing.Size(42, 29);
             this.pMostrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;

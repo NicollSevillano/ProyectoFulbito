@@ -14,10 +14,11 @@ using ServicioClase;
 using Servicios;
 using Mapper;
 using Microsoft.VisualBasic.ApplicationServices;
+using Interface;
 
 namespace GUI
 {
-    public partial class InicioSesionForm : Form
+    public partial class InicioSesionForm : Form, ITraducible
     {
         List<BelUsuario> lUsuario;
         BllUsuario bUsuario;
@@ -32,6 +33,8 @@ namespace GUI
         {
             bUsuario = new BllUsuario();
             lUsuario = bUsuario.Consulta();
+            LanguageManager.Iniciarlizar();
+            LanguageManager.Suscribir(this);
             //foreach (BelUsuario usuario in lUsuario)
             //{
             //    string hashedPassword = Encriptar.Encrypt(usuario.Contraseña);
@@ -97,6 +100,16 @@ namespace GUI
                 txtContraseña.PasswordChar = '*';
                 pMostrar.Image = GUI.Properties.Resources.ver;
             }
+        }
+
+        public void Actualizar(string pIdioma)
+        {
+            Idioma _idioma = LanguageManager.lIdioma.Find(x => x.id == pIdioma);
+            lblInicioSesion.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "lblInicioSesion").Texto;
+            lblUsuario.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "lblUsuario").Texto;
+            lblContraseña.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "lblContraseña").Texto;
+            btnIngresar.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "btnIngresar").Texto;
+            this.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "InicioSesionForm").Texto;
         }
     }
 }

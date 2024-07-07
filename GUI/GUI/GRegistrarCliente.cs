@@ -1,5 +1,8 @@
 ﻿using Be;
 using Bll;
+using Interface;
+using ServicioClase;
+using Servicios;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -12,7 +15,7 @@ using System.Windows.Forms;
 
 namespace GUI
 {
-    public partial class GRegistrarClienteForm : Form
+    public partial class GRegistrarClienteForm : Form, ITraducible
     {
         List<BeCliente> lCliente;
         BllCliente blCliente;
@@ -142,6 +145,24 @@ namespace GUI
         private void btnVolver_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        public void Actualizar(string pIdioma)
+        {
+            Idioma _idioma = LanguageManager.lIdioma.Find(x => x.id == pIdioma);
+            labTitulo.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "labTitulo").Texto;
+            labDNI.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "labDNI").Texto;
+            labNombre.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "labNombre").Texto;
+            labTelefono.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "labTelefono").Texto;
+            btnAgregar.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "btnAgregar").Texto;
+            btnBorrar.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "btnBorrar").Texto;
+            btnModificar.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "btnModificar").Texto;
+            btnVolver.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "btnVolver").Texto;
+            ColumnaId.HeaderText = _idioma.lEtiqueta.Find(x => x.ControlT == "ColumnaId").Texto;
+            ColumnaDni.HeaderText = _idioma.lEtiqueta.Find(x => x.ControlT == "ColumnaDni").Texto;
+            ColumnaNombre.HeaderText = _idioma.lEtiqueta.Find(x => x.ControlT == "ColumnaNombre").Texto;
+            ColumnaTelefono.HeaderText = _idioma.lEtiqueta.Find(x => x.ControlT == "ColumnaTelefono").Texto;
+            this.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "GRegistrarClienteForm").Texto;
         }
     }
 }

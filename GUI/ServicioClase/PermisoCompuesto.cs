@@ -42,27 +42,48 @@ namespace ServicioClase
                 {
                     foreach (Permiso p in pPermisoActual.lPermiso)
                     {
-                        //if (p.id == pId)
-                        //{
-                        //    pPermiso = p;
-                        //}
-                        //else
-                        //{
-                        //    if (p is PermisoCompuesto)
-                        //    {
-                        //        pPermiso = (p as PermisoCompuesto).BuscarPermisoIdRecursiva(pId, p as PermisoCompuesto, pPermiso);
-                        //    }
-                        //}
                         if (p is PermisoCompuesto)
                         {
-                            if ((p as PermisoCompuesto).lPermiso.Exists(x => x.id == id))
+                            if ((p as PermisoCompuesto).lPermiso.Exists(x => x.id == pId))
                             {
-                                pPermiso = (p as PermisoCompuesto).lPermiso.Find(x => x.id == id);
+                                pPermiso = (p as PermisoCompuesto).lPermiso.Find(x => x.id == pId);
                             }
                             else
                             {
                                 pPermiso = BuscarPermisoIdRecursiva(pId, p as PermisoCompuesto, pPermiso);
 
+                            }
+                        }
+                    }
+                }
+            }
+            else
+            {
+                pPermiso = pPermisoActual;
+            }
+            return pPermiso;
+        }
+        public Permiso BuscarPermisoNombre(string pNombre, PermisoCompuesto pPermisoActual)
+        {
+            return RetornaPermisoNombre(pNombre, pPermisoActual, null);
+        }
+        public Permiso RetornaPermisoNombre(string pNombre, PermisoCompuesto pPermisoActual, Permiso pPermiso)
+        {
+            if(pPermisoActual.Nombre != pNombre)
+            {
+                if(pPermisoActual.lPermiso.Count > 0)
+                {
+                    foreach (Permiso p in pPermisoActual.lPermiso)
+                    {
+                        if(p is PermisoCompuesto)
+                        {
+                            if((p as PermisoCompuesto).lPermiso.Exists(x => x.Nombre == pNombre))
+                            {
+                                pPermiso = (p as PermisoCompuesto).lPermiso.Find(x => x.Nombre == pNombre);
+                            }
+                            else
+                            {
+                                pPermiso = RetornaPermisoNombre(pNombre, p as PermisoCompuesto, pPermiso);
                             }
                         }
                     }

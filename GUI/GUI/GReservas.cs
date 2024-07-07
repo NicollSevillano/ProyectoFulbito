@@ -1,5 +1,7 @@
 ﻿using Be;
 using Bll;
+using Interface;
+using ServicioClase;
 using Servicios;
 using System;
 using System.Collections.Generic;
@@ -14,7 +16,7 @@ using System.Windows.Forms;
 
 namespace GUI
 {
-    public partial class GReservasForm : Form
+    public partial class GReservasForm : Form, ITraducible
     {
         public SessionManager smanager;
         List<BeCliente> lCliente;
@@ -55,23 +57,20 @@ namespace GUI
             }
             return cargar;
         }
-        private void ValidarCliente()
+        private bool ValidarCliente()
         {
-            if (!CargarTXT())
-            {
-                string dni = txtDni.Text;
-                if (lCliente.Exists(x => x.DNI == dni))
+            string dni = txtDni.Text;
+            if (lCliente.Exists(x => x.DNI == dni))
                 {
                     btnRegistrar.Enabled = false;
+                    return true;
                 }
-                else
-                {
-                    btnRegistrar.Enabled = true;
-                    MessageBox.Show("Debe registrar al cliente");
-                    regisCliente.Hide();
-                    regisCliente.ShowDialog();
-                }
+            else
+            {
+                btnRegistrar.Enabled = true;
+                return false;
             }
+            
         }
         private void Canchas()
         {
@@ -92,17 +91,18 @@ namespace GUI
         }
         private void btnReservar_Click(object sender, EventArgs e)
         {
-            
-            BeCancha bcancha1 = ObtenerCancha();
-            BeCliente bcliente1 = ObtenerCliente();
+            if (ValidarCliente())
+            {
+                BeCancha bcancha1 = ObtenerCancha();
+                BeCliente bcliente1 = ObtenerCliente();
 
-            BeReserva reserva;
-            reserva = new BeReserva(bcancha1, bcliente1, DateTime.Parse(dateTimePicker1.Text), TimeSpan.Parse(txtHorario.Text));
-            blReserva.Alta(reserva);
-            
-            dgvReservas.Rows.Add(reserva.id, reserva.Cancha.Nombre, reserva.Cliente.Nombre, reserva.Fecha, reserva.Hora);
-            lReserva = blReserva.Consulta();
-
+                BeReserva reserva;
+                reserva = new BeReserva(bcancha1, bcliente1, DateTime.Parse(dateTimePicker1.Text), TimeSpan.Parse(txtHorario.Text));
+                blReserva.Alta(reserva);
+                lReserva = blReserva.Consulta();
+                dgvReservas.Rows.Add(reserva.id, reserva.Cancha.Nombre, reserva.Cliente.Nombre, reserva.Fecha, reserva.Hora);
+                //Refrescar();
+            }
         }
         private BeCancha ObtenerCancha()
         {
@@ -112,7 +112,6 @@ namespace GUI
         }
         private BeCliente ObtenerCliente()
         {
-            ValidarCliente();
             string aux = txtDni.Text;
             BeCliente cliente = lCliente.Find(x => x.DNI == aux);
             return cliente;
@@ -142,6 +141,7 @@ namespace GUI
             GRegistrarClienteForm gRegistrarC = new GRegistrarClienteForm();
             gRegistrarC.Hide();
             gRegistrarC.ShowDialog();
+            lCliente = blCliente.Consulta();
         }
 
         private void btnDisponibilidad_Click(object sender, EventArgs e)
@@ -155,11 +155,10 @@ namespace GUI
         }
         public void Refrescar()
         {
-            List<BeReserva> lreserva = new List<BeReserva>();
+            List<BeReserva> lreserva = blReserva.Consulta();
             foreach (BeReserva r in lreserva)
             {
                 dgvReservas.Rows.Add(r.id, r.Cancha.Nombre, r.Cliente.Nombre, r.Fecha, r.Hora);
-                lreserva = blReserva.Consulta();
             }
         }
 
@@ -168,6 +167,26 @@ namespace GUI
             CobrarReservaForm cobrarReserva = new CobrarReservaForm();
             cobrarReserva.Hide();
             cobrarReserva.ShowDialog();
+        }
+
+        public void Actualizar(string pIdioma)
+        {
+            Idioma _idioma = LanguageManager.lIdioma.Find(x => x.id == pIdioma);
+            labCancha.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "labCancha").Texto;
+            labDni.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "labDni").Texto;
+            labFecha.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "labFecha").Texto;
+            labHorario.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "labHorario").Texto;
+            btnDisponibilidad.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "btnDisponibilidad").Texto;
+            btnCancelar.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "btnCancelar").Texto;
+            btnRegistrar.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "btnRegistrar").Texto;
+            btnCobrar.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "btnCobrar").Texto;
+            btnReservar.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "btnReservar").Texto;
+            ColumnaIdR.HeaderText = _idioma.lEtiqueta.Find(x => x.ControlT == "ColumnaIdR").Texto;
+            ColumnaCanchaR.HeaderText = _idioma.lEtiqueta.Find(x => x.ControlT == "ColumnaCanchaR").Texto;
+            ColumnaClienteR.HeaderText = _idioma.lEtiqueta.Find(x => x.ControlT == "ColumnaClienteR").Texto;
+            ColumnaFechaR.HeaderText = _idioma.lEtiqueta.Find(x => x.ControlT == "ColumnaFechaR").Texto;
+            ColumnaHorarioR.HeaderText = _idioma.lEtiqueta.Find(x => x.ControlT == "ColumnaHorarioR").Texto;
+            this.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "GReservasForm").Texto;
         }
     }
 }

@@ -19,8 +19,14 @@ namespace Servicios
         static Dao dao = new Dao();
         static List<ITraducible> lTraducible;
         public static List<Idioma> lIdioma;
+        public static void Iniciarlizar()
+        {
+            lTraducible = new List<ITraducible>();
+            ConsultaIdioma();
+        }
         public static void Suscribir(ITraducible objeto)
         {
+            if(lTraducible == null) { lTraducible = new List<ITraducible>(); }
             lTraducible.Add(objeto);
         }
         public static void AltaEtiqueta(Idioma pIdioma, string pTag)
@@ -30,19 +36,19 @@ namespace Servicios
 
             SqlParameter p1 = new SqlParameter();
             p1.ParameterName = "@CodigoIdioma";
-            p1.Value = pIdioma.CodigoIdioma;
+            p1.Value = pIdioma.id;
             p1.SqlDbType = System.Data.SqlDbType.Int;
             al.Add(p1);
 
             SqlParameter p2 = new SqlParameter();
             p2.ParameterName = "@Tag";
             p2.Value = pTag;
-            p2.SqlDbType = System.Data.SqlDbType.NVarChar;
+            p2.SqlDbType = SqlDbType.NVarChar;
             al.Add(p2);
 
             dao.Escribir(altaEtiqueta, al);
         }
-        public static void ConsultaIdioma(int pCodigoIdioma)
+        public static void ConsultaIdioma()
         {
             string consultaIdioma = "sp_Listar_Idioma";
             DataTable dt = dao.Leer(consultaIdioma);
@@ -69,6 +75,17 @@ namespace Servicios
                     idioma.lEtiqueta.Add(etiqueta);
                 }
             }
+        }
+        public static void Actualizar(int pIdioma)
+        {
+            foreach (ITraducible l in lTraducible)
+            {
+                l.Actualizar(pIdioma.ToString());
+            }
+        }
+        public static Idioma idioma(int pIdioma)
+        {
+            return lIdioma.Find(x => x.id == pIdioma.ToString());
         }
     }
 }

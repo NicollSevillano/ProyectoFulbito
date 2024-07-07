@@ -184,3 +184,4 @@ C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.exe
 C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.pdb
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\GUI\obj\Debug\GUI.BitacoraForm.resources
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\GUI\obj\Debug\GUI.GUsuariosForm.resources
+C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.Tarjeta.resources

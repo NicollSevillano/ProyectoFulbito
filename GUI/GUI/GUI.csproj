@@ -122,6 +122,12 @@
     <Compile Include="PerfilesForm.Designer.cs">
       <DependentUpon>PerfilesForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Tarjeta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tarjeta.Designer.cs">
+      <DependentUpon>Tarjeta.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Bitacora.resx">
       <DependentUpon>Bitacora.cs</DependentUpon>
     </EmbeddedResource>
@@ -158,6 +164,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PerfilesForm.resx">
       <DependentUpon>PerfilesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tarjeta.resx">
+      <DependentUpon>Tarjeta.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

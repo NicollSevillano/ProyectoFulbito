@@ -55,6 +55,8 @@ namespace Mapper
             arrayList.Add(p1);
 
             dao.Escribir(storeBCliente, arrayList);
+            storeBCliente = "sp_Baja_Reserva";
+            dao.Escribir(storeBCliente, arrayList);
         }
 
         public List<BeCliente> Consulta()
