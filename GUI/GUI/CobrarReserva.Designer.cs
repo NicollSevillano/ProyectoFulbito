@@ -39,6 +39,7 @@
             this.btncPagar = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnVolver = new System.Windows.Forms.Button();
+            this.comboIdioma1 = new Controles.ComboIdioma();
             this.gpPago.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -109,7 +110,7 @@
             this.gpPago.Controls.Add(this.rbEfectivo);
             this.gpPago.Controls.Add(this.rbTransferencia);
             this.gpPago.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gpPago.Location = new System.Drawing.Point(215, 50);
+            this.gpPago.Location = new System.Drawing.Point(210, 76);
             this.gpPago.Name = "gpPago";
             this.gpPago.Size = new System.Drawing.Size(180, 139);
             this.gpPago.TabIndex = 6;
@@ -146,6 +147,14 @@
             this.btnVolver.TabIndex = 9;
             this.btnVolver.Text = "Volver";
             this.btnVolver.UseVisualStyleBackColor = true;
+            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
+            // 
+            // comboIdioma1
+            // 
+            this.comboIdioma1.Location = new System.Drawing.Point(327, 12);
+            this.comboIdioma1.Name = "comboIdioma1";
+            this.comboIdioma1.Size = new System.Drawing.Size(116, 25);
+            this.comboIdioma1.TabIndex = 10;
             // 
             // CobrarReservaForm
             // 
@@ -153,6 +162,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(211)))), ((int)(((byte)(131)))));
             this.ClientSize = new System.Drawing.Size(455, 326);
+            this.Controls.Add(this.comboIdioma1);
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btncPagar);
@@ -184,5 +194,6 @@
         private System.Windows.Forms.Button btncPagar;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnVolver;
+        private Controles.ComboIdioma comboIdioma1;
     }
 }

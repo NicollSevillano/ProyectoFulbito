@@ -300,6 +300,7 @@
             this.dgvUsuarios.Location = new System.Drawing.Point(12, 12);
             this.dgvUsuarios.Name = "dgvUsuarios";
             this.dgvUsuarios.ReadOnly = true;
+            this.dgvUsuarios.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvUsuarios.Size = new System.Drawing.Size(911, 194);
             this.dgvUsuarios.TabIndex = 35;
             // 

@@ -30,6 +30,7 @@ namespace GUI
             actualizarTree();
             ActualizarPerfiles();
             control();
+            LanguageManager.Suscribir(this);
         }
         private void RegistroReservas_Load(object sender, EventArgs e)
         {
@@ -159,7 +160,6 @@ namespace GUI
         {
             Idioma _idioma = LanguageManager.lIdioma.Find(x => x.id == pIdioma);
             labPerfil.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "labPerfil").Texto;
-            lbNombrePerfil.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "lbNombrePerfil").Texto;
             lbPerfil.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "lbPerfil").Texto;
             lbPermiso.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "lbPermiso").Texto;
             listBox1.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "listBox1").Texto;

@@ -41,6 +41,7 @@
             this.treeView1 = new System.Windows.Forms.TreeView();
             this.btnCerrar = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.comboIdioma1 = new Controles.ComboIdioma();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -60,7 +61,7 @@
             this.btnCrear.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCrear.Location = new System.Drawing.Point(645, 117);
             this.btnCrear.Name = "btnCrear";
-            this.btnCrear.Size = new System.Drawing.Size(113, 41);
+            this.btnCrear.Size = new System.Drawing.Size(133, 41);
             this.btnCrear.TabIndex = 2;
             this.btnCrear.Text = "Crear perfil";
             this.btnCrear.UseVisualStyleBackColor = true;
@@ -101,7 +102,7 @@
             // 
             this.lbNombrePerfil.AutoSize = true;
             this.lbNombrePerfil.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbNombrePerfil.Location = new System.Drawing.Point(118, 12);
+            this.lbNombrePerfil.Location = new System.Drawing.Point(136, 12);
             this.lbNombrePerfil.Name = "lbNombrePerfil";
             this.lbNombrePerfil.Size = new System.Drawing.Size(132, 19);
             this.lbNombrePerfil.TabIndex = 6;
@@ -165,12 +166,20 @@
             this.pictureBox1.TabIndex = 12;
             this.pictureBox1.TabStop = false;
             // 
+            // comboIdioma1
+            // 
+            this.comboIdioma1.Location = new System.Drawing.Point(505, 12);
+            this.comboIdioma1.Name = "comboIdioma1";
+            this.comboIdioma1.Size = new System.Drawing.Size(116, 22);
+            this.comboIdioma1.TabIndex = 13;
+            // 
             // PerfilesForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(211)))), ((int)(((byte)(131)))));
             this.ClientSize = new System.Drawing.Size(790, 391);
+            this.Controls.Add(this.comboIdioma1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.treeView1);
@@ -206,5 +215,6 @@
         private System.Windows.Forms.TreeView treeView1;
         private System.Windows.Forms.Button btnCerrar;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private Controles.ComboIdioma comboIdioma1;
     }
 }

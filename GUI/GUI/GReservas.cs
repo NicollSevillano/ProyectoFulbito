@@ -39,9 +39,9 @@ namespace GUI
             monthCalendar1.MinDate = fechaActual;
             lCancha = new List<BeCancha>();
             blCliente = new BllCliente();
-            lCliente = blCliente.Consulta();
-            lReserva = new List<BeReserva>();
             blReserva = new BllReserva();
+            lReserva = blReserva.Consulta();
+            lCliente = blCliente.Consulta();
             regisCliente = new GRegistrarClienteForm();
             lCliente = blCliente.Consulta();
             ValidarCliente();
@@ -103,6 +103,10 @@ namespace GUI
                 dgvReservas.Rows.Add(reserva.id, reserva.Cancha.Nombre, reserva.Cliente.Nombre, reserva.Fecha, reserva.Hora);
                 //Refrescar();
             }
+            else
+            {
+                MessageBox.Show("Debe registrar al cliente para reservar");
+            }
         }
         private BeCancha ObtenerCancha()
         {
@@ -148,15 +152,18 @@ namespace GUI
         {
             Refrescar();
         }
-
+        private BeReserva LlamarReserva()
+        {
+            return lReserva.Find(x => x.id == dgvReservas.SelectedRows[0].Cells[0].Value.ToString());
+        }
         private void cmbHora_SelectedIndexChanged(object sender, EventArgs e)
         {
             
         }
         public void Refrescar()
         {
-            List<BeReserva> lreserva = blReserva.Consulta();
-            foreach (BeReserva r in lreserva)
+            lReserva = blReserva.Consulta();
+            foreach (BeReserva r in lReserva)
             {
                 dgvReservas.Rows.Add(r.id, r.Cancha.Nombre, r.Cliente.Nombre, r.Fecha, r.Hora);
             }
@@ -164,7 +171,8 @@ namespace GUI
 
         private void btnPagar_Click(object sender, EventArgs e)
         {
-            CobrarReservaForm cobrarReserva = new CobrarReservaForm();
+            CobrarReservaForm cobrarReserva = new CobrarReservaForm(LlamarReserva());
+            LanguageManager.Suscribir(cobrarReserva);
             cobrarReserva.Hide();
             cobrarReserva.ShowDialog();
         }
@@ -177,7 +185,6 @@ namespace GUI
             labFecha.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "labFecha").Texto;
             labHorario.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "labHorario").Texto;
             btnDisponibilidad.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "btnDisponibilidad").Texto;
-            btnCancelar.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "btnCancelar").Texto;
             btnRegistrar.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "btnRegistrar").Texto;
             btnCobrar.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "btnCobrar").Texto;
             btnReservar.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "btnReservar").Texto;
@@ -186,7 +193,13 @@ namespace GUI
             ColumnaClienteR.HeaderText = _idioma.lEtiqueta.Find(x => x.ControlT == "ColumnaClienteR").Texto;
             ColumnaFechaR.HeaderText = _idioma.lEtiqueta.Find(x => x.ControlT == "ColumnaFechaR").Texto;
             ColumnaHorarioR.HeaderText = _idioma.lEtiqueta.Find(x => x.ControlT == "ColumnaHorarioR").Texto;
+            btnSalirR.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "btnSalirR").Texto;
             this.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "GReservasForm").Texto;
+        }
+
+        private void btnSalirR_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

@@ -268,6 +268,8 @@ namespace GUI
         {
             this.Hide();
             PerfilesForm perfil = new PerfilesForm(LlamarUsuario());
+            //LanguageManager.Suscribir(perfil);
+            //LanguageManager.Actualizar();
             perfil.ShowDialog();
             bllUsuario.Consulta();
             this.Show();

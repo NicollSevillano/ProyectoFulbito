@@ -21,6 +21,7 @@ namespace ServicioClase
         {
             id = array[0].ToString();
             Nombre = array[1].ToString();
+            lEtiqueta = new List<Etiqueta>();
         }
         public string Nombre { get; set; }
         public List<Etiqueta> lEtiqueta { get; set; }

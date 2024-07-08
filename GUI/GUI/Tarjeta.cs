@@ -93,6 +93,7 @@ namespace GUI
             (txtcvc.Text.Length == 3 && txtcvc.Text.All(char.IsDigit)))
             {
                 MessageBox.Show("Transacción confirmada");
+                this.Close();
             }
             else
             {
@@ -106,7 +107,6 @@ namespace GUI
             lbTarjeta.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "lbTarjeta").Texto;
             lbMes.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "lbMes").Texto;
             lbAno.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "lbAno").Texto;
-            lbCv.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "lbCv").Texto;
             btnPagarTarjeta.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "btnPagarTarjeta").Texto;
             this.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "Tarjeta").Texto;
         }

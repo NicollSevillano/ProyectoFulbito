@@ -17,14 +17,15 @@ namespace GUI
 {
     public partial class CobrarReservaForm : Form, ITraducible
     {
-        List<BeReserva> lReserva;
         BllReserva bllReserva;
-        BeCliente beCliente;
+        BeReserva bReserva;
         Tarjeta tarjeta;
         
-        public CobrarReservaForm()
+        public CobrarReservaForm(BeReserva reserva)
         {
             InitializeComponent();
+            bReserva = reserva;
+            LanguageManager.Suscribir(this);
         }
 
         public void Actualizar(string pIdioma)
@@ -43,17 +44,16 @@ namespace GUI
         private void CobrarReservaForm_Load(object sender, EventArgs e)
         {
             listbCobrar.Items.Clear();
-            beCliente = new BeCliente();
-            lbNombreCobrar.Text = beCliente.Nombre;
+            lbNombreCobrar.Text = bReserva.Cliente.Nombre;
             tarjeta = new Tarjeta();
+            listbox();
         }
         private void listbox()
         {
-            lReserva = bllReserva.Consulta();
-            foreach (BeReserva br in lReserva)
-            {
-                listbCobrar.Items.Add($"{br.Cancha}, {br.Fecha}, {br.Hora}");
-            }
+            listbCobrar.Items.Clear();
+            listbCobrar.Items.Add($"{bReserva.Cancha.Nombre}");
+            listbCobrar.Items.Add($"{bReserva.Fecha}");
+            listbCobrar.Items.Add($"{bReserva.Hora}");
         }
         private void btncPagar_Click(object sender, EventArgs e)
         {
@@ -102,6 +102,11 @@ namespace GUI
         {
             Random rnd = new Random();
             return rnd.Next(10000000, 99999999).ToString() + rnd.Next(10000000, 99999999).ToString();
+        }
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

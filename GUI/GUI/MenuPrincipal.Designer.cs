@@ -35,7 +35,6 @@
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.clientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.registrarClienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cobrarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.administradorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.usuariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.idiomasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -75,8 +74,7 @@
             // 
             this.reservaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem2,
-            this.clientesToolStripMenuItem,
-            this.cobrarToolStripMenuItem});
+            this.clientesToolStripMenuItem});
             this.reservaToolStripMenuItem.Name = "reservaToolStripMenuItem";
             this.reservaToolStripMenuItem.Size = new System.Drawing.Size(75, 23);
             this.reservaToolStripMenuItem.Text = "Reserva";
@@ -84,7 +82,7 @@
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(138, 24);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(180, 24);
             this.toolStripMenuItem2.Text = "Reservar";
             this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
             // 
@@ -93,7 +91,7 @@
             this.clientesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.registrarClienteToolStripMenuItem});
             this.clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
-            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(138, 24);
+            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
             this.clientesToolStripMenuItem.Text = "Clientes";
             // 
             // registrarClienteToolStripMenuItem
@@ -102,13 +100,6 @@
             this.registrarClienteToolStripMenuItem.Size = new System.Drawing.Size(188, 24);
             this.registrarClienteToolStripMenuItem.Text = "Registrar cliente";
             this.registrarClienteToolStripMenuItem.Click += new System.EventHandler(this.registrarClienteToolStripMenuItem_Click);
-            // 
-            // cobrarToolStripMenuItem
-            // 
-            this.cobrarToolStripMenuItem.Name = "cobrarToolStripMenuItem";
-            this.cobrarToolStripMenuItem.Size = new System.Drawing.Size(138, 24);
-            this.cobrarToolStripMenuItem.Text = "Cobrar";
-            this.cobrarToolStripMenuItem.Click += new System.EventHandler(this.cobrarToolStripMenuItem_Click);
             // 
             // administradorToolStripMenuItem
             // 
@@ -258,7 +249,6 @@
         private System.Windows.Forms.Label labUsuarioMp;
         private System.Windows.Forms.Label labRolMp;
         private System.Windows.Forms.Label labPerfilMp;
-        private System.Windows.Forms.ToolStripMenuItem cobrarToolStripMenuItem;
         private Controles.ComboIdioma comboIdioma1;
         private System.Windows.Forms.Button btnSalirm;
     }
