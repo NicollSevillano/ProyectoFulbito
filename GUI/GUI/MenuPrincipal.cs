@@ -124,8 +124,17 @@ namespace GUI
 
         private void btnSalirm_Click(object sender, EventArgs e)
         {
-            SessionManager.LogOut();
-            this.Close();
+            DialogResult resultado = MessageBox.Show("¿Desea salir?", "Salir", MessageBoxButtons.OKCancel);
+            if (resultado == DialogResult.OK)
+            {
+                SessionManager.LogOut();
+                this.Close();
+                MessageBox.Show("Salió con éxito");
+            }
+            else if (resultado == DialogResult.Cancel)
+            {
+                MessageBox.Show("Que bueno que te quedas!");
+            }
         }
     }
 }

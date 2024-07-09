@@ -31,3 +31,36 @@ C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Be\obj\Debug\Be.csproj.CoreCom
 C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Be\obj\Debug\Be.csproj.Up2Date
 C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Be\obj\Debug\Be.dll
 C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Be\obj\Debug\Be.pdb
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Be\bin\Debug\Be.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Be\bin\Debug\Be.pdb
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Be\bin\Debug\Interface.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Be\bin\Debug\ServicioClase.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Be\bin\Debug\Interface.pdb
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Be\bin\Debug\ServicioClase.pdb
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Be\obj\Debug\Be.csproj.AssemblyReference.cache
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Be\obj\Debug\Be.csproj.CoreCompileInputs.cache
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Be\obj\Debug\Be.csproj.Up2Date
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Be\obj\Debug\Be.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Be\obj\Debug\Be.pdb
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Be\bin\Debug\Be.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Be\bin\Debug\Be.pdb
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Be\bin\Debug\Interface.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Be\bin\Debug\ServicioClase.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Be\bin\Debug\Interface.pdb
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Be\bin\Debug\ServicioClase.pdb
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Be\obj\Debug\Be.csproj.AssemblyReference.cache
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Be\obj\Debug\Be.csproj.CoreCompileInputs.cache
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Be\obj\Debug\Be.csproj.Up2Date
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Be\obj\Debug\Be.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Be\obj\Debug\Be.pdb
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Be\bin\Debug\Be.dll
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Be\bin\Debug\Be.pdb
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Be\bin\Debug\Interface.dll
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Be\bin\Debug\ServicioClase.dll
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Be\bin\Debug\Interface.pdb
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Be\bin\Debug\ServicioClase.pdb
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Be\obj\Debug\Be.csproj.AssemblyReference.cache
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Be\obj\Debug\Be.csproj.CoreCompileInputs.cache
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Be\obj\Debug\Be.csproj.CopyComplete
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Be\obj\Debug\Be.dll
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Be\obj\Debug\Be.pdb

@@ -55,3 +55,60 @@ C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Bll\obj\Debug\Bll.csproj.CoreC
 C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Bll\obj\Debug\Bll.csproj.Up2Date
 C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Bll\obj\Debug\Bll.dll
 C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Bll\obj\Debug\Bll.pdb
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\Bll.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\Bll.pdb
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\Be.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\Interface.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\Mapper.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\ServicioClase.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\Dal.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\Servicios.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\Be.pdb
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\Interface.pdb
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\Mapper.pdb
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\ServicioClase.pdb
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\Dal.pdb
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\Servicios.pdb
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Bll\obj\Debug\Bll.csproj.AssemblyReference.cache
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Bll\obj\Debug\Bll.csproj.CoreCompileInputs.cache
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Bll\obj\Debug\Bll.csproj.Up2Date
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Bll\obj\Debug\Bll.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Bll\obj\Debug\Bll.pdb
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\Bll.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\Bll.pdb
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\Be.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\Interface.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\Mapper.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\ServicioClase.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\Dal.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\Servicios.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\Be.pdb
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\Interface.pdb
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\Mapper.pdb
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\ServicioClase.pdb
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\Dal.pdb
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\Servicios.pdb
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Bll\obj\Debug\Bll.csproj.AssemblyReference.cache
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Bll\obj\Debug\Bll.csproj.CoreCompileInputs.cache
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Bll\obj\Debug\Bll.csproj.Up2Date
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Bll\obj\Debug\Bll.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Bll\obj\Debug\Bll.pdb
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\Bll.dll
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\Bll.pdb
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\Be.dll
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\Interface.dll
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\Mapper.dll
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\ServicioClase.dll
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\Dal.dll
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\Servicios.dll
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\Be.pdb
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\Interface.pdb
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\Mapper.pdb
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\ServicioClase.pdb
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\Dal.pdb
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\Servicios.pdb
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Bll\obj\Debug\Bll.csproj.AssemblyReference.cache
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Bll\obj\Debug\Bll.csproj.CoreCompileInputs.cache
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Bll\obj\Debug\Bll.csproj.CopyComplete
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Bll\obj\Debug\Bll.dll
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Bll\obj\Debug\Bll.pdb

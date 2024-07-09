@@ -8,10 +8,11 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>GUI</RootNamespace>
     <AssemblyName>GUI</AssemblyName>
-    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -66,12 +67,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bitacora.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Bitacora.Designer.cs">
-      <DependentUpon>Bitacora.cs</DependentUpon>
-    </Compile>
     <Compile Include="CambiarClave.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -122,15 +117,18 @@
     <Compile Include="PerfilesForm.Designer.cs">
       <DependentUpon>PerfilesForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="ReporteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReporteForm.Designer.cs">
+      <DependentUpon>ReporteForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Tarjeta.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Tarjeta.Designer.cs">
       <DependentUpon>Tarjeta.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Bitacora.resx">
-      <DependentUpon>Bitacora.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="CambiarClave.resx">
       <DependentUpon>CambiarClave.cs</DependentUpon>
     </EmbeddedResource>
@@ -164,6 +162,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PerfilesForm.resx">
       <DependentUpon>PerfilesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteForm.resx">
+      <DependentUpon>ReporteForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tarjeta.resx">
       <DependentUpon>Tarjeta.cs</DependentUpon>

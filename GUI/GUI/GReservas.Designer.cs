@@ -50,6 +50,7 @@
             this.btnCobrar = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnSalirR = new System.Windows.Forms.Button();
+            this.btnCancelarReserva = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvReservas)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -103,14 +104,14 @@
             // 
             // monthCalendar1
             // 
-            this.monthCalendar1.Location = new System.Drawing.Point(288, 18);
+            this.monthCalendar1.Location = new System.Drawing.Point(322, 18);
             this.monthCalendar1.Name = "monthCalendar1";
             this.monthCalendar1.TabIndex = 9;
             // 
             // btnReservar
             // 
             this.btnReservar.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReservar.Location = new System.Drawing.Point(640, 292);
+            this.btnReservar.Location = new System.Drawing.Point(640, 290);
             this.btnReservar.Name = "btnReservar";
             this.btnReservar.Size = new System.Drawing.Size(107, 44);
             this.btnReservar.TabIndex = 10;
@@ -142,7 +143,7 @@
             // btnRegistrar
             // 
             this.btnRegistrar.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegistrar.Location = new System.Drawing.Point(599, 242);
+            this.btnRegistrar.Location = new System.Drawing.Point(599, 241);
             this.btnRegistrar.Name = "btnRegistrar";
             this.btnRegistrar.Size = new System.Drawing.Size(148, 44);
             this.btnRegistrar.TabIndex = 16;
@@ -166,7 +167,7 @@
             this.dgvReservas.Name = "dgvReservas";
             this.dgvReservas.ReadOnly = true;
             this.dgvReservas.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvReservas.Size = new System.Drawing.Size(555, 254);
+            this.dgvReservas.Size = new System.Drawing.Size(555, 296);
             this.dgvReservas.TabIndex = 17;
             // 
             // ColumnaIdR
@@ -216,7 +217,7 @@
             // btnCobrar
             // 
             this.btnCobrar.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCobrar.Location = new System.Drawing.Point(640, 342);
+            this.btnCobrar.Location = new System.Drawing.Point(640, 339);
             this.btnCobrar.Name = "btnCobrar";
             this.btnCobrar.Size = new System.Drawing.Size(107, 44);
             this.btnCobrar.TabIndex = 23;
@@ -237,7 +238,7 @@
             // btnSalirR
             // 
             this.btnSalirR.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalirR.Location = new System.Drawing.Point(640, 392);
+            this.btnSalirR.Location = new System.Drawing.Point(640, 437);
             this.btnSalirR.Name = "btnSalirR";
             this.btnSalirR.Size = new System.Drawing.Size(107, 44);
             this.btnSalirR.TabIndex = 25;
@@ -245,12 +246,24 @@
             this.btnSalirR.UseVisualStyleBackColor = true;
             this.btnSalirR.Click += new System.EventHandler(this.btnSalirR_Click);
             // 
+            // btnCancelarReserva
+            // 
+            this.btnCancelarReserva.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancelarReserva.Location = new System.Drawing.Point(599, 388);
+            this.btnCancelarReserva.Name = "btnCancelarReserva";
+            this.btnCancelarReserva.Size = new System.Drawing.Size(148, 44);
+            this.btnCancelarReserva.TabIndex = 26;
+            this.btnCancelarReserva.Text = "Cancelar reserva";
+            this.btnCancelarReserva.UseVisualStyleBackColor = true;
+            this.btnCancelarReserva.Click += new System.EventHandler(this.btnCancelarReserva_Click);
+            // 
             // GReservasForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(211)))), ((int)(((byte)(131)))));
-            this.ClientSize = new System.Drawing.Size(771, 465);
+            this.ClientSize = new System.Drawing.Size(771, 507);
+            this.Controls.Add(this.btnCancelarReserva);
             this.Controls.Add(this.btnSalirR);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnCobrar);
@@ -301,5 +314,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn ColumnaFechaR;
         private System.Windows.Forms.DataGridViewTextBoxColumn ColumnaHorarioR;
         private System.Windows.Forms.Button btnSalirR;
+        private System.Windows.Forms.Button btnCancelarReserva;
     }
 }

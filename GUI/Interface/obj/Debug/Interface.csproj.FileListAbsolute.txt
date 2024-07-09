@@ -16,3 +16,15 @@ C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Interface\obj\Debug\Interface.
 C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Interface\obj\Debug\Interface.csproj.CoreCompileInputs.cache
 C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Interface\obj\Debug\Interface.dll
 C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Interface\obj\Debug\Interface.pdb
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Interface\bin\Debug\Interface.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Interface\bin\Debug\Interface.pdb
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Interface\obj\Debug\Interface.csproj.AssemblyReference.cache
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Interface\obj\Debug\Interface.csproj.CoreCompileInputs.cache
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Interface\obj\Debug\Interface.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Interface\obj\Debug\Interface.pdb
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Interface\bin\Debug\Interface.dll
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Interface\bin\Debug\Interface.pdb
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Interface\obj\Debug\Interface.csproj.AssemblyReference.cache
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Interface\obj\Debug\Interface.csproj.CoreCompileInputs.cache
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Interface\obj\Debug\Interface.dll
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Interface\obj\Debug\Interface.pdb

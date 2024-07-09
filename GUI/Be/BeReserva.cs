@@ -11,6 +11,7 @@ namespace Be
     {
         public BeReserva(BeCancha pCancha, BeCliente pCliente, DateTime pFecha, TimeSpan pHora)
         {
+            //id = pId;
             Cancha = pCancha; 
             Cliente = pCliente;
             Fecha = pFecha; 

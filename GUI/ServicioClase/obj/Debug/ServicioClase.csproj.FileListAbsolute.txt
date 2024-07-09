@@ -25,3 +25,21 @@ C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\ServicioClase\obj\Debug\Servic
 C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\ServicioClase\obj\Debug\Servicio.71A683D5.Up2Date
 C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\ServicioClase\obj\Debug\ServicioClase.dll
 C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\ServicioClase\obj\Debug\ServicioClase.pdb
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\bin\Debug\ServicioClase.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\bin\Debug\ServicioClase.pdb
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\bin\Debug\Interface.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\bin\Debug\Interface.pdb
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\obj\Debug\ServicioClase.csproj.AssemblyReference.cache
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\obj\Debug\ServicioClase.csproj.CoreCompileInputs.cache
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\obj\Debug\Servicio.71A683D5.Up2Date
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\obj\Debug\ServicioClase.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\obj\Debug\ServicioClase.pdb
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\bin\Debug\ServicioClase.dll
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\bin\Debug\ServicioClase.pdb
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\bin\Debug\Interface.dll
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\bin\Debug\Interface.pdb
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\obj\Debug\ServicioClase.csproj.AssemblyReference.cache
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\obj\Debug\ServicioClase.csproj.CoreCompileInputs.cache
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\obj\Debug\ServicioClase.csproj.CopyComplete
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\obj\Debug\ServicioClase.dll
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\obj\Debug\ServicioClase.pdb

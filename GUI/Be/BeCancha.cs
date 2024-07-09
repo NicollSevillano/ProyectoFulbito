@@ -9,9 +9,10 @@ namespace Be
 {
     public class BeCancha : IEntity
     {
-        public BeCancha(string pNombre)
+        public BeCancha(string pNombre, string precio)
         {
             Nombre = pNombre;
+            Precio = precio;
         }
         public BeCancha() { }
         public BeCancha(object[] array)
@@ -21,6 +22,6 @@ namespace Be
         }
         public string id { get ; set ; }
         public string Nombre { get; set; }
-        
+        public string Precio { get; set; }
     }
 }

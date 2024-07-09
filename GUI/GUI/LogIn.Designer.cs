@@ -38,6 +38,7 @@
             this.comboIdioma1 = new Controles.ComboIdioma();
             this.pMostrar = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnSalirLogin = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pMostrar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -92,7 +93,7 @@
             // btnIngresar
             // 
             this.btnIngresar.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnIngresar.Location = new System.Drawing.Point(147, 209);
+            this.btnIngresar.Location = new System.Drawing.Point(158, 206);
             this.btnIngresar.Name = "btnIngresar";
             this.btnIngresar.Size = new System.Drawing.Size(96, 42);
             this.btnIngresar.TabIndex = 7;
@@ -128,12 +129,24 @@
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
+            // btnSalirLogin
+            // 
+            this.btnSalirLogin.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalirLogin.Location = new System.Drawing.Point(12, 260);
+            this.btnSalirLogin.Name = "btnSalirLogin";
+            this.btnSalirLogin.Size = new System.Drawing.Size(80, 33);
+            this.btnSalirLogin.TabIndex = 11;
+            this.btnSalirLogin.Text = "Salir";
+            this.btnSalirLogin.UseVisualStyleBackColor = true;
+            this.btnSalirLogin.Click += new System.EventHandler(this.btnSalirLogin_Click);
+            // 
             // InicioSesionForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(211)))), ((int)(((byte)(131)))));
             this.ClientSize = new System.Drawing.Size(394, 305);
+            this.Controls.Add(this.btnSalirLogin);
             this.Controls.Add(this.pMostrar);
             this.Controls.Add(this.comboIdioma1);
             this.Controls.Add(this.btnIngresar);
@@ -164,5 +177,6 @@
         private System.Windows.Forms.Button btnIngresar;
         private Controles.ComboIdioma comboIdioma1;
         private System.Windows.Forms.PictureBox pMostrar;
+        private System.Windows.Forms.Button btnSalirLogin;
     }
 }

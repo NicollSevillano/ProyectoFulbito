@@ -72,7 +72,10 @@ namespace GUI
                 }
                 else
                 {
+                    MessageBox.Show("Inicio correcto");
                     Login();
+                    txtUsuario.Clear();
+                    txtContraseña.Clear();
                 }
                 void Login()
                 {
@@ -109,7 +112,21 @@ namespace GUI
             lblUsuario.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "lblUsuario").Texto;
             lblContraseña.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "lblContraseña").Texto;
             btnIngresar.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "btnIngresar").Texto;
+            btnSalirLogin.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "btnSalirLogin").Texto;
             this.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "InicioSesionForm").Texto;
+        }
+
+        private void btnSalirLogin_Click(object sender, EventArgs e)
+        {
+            DialogResult resultado = MessageBox.Show("¿Desea salir?", "Salir", MessageBoxButtons.OKCancel);
+            if (resultado == DialogResult.OK)
+            {
+                this.Close();
+            }
+            else if (resultado == DialogResult.Cancel)
+            {
+                MessageBox.Show("Por favor iniciar sesión");
+            }
         }
     }
 }

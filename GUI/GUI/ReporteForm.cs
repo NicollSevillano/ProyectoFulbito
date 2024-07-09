@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace GUI
 {
-    public partial class BitacoraForm : Form
+    public partial class ReporteForm : Form
     {
-        public BitacoraForm()
+        public ReporteForm()
         {
             InitializeComponent();
+        }
+
+        private void ReporteForm_Load(object sender, EventArgs e)
+        {
+            
         }
     }
 }

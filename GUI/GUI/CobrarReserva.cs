@@ -32,7 +32,6 @@ namespace GUI
         {
             Idioma _idioma = LanguageManager.lIdioma.Find(x => x.id == pIdioma);
             lbClienteCobrar.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "lbClienteCobrar").Texto;
-            lbNombreCobrar.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "lbNombreCobrar").Texto;
             gpPago.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "gpPago").Texto;
             rbEfectivo.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "rbEfectivo").Texto;
             rbTransferencia.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "rbTransferencia").Texto;
@@ -54,6 +53,8 @@ namespace GUI
             listbCobrar.Items.Add($"{bReserva.Cancha.Nombre}");
             listbCobrar.Items.Add($"{bReserva.Fecha}");
             listbCobrar.Items.Add($"{bReserva.Hora}");
+            listbCobrar.Items.Add($"El precio por 1h es:");
+            listbCobrar.Items.Add($"${bReserva.Cancha.Precio}");
         }
         private void btncPagar_Click(object sender, EventArgs e)
         {

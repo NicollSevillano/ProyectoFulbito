@@ -23,6 +23,11 @@ namespace Mapper
         {
             string storeAltaRerva = "sp_Alta_Reserva";
             al = new ArrayList();
+            SqlParameter p0 = new SqlParameter();
+            p0.ParameterName = "@codigoReserva";
+            p0.Value = pObject.id;
+            p0.SqlDbType = SqlDbType.Int;
+            al.Add(p0);
 
             SqlParameter p1 = new SqlParameter();
             p1.ParameterName = "@CodigoCancha";
@@ -62,15 +67,15 @@ namespace Mapper
             DataTable dt = dao.Leer(storeListReserva);
             List<BeReserva> lReserva = new List<BeReserva>();
             List<BeCancha> lCancha = new List<BeCancha>();
-            lCancha.AddRange(new BeCancha[] {new BeCancha() { id = "1", Nombre = "Cancha 5 A"},
-                                             new BeCancha() { id = "2", Nombre = "Cancha 5 B"},
-                                             new BeCancha() { id = "3", Nombre = "Cancha 5 C"},
-                                             new BeCancha() { id = "4", Nombre = "Cancha 7 A"},
-                                             new BeCancha() { id = "5", Nombre = "Cancha 7 B"},
-                                             new BeCancha() { id = "7", Nombre = "Cancha 7 C"},
-                                             new BeCancha() { id = "8", Nombre = "Cancha 7 D"},
-                                             new BeCancha() { id = "9", Nombre = "Cancha 11 A"},
-                                             new BeCancha() { id = "10", Nombre = "Cancha 11 B"}});
+            lCancha.AddRange(new BeCancha[] {new BeCancha() { id = "1", Nombre = "Cancha 5 A", Precio = "1500"},
+                                             new BeCancha() { id = "2", Nombre = "Cancha 5 B", Precio = "1500"},
+                                             new BeCancha() { id = "3", Nombre = "Cancha 5 C", Precio = "1500"},
+                                             new BeCancha() { id = "4", Nombre = "Cancha 7 A", Precio = "2000"},
+                                             new BeCancha() { id = "5", Nombre = "Cancha 7 B", Precio = "2000"},
+                                             new BeCancha() { id = "7", Nombre = "Cancha 7 C", Precio = "2000"},
+                                             new BeCancha() { id = "8", Nombre = "Cancha 7 D", Precio = "2000"},
+                                             new BeCancha() { id = "9", Nombre = "Cancha 11 A", Precio = "3000"},
+                                             new BeCancha() { id = "10", Nombre = "Cancha 11 B", Precio = "3000"}});
             List<BeCliente> lCliente = new List<BeCliente>();
             MapperCliente mCliente = new MapperCliente();
             lCliente = mCliente.Consulta();

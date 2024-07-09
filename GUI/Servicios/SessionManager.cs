@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -44,11 +45,7 @@ namespace Servicios
             {
                 if (sessionManager != null)
                 {
-                    sessionManager = null;
-                }
-                else
-                {
-                    System.Windows.Forms.MessageBox.Show("¿Desea salir?","Salir", MessageBoxButtons.OK);
+                    sessionManager = null;                    
                 }
             }
         }

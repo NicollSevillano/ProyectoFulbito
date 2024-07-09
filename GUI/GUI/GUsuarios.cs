@@ -53,6 +53,7 @@ namespace GUI
             return txtValidad;
 
         }
+        Perfil perfil;
         private void CargarPerfiles()
         {
             cmbPerfiles.Items.Clear();
@@ -60,9 +61,9 @@ namespace GUI
             foreach (Perfil p in lPerfil)
             {
                 cmbPerfiles.Items.Add(p.Nombre);
+                
             }
         }
-        Perfil perfil;
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             try

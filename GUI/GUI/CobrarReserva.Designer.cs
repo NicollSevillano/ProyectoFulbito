@@ -46,10 +46,12 @@
             // 
             // listbCobrar
             // 
+            this.listbCobrar.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listbCobrar.FormattingEnabled = true;
-            this.listbCobrar.Location = new System.Drawing.Point(12, 50);
+            this.listbCobrar.ItemHeight = 19;
+            this.listbCobrar.Location = new System.Drawing.Point(12, 52);
             this.listbCobrar.Name = "listbCobrar";
-            this.listbCobrar.Size = new System.Drawing.Size(186, 264);
+            this.listbCobrar.Size = new System.Drawing.Size(207, 251);
             this.listbCobrar.TabIndex = 0;
             // 
             // lbClienteCobrar
@@ -110,7 +112,7 @@
             this.gpPago.Controls.Add(this.rbEfectivo);
             this.gpPago.Controls.Add(this.rbTransferencia);
             this.gpPago.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gpPago.Location = new System.Drawing.Point(210, 76);
+            this.gpPago.Location = new System.Drawing.Point(267, 52);
             this.gpPago.Name = "gpPago";
             this.gpPago.Size = new System.Drawing.Size(180, 139);
             this.gpPago.TabIndex = 6;
@@ -120,7 +122,7 @@
             // btncPagar
             // 
             this.btncPagar.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btncPagar.Location = new System.Drawing.Point(210, 221);
+            this.btncPagar.Location = new System.Drawing.Point(246, 210);
             this.btncPagar.Name = "btncPagar";
             this.btncPagar.Size = new System.Drawing.Size(105, 38);
             this.btncPagar.TabIndex = 7;
@@ -131,7 +133,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::GUI.Properties.Resources.logo;
-            this.pictureBox1.Location = new System.Drawing.Point(327, 221);
+            this.pictureBox1.Location = new System.Drawing.Point(372, 210);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(116, 93);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -141,7 +143,7 @@
             // btnVolver
             // 
             this.btnVolver.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVolver.Location = new System.Drawing.Point(210, 265);
+            this.btnVolver.Location = new System.Drawing.Point(246, 254);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(105, 38);
             this.btnVolver.TabIndex = 9;
@@ -151,7 +153,7 @@
             // 
             // comboIdioma1
             // 
-            this.comboIdioma1.Location = new System.Drawing.Point(327, 12);
+            this.comboIdioma1.Location = new System.Drawing.Point(372, 12);
             this.comboIdioma1.Name = "comboIdioma1";
             this.comboIdioma1.Size = new System.Drawing.Size(116, 25);
             this.comboIdioma1.TabIndex = 10;
@@ -161,7 +163,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(211)))), ((int)(((byte)(131)))));
-            this.ClientSize = new System.Drawing.Size(455, 326);
+            this.ClientSize = new System.Drawing.Size(500, 319);
             this.Controls.Add(this.comboIdioma1);
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.pictureBox1);

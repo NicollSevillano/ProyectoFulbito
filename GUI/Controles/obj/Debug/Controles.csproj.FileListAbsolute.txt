@@ -39,3 +39,66 @@ C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Controles\bin\Debug\Interface.
 C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Controles\bin\Debug\ServicioClase.pdb
 C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Controles\bin\Debug\Be.pdb
 C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.csproj.Up2Date
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Controles\bin\Debug\Controles.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Controles\bin\Debug\Controles.pdb
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Controles\bin\Debug\Servicios.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Controles\bin\Debug\Dal.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Controles\bin\Debug\Interface.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Controles\bin\Debug\ServicioClase.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Controles\bin\Debug\Be.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Controles\bin\Debug\Servicios.pdb
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Controles\bin\Debug\Dal.pdb
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Controles\bin\Debug\Interface.pdb
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Controles\bin\Debug\ServicioClase.pdb
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Controles\bin\Debug\Be.pdb
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.csproj.AssemblyReference.cache
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.Calendario.resources
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.ComboIdioma.resources
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.Properties.Resources.resources
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.csproj.GenerateResource.cache
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.csproj.CoreCompileInputs.cache
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.csproj.Up2Date
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.pdb
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Controles\bin\Debug\Controles.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Controles\bin\Debug\Controles.pdb
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Controles\bin\Debug\Servicios.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Controles\bin\Debug\Dal.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Controles\bin\Debug\Interface.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Controles\bin\Debug\ServicioClase.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Controles\bin\Debug\Be.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Controles\bin\Debug\Servicios.pdb
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Controles\bin\Debug\Dal.pdb
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Controles\bin\Debug\Interface.pdb
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Controles\bin\Debug\ServicioClase.pdb
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Controles\bin\Debug\Be.pdb
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.csproj.AssemblyReference.cache
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.Calendario.resources
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.ComboIdioma.resources
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.Properties.Resources.resources
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.csproj.GenerateResource.cache
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.csproj.CoreCompileInputs.cache
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.csproj.Up2Date
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.pdb
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Controles\bin\Debug\Controles.dll
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Controles\bin\Debug\Controles.pdb
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Controles\bin\Debug\Servicios.dll
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Controles\bin\Debug\Dal.dll
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Controles\bin\Debug\Interface.dll
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Controles\bin\Debug\ServicioClase.dll
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Controles\bin\Debug\Be.dll
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Controles\bin\Debug\Servicios.pdb
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Controles\bin\Debug\Dal.pdb
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Controles\bin\Debug\Interface.pdb
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Controles\bin\Debug\ServicioClase.pdb
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Controles\bin\Debug\Be.pdb
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.csproj.AssemblyReference.cache
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.Calendario.resources
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.ComboIdioma.resources
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.Properties.Resources.resources
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.csproj.GenerateResource.cache
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.csproj.CoreCompileInputs.cache
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.csproj.CopyComplete
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.dll
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.pdb

@@ -74,15 +74,15 @@ namespace GUI
         }
         private void Canchas()
         {
-            lCancha.AddRange(new BeCancha[] {new BeCancha() { id = "1", Nombre = "Cancha 5 A"},
-                                             new BeCancha() { id = "2", Nombre = "Cancha 5 B"},
-                                             new BeCancha() { id = "3", Nombre = "Cancha 5 C"},
-                                             new BeCancha() { id = "4", Nombre = "Cancha 7 A"},
-                                             new BeCancha() { id = "5", Nombre = "Cancha 7 B"},
-                                             new BeCancha() { id = "7", Nombre = "Cancha 7 C"},
-                                             new BeCancha() { id = "8", Nombre = "Cancha 7 D"},
-                                             new BeCancha() { id = "9", Nombre = "Cancha 11 A"},
-                                             new BeCancha() { id = "10", Nombre = "Cancha 11 B"}});
+            lCancha.AddRange(new BeCancha[] {new BeCancha() { id = "1", Nombre = "Cancha 5 A", Precio = "1500"},
+                                             new BeCancha() { id = "2", Nombre = "Cancha 5 B", Precio = "1500"},
+                                             new BeCancha() { id = "3", Nombre = "Cancha 5 C", Precio = "1500"},
+                                             new BeCancha() { id = "4", Nombre = "Cancha 7 A", Precio = "2000"},
+                                             new BeCancha() { id = "5", Nombre = "Cancha 7 B", Precio = "2000"},
+                                             new BeCancha() { id = "7", Nombre = "Cancha 7 C", Precio = "2000"},
+                                             new BeCancha() { id = "8", Nombre = "Cancha 7 D", Precio = "2000"},
+                                             new BeCancha() { id = "9", Nombre = "Cancha 11 A", Precio = "3000"},
+                                             new BeCancha() { id = "10", Nombre = "Cancha 11 B", Precio = "3000"}});
 
             foreach (BeCancha l in lCancha)
             {
@@ -97,6 +97,7 @@ namespace GUI
                 BeCliente bcliente1 = ObtenerCliente();
 
                 BeReserva reserva;
+                
                 reserva = new BeReserva(bcancha1, bcliente1, DateTime.Parse(dateTimePicker1.Text), TimeSpan.Parse(txtHorario.Text));
                 blReserva.Alta(reserva);
                 lReserva = blReserva.Consulta();
@@ -162,7 +163,6 @@ namespace GUI
         }
         public void Refrescar()
         {
-            lReserva = blReserva.Consulta();
             foreach (BeReserva r in lReserva)
             {
                 dgvReservas.Rows.Add(r.id, r.Cancha.Nombre, r.Cliente.Nombre, r.Fecha, r.Hora);
@@ -194,12 +194,28 @@ namespace GUI
             ColumnaFechaR.HeaderText = _idioma.lEtiqueta.Find(x => x.ControlT == "ColumnaFechaR").Texto;
             ColumnaHorarioR.HeaderText = _idioma.lEtiqueta.Find(x => x.ControlT == "ColumnaHorarioR").Texto;
             btnSalirR.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "btnSalirR").Texto;
+            //btnCancelarReserva.Text = _idioma.lEtiqueta.Find(X => X.ControlT == "btnCancelarReserva").Texto;
             this.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "GReservasForm").Texto;
         }
 
         private void btnSalirR_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void btnCancelarReserva_Click(object sender, EventArgs e)
+        {
+            DialogResult resultado = MessageBox.Show("Usted está por cancelar la reserva", "Cancelar reserva", MessageBoxButtons.YesNo);
+            if (resultado == DialogResult.Yes)
+            {
+                txtDni.Clear();
+                cmbCancha.Items.Clear();
+                txtHorario.Clear();
+            }
+            else
+            {
+
+            }
         }
     }
 }

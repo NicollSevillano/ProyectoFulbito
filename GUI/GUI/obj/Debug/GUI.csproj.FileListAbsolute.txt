@@ -185,3 +185,147 @@ C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.pdb
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\GUI\obj\Debug\GUI.BitacoraForm.resources
 C:\Users\nicol\Escritorio\ProyectoCampo-Diploma\GUI\GUI\obj\Debug\GUI.GUsuariosForm.resources
 C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.Tarjeta.resources
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\GUI.exe.config
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\GUI.exe
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\GUI.pdb
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\BCrypt.Net-Next.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Be.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Bll.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Controles.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Interface.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Mapper.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\ServicioClase.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Servicios.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\System.Buffers.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\System.Memory.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Dal.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Be.pdb
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Bll.pdb
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Controles.pdb
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Interface.pdb
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Mapper.pdb
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\ServicioClase.pdb
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Servicios.pdb
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\BCrypt.Net-Next.xml
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Newtonsoft.Json.xml
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\System.Buffers.xml
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\System.Memory.xml
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Dal.pdb
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.csproj.AssemblyReference.cache
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.BitacoraForm.resources
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.CambiarClaveForm.resources
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.CobrarReservaForm.resources
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.GRegistrarClienteForm.resources
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.GReservasForm.resources
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.InicioSesionForm.resources
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.MenuPrincipalForm.resources
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.GUsuariosForm.resources
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.PerfilesForm.resources
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.Tarjeta.resources
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.csproj.Up2Date
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.exe
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.pdb
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\GUI.exe.config
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\GUI.exe
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\GUI.pdb
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\BCrypt.Net-Next.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Be.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Bll.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Controles.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Interface.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Mapper.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\ServicioClase.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Servicios.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\System.Buffers.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\System.Memory.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Dal.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Be.pdb
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Bll.pdb
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Controles.pdb
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Interface.pdb
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Mapper.pdb
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\ServicioClase.pdb
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Servicios.pdb
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\BCrypt.Net-Next.xml
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\System.Buffers.xml
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\System.Memory.xml
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Dal.pdb
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.csproj.AssemblyReference.cache
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.CambiarClaveForm.resources
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.CobrarReservaForm.resources
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.GRegistrarClienteForm.resources
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.GReservasForm.resources
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.InicioSesionForm.resources
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.MenuPrincipalForm.resources
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.GUsuariosForm.resources
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.PerfilesForm.resources
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.Tarjeta.resources
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.csproj.Up2Date
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.exe
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.pdb
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.ReporteForm.resources
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\GUI.exe.config
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\GUI.exe
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\GUI.pdb
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\BCrypt.Net-Next.dll
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Be.dll
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Bll.dll
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Controles.dll
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Interface.dll
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Mapper.dll
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Newtonsoft.Json.dll
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\ServicioClase.dll
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Servicios.dll
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\System.Buffers.dll
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\System.Memory.dll
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\System.Numerics.Vectors.dll
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Dal.dll
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Be.pdb
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Bll.pdb
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Controles.pdb
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Interface.pdb
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Mapper.pdb
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\ServicioClase.pdb
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Servicios.pdb
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\BCrypt.Net-Next.xml
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Newtonsoft.Json.xml
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\System.Buffers.xml
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\System.Memory.xml
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\System.Numerics.Vectors.xml
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Dal.pdb
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.csproj.AssemblyReference.cache
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.CambiarClaveForm.resources
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.CobrarReservaForm.resources
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.GRegistrarClienteForm.resources
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.GReservasForm.resources
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.InicioSesionForm.resources
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.MenuPrincipalForm.resources
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.Properties.Resources.resources
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.GUsuariosForm.resources
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.PerfilesForm.resources
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.ReporteForm.resources
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.Tarjeta.resources
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.csproj.CopyComplete
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.exe
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.pdb

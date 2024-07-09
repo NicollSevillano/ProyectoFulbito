@@ -73,3 +73,78 @@ C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Servicios\obj\Debug\Servicios.
 C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Servicios\obj\Debug\Servicios.csproj.Up2Date
 C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Servicios\obj\Debug\Servicios.dll
 C:\Users\Nicoll\Desktop\clone\ProyectoFulbito\GUI\Servicios\obj\Debug\Servicios.pdb
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\Servicios.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\Servicios.pdb
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\BCrypt.Net-Next.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\Be.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\Dal.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\Interface.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\ServicioClase.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\System.Buffers.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\System.Memory.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\Be.pdb
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\Dal.pdb
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\Interface.pdb
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\ServicioClase.pdb
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\BCrypt.Net-Next.xml
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\System.Buffers.xml
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\System.Memory.xml
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Servicios\obj\Debug\Servicios.csproj.AssemblyReference.cache
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Servicios\obj\Debug\Servicios.csproj.CoreCompileInputs.cache
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Servicios\obj\Debug\Servicios.csproj.Up2Date
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Servicios\obj\Debug\Servicios.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Servicios\obj\Debug\Servicios.pdb
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\Servicios.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\Servicios.pdb
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\BCrypt.Net-Next.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\Be.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\Dal.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\Interface.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\ServicioClase.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\System.Buffers.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\System.Memory.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\Be.pdb
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\Dal.pdb
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\Interface.pdb
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\ServicioClase.pdb
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\BCrypt.Net-Next.xml
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\System.Buffers.xml
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\System.Memory.xml
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Servicios\obj\Debug\Servicios.csproj.AssemblyReference.cache
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Servicios\obj\Debug\Servicios.csproj.CoreCompileInputs.cache
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Servicios\obj\Debug\Servicios.csproj.Up2Date
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Servicios\obj\Debug\Servicios.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Servicios\obj\Debug\Servicios.pdb
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\Servicios.dll
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\Servicios.pdb
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\BCrypt.Net-Next.dll
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\Be.dll
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\Dal.dll
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\Interface.dll
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\ServicioClase.dll
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\System.Buffers.dll
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\System.Memory.dll
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\System.Numerics.Vectors.dll
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\Be.pdb
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\Dal.pdb
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\Interface.pdb
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\ServicioClase.pdb
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\BCrypt.Net-Next.xml
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\System.Buffers.xml
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\System.Memory.xml
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\System.Numerics.Vectors.xml
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Servicios\obj\Debug\Servicios.csproj.AssemblyReference.cache
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Servicios\obj\Debug\Servicios.csproj.CoreCompileInputs.cache
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Servicios\obj\Debug\Servicios.csproj.CopyComplete
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Servicios\obj\Debug\Servicios.dll
+D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Servicios\obj\Debug\Servicios.pdb
