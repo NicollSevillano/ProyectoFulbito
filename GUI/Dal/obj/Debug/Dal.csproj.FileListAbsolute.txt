@@ -28,3 +28,9 @@ D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Dal\obj\Debug\Dal.cspr
 D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Dal\obj\Debug\Dal.csproj.CoreCompileInputs.cache
 D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Dal\obj\Debug\Dal.dll
 D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Dal\obj\Debug\Dal.pdb
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Dal\bin\Debug\Dal.dll
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Dal\bin\Debug\Dal.pdb
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Dal\obj\Debug\Dal.csproj.AssemblyReference.cache
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Dal\obj\Debug\Dal.csproj.CoreCompileInputs.cache
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Dal\obj\Debug\Dal.dll
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Dal\obj\Debug\Dal.pdb

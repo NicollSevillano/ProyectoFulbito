@@ -94,7 +94,7 @@ namespace GUI
         {
             try
             {
-                if (treeView1.SelectedNode == null && listBox1.SelectedItems == null)
+                if (treeView1.SelectedNode == null && listBox2.SelectedItems == null)
                 {
                     throw new Exception("Permiso no seleccionado");
                 }

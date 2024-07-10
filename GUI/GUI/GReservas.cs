@@ -101,8 +101,7 @@ namespace GUI
                 reserva = new BeReserva(bcancha1, bcliente1, DateTime.Parse(dateTimePicker1.Text), TimeSpan.Parse(txtHorario.Text));
                 blReserva.Alta(reserva);
                 lReserva = blReserva.Consulta();
-                dgvReservas.Rows.Add(reserva.id, reserva.Cancha.Nombre, reserva.Cliente.Nombre, reserva.Fecha, reserva.Hora);
-                //Refrescar();
+                Refrescar();
             }
             else
             {
@@ -117,6 +116,7 @@ namespace GUI
         }
         private BeCliente ObtenerCliente()
         {
+            lCliente = blCliente.Consulta();
             string aux = txtDni.Text;
             BeCliente cliente = lCliente.Find(x => x.DNI == aux);
             return cliente;
@@ -163,6 +163,7 @@ namespace GUI
         }
         public void Refrescar()
         {
+            dgvReservas.Rows.Clear();
             foreach (BeReserva r in lReserva)
             {
                 dgvReservas.Rows.Add(r.id, r.Cancha.Nombre, r.Cliente.Nombre, r.Fecha, r.Hora);

@@ -100,3 +100,20 @@ D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Mapper\obj\Debug\Mappe
 D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Mapper\obj\Debug\Mapper.csproj.CopyComplete
 D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Mapper\obj\Debug\Mapper.dll
 D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Mapper\obj\Debug\Mapper.pdb
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Mapper\bin\Debug\Mapper.dll
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Mapper\bin\Debug\Mapper.pdb
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Mapper\bin\Debug\Be.dll
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Mapper\bin\Debug\Dal.dll
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Mapper\bin\Debug\Interface.dll
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Mapper\bin\Debug\ServicioClase.dll
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Mapper\bin\Debug\Servicios.dll
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Mapper\bin\Debug\Be.pdb
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Mapper\bin\Debug\Dal.pdb
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Mapper\bin\Debug\Interface.pdb
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Mapper\bin\Debug\ServicioClase.pdb
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Mapper\bin\Debug\Servicios.pdb
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Mapper\obj\Debug\Mapper.csproj.AssemblyReference.cache
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Mapper\obj\Debug\Mapper.csproj.CoreCompileInputs.cache
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Mapper\obj\Debug\Mapper.csproj.Up2Date
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Mapper\obj\Debug\Mapper.dll
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Mapper\obj\Debug\Mapper.pdb

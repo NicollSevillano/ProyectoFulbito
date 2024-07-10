@@ -23,11 +23,6 @@ namespace Mapper
         {
             string storeAltaRerva = "sp_Alta_Reserva";
             al = new ArrayList();
-            SqlParameter p0 = new SqlParameter();
-            p0.ParameterName = "@codigoReserva";
-            p0.Value = pObject.id;
-            p0.SqlDbType = SqlDbType.Int;
-            al.Add(p0);
 
             SqlParameter p1 = new SqlParameter();
             p1.ParameterName = "@CodigoCancha";
