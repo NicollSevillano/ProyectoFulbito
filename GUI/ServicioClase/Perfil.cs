@@ -9,6 +9,10 @@ namespace ServicioClase
 {
     public class Perfil : IEntity
     {
+        //public Perfil(string pNombre2)
+        //{
+        //    Nombre = pNombre2;
+        //}
         public Perfil(string pNombre, Permiso pPermiso)
         {
             Nombre = pNombre; Permiso = pPermiso;

@@ -78,7 +78,6 @@ C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Controles\obj\Debug
 C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.Properties.Resources.resources
 C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.csproj.GenerateResource.cache
 C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.csproj.CoreCompileInputs.cache
-C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.csproj.Up2Date
 C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.dll
 C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.pdb
 D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Controles\bin\Debug\Controles.dll
@@ -123,3 +122,4 @@ C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Controles\obj\Debug\Co
 C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.csproj.Up2Date
 C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.dll
 C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.pdb
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.csproj.CopyComplete

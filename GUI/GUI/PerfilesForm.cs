@@ -94,14 +94,9 @@ namespace GUI
         {
             try
             {
-                if (treeView1.SelectedNode == null && listBox2.SelectedItems == null)
-                {
-                    throw new Exception("Permiso no seleccionado");
-                }
                 string nombre = Interaction.InputBox("Nombre del perfil:");
-                Permiso permiso = PerfilManager.pCompuestoRaiz.BuscarPermisoNombre(listBox2.Text, PerfilManager.pCompuestoRaiz);
-                Perfil perfil = new Perfil(nombre, permiso);
-                PerfilManager.AltaPerfil(perfil);
+                Perfil perfil = new Perfil(nombre, null);
+                PerfilManager.AltaNombrePerfil(perfil);
                 ActualizarPerfiles();
             }
             catch (Exception ex)
@@ -126,9 +121,14 @@ namespace GUI
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             Perfil aux = PerfilManager.lPerfil.Find(x => x.Nombre == listBox1.Text);
-            beUsuario.Perfil = aux;
-            lbNombrePerfil.Text = beUsuario.Perfil.Nombre;
-            bllUsuario.Modificacion(beUsuario);
+            Permiso permiso = PerfilManager.pCompuestoRaiz.BuscarPermisoNombre(listBox2.Text, PerfilManager.pCompuestoRaiz);
+            //beUsuario.Perfil = aux;
+            //lbNombrePerfil.Text = beUsuario.Perfil.Nombre;
+            aux.Permiso = permiso;
+            PerfilManager.ModificarPerfil(aux);
+            actualizarTree();
+            //PerfilManager.AltaPerfil(permiso);
+            //bllUsuario.Modificacion(beUsuario);
             control();
         }
         private void btnCerrar_Click(object sender, EventArgs e)

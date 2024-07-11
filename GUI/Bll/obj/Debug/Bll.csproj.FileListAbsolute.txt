@@ -90,7 +90,6 @@ C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\Dal.p
 C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\Servicios.pdb
 C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Bll\obj\Debug\Bll.csproj.AssemblyReference.cache
 C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Bll\obj\Debug\Bll.csproj.CoreCompileInputs.cache
-C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Bll\obj\Debug\Bll.csproj.Up2Date
 C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Bll\obj\Debug\Bll.dll
 C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Bll\obj\Debug\Bll.pdb
 D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\Bll.dll
@@ -131,3 +130,4 @@ C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Bll\obj\Debug\Bll.cspr
 C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Bll\obj\Debug\Bll.csproj.Up2Date
 C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Bll\obj\Debug\Bll.dll
 C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Bll\obj\Debug\Bll.pdb
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Bll\obj\Debug\Bll.csproj.CopyComplete

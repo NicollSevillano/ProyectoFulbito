@@ -269,8 +269,9 @@ namespace GUI
         {
             this.Hide();
             PerfilesForm perfil = new PerfilesForm(LlamarUsuario());
+            //Agregar prop idioma al constructor perfil
             //LanguageManager.Suscribir(perfil);
-            //LanguageManager.Actualizar();
+            //LanguageManager.Actualizar(this);
             perfil.ShowDialog();
             bllUsuario.Consulta();
             this.Show();

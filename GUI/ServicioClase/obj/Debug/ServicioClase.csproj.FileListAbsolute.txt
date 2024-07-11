@@ -52,3 +52,12 @@ C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\obj\Debu
 C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\obj\Debug\Servicio.71A683D5.Up2Date
 C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\obj\Debug\ServicioClase.dll
 C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\obj\Debug\ServicioClase.pdb
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\bin\Debug\ServicioClase.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\bin\Debug\ServicioClase.pdb
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\bin\Debug\Interface.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\bin\Debug\Interface.pdb
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\obj\Debug\ServicioClase.csproj.AssemblyReference.cache
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\obj\Debug\ServicioClase.csproj.CoreCompileInputs.cache
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\obj\Debug\ServicioClase.csproj.CopyComplete
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\obj\Debug\ServicioClase.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\obj\Debug\ServicioClase.pdb

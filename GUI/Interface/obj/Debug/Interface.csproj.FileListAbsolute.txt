@@ -34,3 +34,9 @@ C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Interface\obj\Debug\In
 C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Interface\obj\Debug\Interface.csproj.CoreCompileInputs.cache
 C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Interface\obj\Debug\Interface.dll
 C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Interface\obj\Debug\Interface.pdb
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Interface\bin\Debug\Interface.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Interface\bin\Debug\Interface.pdb
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Interface\obj\Debug\Interface.csproj.AssemblyReference.cache
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Interface\obj\Debug\Interface.csproj.CoreCompileInputs.cache
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Interface\obj\Debug\Interface.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Interface\obj\Debug\Interface.pdb

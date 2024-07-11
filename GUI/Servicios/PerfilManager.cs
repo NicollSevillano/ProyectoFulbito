@@ -35,9 +35,29 @@ namespace Servicios
         {
             lPerfil = ConsultaPerfil();
         }
-        public static void AltaPerfil(Perfil pObject)
+        public static void ModificarPerfil(Perfil pPerfil)
         {
-            string storeAltaPerfil = "sp_Alta_Perfil";
+            string spModificarPerfil = "sp_Modificar_Permiso_Perfil";
+            arrayList = new ArrayList();
+
+            SqlParameter p1 = new SqlParameter();
+            p1.ParameterName = "@CodigoPerfil";
+            p1.Value = pPerfil.id;
+            p1.SqlDbType = SqlDbType.Int;
+            arrayList.Add(p1);
+
+            SqlParameter p2 = new SqlParameter();
+            p2.ParameterName = "@Permiso";
+            p2.Value = pPerfil.Permiso.id;
+            p2.SqlDbType = SqlDbType.Int;
+            arrayList.Add(p2);
+
+            dao.Escribir(spModificarPerfil, arrayList);
+            ActualizaListaPerfil();
+        }
+        public static void AltaNombrePerfil(Perfil pObject)
+        {
+            string spnombrePerfil = "sp_Alta_Nombre_Perfil";
             arrayList = new ArrayList();
 
             SqlParameter p1 = new SqlParameter();
@@ -46,13 +66,7 @@ namespace Servicios
             p1.SqlDbType = SqlDbType.NVarChar;
             arrayList.Add(p1);
 
-            SqlParameter p2 = new SqlParameter();
-            p2.ParameterName = "@Permiso";
-            p2.Value = pObject.Permiso.id;
-            p2.SqlDbType = SqlDbType.Int;
-            arrayList.Add(p2);
-
-            dao.Escribir(storeAltaPerfil, arrayList);
+            dao.Escribir(spnombrePerfil, arrayList);
             ActualizaListaPerfil();
         }
         public static void BajaPerfil(int pId)

@@ -120,7 +120,6 @@ C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug
 C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Servicios\obj\Debug\Servicios.csproj.AssemblyReference.cache
 C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Servicios\obj\Debug\Servicios.csproj.CoreCompileInputs.cache
-C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Servicios\obj\Debug\Servicios.csproj.Up2Date
 C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Servicios\obj\Debug\Servicios.dll
 C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Servicios\obj\Debug\Servicios.pdb
 D:\AuxLab\Nueva carpeta\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\Servicios.dll
@@ -173,3 +172,4 @@ C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Servicios\obj\Debug\Se
 C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Servicios\obj\Debug\Servicios.csproj.Up2Date
 C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Servicios\obj\Debug\Servicios.dll
 C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Servicios\obj\Debug\Servicios.pdb
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Servicios\obj\Debug\Servicios.csproj.CopyComplete
