@@ -68,17 +68,13 @@ namespace GUI
         {
             foreach (Permiso permiso in pRaiz.lPermiso)
             {
-                if (listBox2.FindString(permiso.Nombre) >= 0)
-                {
-
-                }
-                else
-                {
-                    listBox2.Items.Add(permiso.Nombre.ToString());
-                    if (permiso is PermisoCompuesto)
+                if (permiso is PermisoCompuesto)
+                {                    
+                    if (!listBox2.Items.Contains(permiso.Nombre))
                     {
-                        permisosRecursiva((PermisoCompuesto)permiso);
+                        listBox2.Items.Add(permiso.Nombre.ToString());
                     }
+                    permisosRecursiva((PermisoCompuesto)permiso);
                 }
             }
         }
@@ -122,13 +118,9 @@ namespace GUI
         {
             Perfil aux = PerfilManager.lPerfil.Find(x => x.Nombre == listBox1.Text);
             Permiso permiso = PerfilManager.pCompuestoRaiz.BuscarPermisoNombre(listBox2.Text, PerfilManager.pCompuestoRaiz);
-            //beUsuario.Perfil = aux;
-            //lbNombrePerfil.Text = beUsuario.Perfil.Nombre;
             aux.Permiso = permiso;
             PerfilManager.ModificarPerfil(aux);
             actualizarTree();
-            //PerfilManager.AltaPerfil(permiso);
-            //bllUsuario.Modificacion(beUsuario);
             control();
         }
         private void btnCerrar_Click(object sender, EventArgs e)
@@ -168,7 +160,22 @@ namespace GUI
             btnBorrar.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "btnBorrar").Texto;
             btnAgregar.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "btnAgregar").Texto;
             btnCerrar.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "btnCerrar").Texto;
+            btnModificarperfil.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "btnModificarperfil").Texto;
             this.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "PerfilesForm").Texto;
+        }
+
+        private void btnModificarperfil_Click(object sender, EventArgs e)
+        {
+            DialogResult resultado = MessageBox.Show("¿Está seguro de cambiar el Permiso del perfil actual?", "Modificando perfil actual...", MessageBoxButtons.YesNo); ;
+            if(resultado == DialogResult.Yes)
+            {
+                Perfil aux = PerfilManager.lPerfil.Find(x => x.Nombre == listBox1.Text);
+                Permiso permiso = PerfilManager.pCompuestoRaiz.BuscarPermisoNombre(listBox2.Text, PerfilManager.pCompuestoRaiz);
+                aux.Permiso = permiso;
+                PerfilManager.ModificarPerfil(aux);
+                ActualizarPerfiles();
+                control();
+            }
         }
     }
 }

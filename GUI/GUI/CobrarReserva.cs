@@ -25,6 +25,7 @@ namespace GUI
         {
             InitializeComponent();
             bReserva = reserva;
+            bllReserva = new BllReserva();
             LanguageManager.Suscribir(this);
         }
 
@@ -51,11 +52,13 @@ namespace GUI
         {
             listbCobrar.Items.Clear();
             listbCobrar.Items.Add($"{bReserva.Cancha.Nombre}");
-            listbCobrar.Items.Add($"{bReserva.Fecha}");
+            listbCobrar.Items.Add($"{bReserva.Fecha.ToString("dd/MM/yyyy")}");
             listbCobrar.Items.Add($"{bReserva.Hora}");
             listbCobrar.Items.Add($"El precio por 1h es:");
             listbCobrar.Items.Add($"${bReserva.Cancha.Precio}");
         }
+        
+
         private void btncPagar_Click(object sender, EventArgs e)
         {
             if(rbEfectivo.Checked == true)
@@ -64,6 +67,8 @@ namespace GUI
                 if(resultado == DialogResult.OK)
                 {
                     MessageBox.Show("Reserva confirmada");
+                    List<BeReserva> lreserva = bllReserva.Consulta();
+                    FacturaReporte.Reporte(bReserva);
                 }
                 else if(resultado == DialogResult.Cancel)
                 {
@@ -79,6 +84,8 @@ namespace GUI
                 if (resultado == DialogResult.OK)
                 {
                     MessageBox.Show("Reserva confirmada");
+                    List<BeReserva> lreserva = bllReserva.Consulta();
+                    FacturaReporte.Reporte(bReserva);
                 }
                 else if (resultado == DialogResult.Cancel)
                 {
@@ -89,6 +96,8 @@ namespace GUI
             {
                 tarjeta.Hide();
                 tarjeta.ShowDialog();
+                List<BeReserva> lreserva = bllReserva.Consulta();
+                FacturaReporte.Reporte(bReserva);
             }
         }
         private string Alias()

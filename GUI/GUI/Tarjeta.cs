@@ -1,4 +1,6 @@
-﻿using Interface;
+﻿using Be;
+using Bll;
+using Interface;
 using ServicioClase;
 using Servicios;
 using System;
@@ -15,6 +17,7 @@ namespace GUI
 {
     public partial class Tarjeta : Form, ITraducible
     {
+        BllReserva bllReserva;
         public Tarjeta()
         {
             InitializeComponent();
@@ -22,7 +25,7 @@ namespace GUI
         
         private void Tarjeta_Load(object sender, EventArgs e)
         {
-
+            bllReserva = new BllReserva();
         }
 
         private void txtnumero_TextChanged(object sender, EventArgs e)

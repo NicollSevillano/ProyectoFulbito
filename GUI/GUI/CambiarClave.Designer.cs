@@ -79,6 +79,7 @@
             this.txtContraseñaN.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtContraseñaN.Location = new System.Drawing.Point(235, 108);
             this.txtContraseñaN.Name = "txtContraseñaN";
+            this.txtContraseñaN.PasswordChar = '*';
             this.txtContraseñaN.Size = new System.Drawing.Size(136, 27);
             this.txtContraseñaN.TabIndex = 3;
             // 

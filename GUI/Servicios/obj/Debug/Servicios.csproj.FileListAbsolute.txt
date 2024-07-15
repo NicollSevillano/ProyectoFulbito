@@ -173,3 +173,13 @@ C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Servicios\obj\Debug\Se
 C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Servicios\obj\Debug\Servicios.dll
 C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Servicios\obj\Debug\Servicios.pdb
 C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Servicios\obj\Debug\Servicios.csproj.CopyComplete
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\Servicios.dll.config
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\itextsharp.dll
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\itextsharp.xmlworker.dll
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\Be.dll.config
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\Dal.dll.config
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\Interface.dll.config
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\ServicioClase.dll.config
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Servicios\bin\Debug\itextsharp.xml

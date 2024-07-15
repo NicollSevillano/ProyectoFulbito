@@ -24,6 +24,7 @@ namespace GUI
         BllUsuario bllUsuario;
         GUsuariosForm cClave;
         private bool mostrar = false;
+        private bool mostrar2 = false;
         public BelUsuario beUsuario { get; set; } 
 
         private void CambiarClave_Load(object sender, EventArgs e)
@@ -92,8 +93,8 @@ namespace GUI
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            mostrar = !mostrar;
-            if (mostrar)
+            mostrar2 = !mostrar2;
+            if (mostrar2)
             {
                 txtContraseñaN.PasswordChar = '\0';
                 pictureBox3.Image = GUI.Properties.Resources.oculto;

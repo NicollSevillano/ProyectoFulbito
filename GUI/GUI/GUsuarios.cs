@@ -73,6 +73,7 @@ namespace GUI
 
                     throw new Exception("Error al agregar el usuario");
                 }
+                
                 else
                 {
                     perfil = PerfilManager.ConsultaPerfil().Find(x => x.Nombre == cmbPerfiles.Text);
@@ -180,7 +181,9 @@ namespace GUI
             dgvUsuarios.Rows.Clear();
             foreach (BelUsuario item in lUsuario)
             {
-                dgvUsuarios.Rows.Add(item.id, item.DNI, item.Nombre, item.Apellido, item.Email, item.Perfil.Nombre, item.Usuario, item.Contraseña, item.Bloqueado, item.Activo);
+                if(item.Perfil == null) { dgvUsuarios.Rows.Add(item.id, item.DNI, item.Nombre, item.Apellido, item.Email, "", item.Usuario, item.Contraseña, item.Bloqueado, item.Activo); }
+                else
+                { dgvUsuarios.Rows.Add(item.id, item.DNI, item.Nombre, item.Apellido, item.Email, item.Perfil.Nombre, item.Usuario, item.Contraseña, item.Bloqueado, item.Activo); }
             }
             FiltroDgv();
         }
@@ -276,6 +279,12 @@ namespace GUI
             bllUsuario.Consulta();
             this.Show();
             CargarPerfiles();
+            txtDni.Clear();
+            txtNombre.Clear();
+            txtApellido.Clear();
+            txtEmail.Clear();
+            txtUsuario.Clear();
+            txtContraseña.Clear();
         }
 
         public void Actualizar(string pIdioma)
@@ -309,6 +318,17 @@ namespace GUI
             ColumnaBloqueadoU.HeaderText = _idioma.lEtiqueta.Find(x => x.ControlT == "ColumnaBloqueadoU").Texto;
             ColumnaActivoU.HeaderText = _idioma.lEtiqueta.Find(x => x.ControlT == "ColumnaActivoU").Texto;
             this.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "GUsuariosForm").Texto;
+        }
+
+        private void dgvUsuarios_CellClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+            DataGridViewRow row = dgvUsuarios.SelectedRows[0];
+            txtDni.Text = row.Cells[1].Value.ToString();
+            txtNombre.Text = row.Cells[2].Value.ToString();
+            txtApellido.Text = row.Cells[3].Value.ToString();
+            txtEmail.Text = row.Cells[4].Value.ToString();
+            cmbPerfiles.Text = row.Cells[5].Value.ToString();
+            txtUsuario.Text = row.Cells[6].Value.ToString();
         }
     }
 }

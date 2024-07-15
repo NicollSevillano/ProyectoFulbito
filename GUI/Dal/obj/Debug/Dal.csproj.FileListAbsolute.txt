@@ -40,3 +40,10 @@ C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Dal\obj\Debug\Dal.c
 C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Dal\obj\Debug\Dal.csproj.CoreCompileInputs.cache
 C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Dal\obj\Debug\Dal.dll
 C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Dal\obj\Debug\Dal.pdb
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Dal\bin\Debug\Dal.dll.config
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Dal\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Dal\bin\Debug\itextsharp.dll
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Dal\bin\Debug\itextsharp.xmlworker.dll
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Dal\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Dal\bin\Debug\itextsharp.xml
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Dal\obj\Debug\Dal.csproj.Up2Date

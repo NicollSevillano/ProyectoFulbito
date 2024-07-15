@@ -46,6 +46,7 @@ namespace GUI
             lCliente = blCliente.Consulta();
             ValidarCliente();
             Canchas();
+            //Refrescar();
         }
 
         private bool CargarTXT()
@@ -102,6 +103,7 @@ namespace GUI
                 blReserva.Alta(reserva);
                 lReserva = blReserva.Consulta();
                 Refrescar();
+                MessageBox.Show("No se olvide de pagar la reserva!!");
             }
             else
             {
@@ -172,6 +174,7 @@ namespace GUI
 
         private void btnPagar_Click(object sender, EventArgs e)
         {
+            if (dgvReservas.SelectedRows.Count == 0) { MessageBox.Show("Tiene que seleccionar una reserva"); return; }
             CobrarReservaForm cobrarReserva = new CobrarReservaForm(LlamarReserva());
             LanguageManager.Suscribir(cobrarReserva);
             cobrarReserva.Hide();

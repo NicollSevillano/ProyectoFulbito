@@ -37,6 +37,15 @@
     <Reference Include="BCrypt.Net-Next, Version=4.0.3.0, Culture=neutral, PublicKeyToken=1e11be04b6288443, processorArchitecture=MSIL">
       <HintPath>..\packages\BCrypt.Net-Next.4.0.3\lib\net48\BCrypt.Net-Next.dll</HintPath>
     </Reference>
+    <Reference Include="BouncyCastle.Cryptography, Version=2.0.0.0, Culture=neutral, PublicKeyToken=072edcf4a5328938, processorArchitecture=MSIL">
+      <HintPath>..\packages\BouncyCastle.Cryptography.2.4.0\lib\net461\BouncyCastle.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.4, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13.4\lib\net461\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.xmlworker, Version=5.4.3.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\GipoItexsharpxml.1.0.0\lib\itextsharp.xmlworker.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
@@ -117,12 +126,6 @@
     <Compile Include="PerfilesForm.Designer.cs">
       <DependentUpon>PerfilesForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="ReporteForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ReporteForm.Designer.cs">
-      <DependentUpon>ReporteForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="Tarjeta.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -162,9 +165,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PerfilesForm.resx">
       <DependentUpon>PerfilesForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ReporteForm.resx">
-      <DependentUpon>ReporteForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tarjeta.resx">
       <DependentUpon>Tarjeta.cs</DependentUpon>

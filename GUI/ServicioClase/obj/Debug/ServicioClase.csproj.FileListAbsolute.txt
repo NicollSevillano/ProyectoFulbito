@@ -61,3 +61,10 @@ C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\obj\D
 C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\obj\Debug\ServicioClase.csproj.CopyComplete
 C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\obj\Debug\ServicioClase.dll
 C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\obj\Debug\ServicioClase.pdb
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\bin\Debug\ServicioClase.dll.config
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\bin\Debug\itextsharp.dll
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\bin\Debug\itextsharp.xmlworker.dll
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\bin\Debug\Interface.dll.config
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\bin\Debug\itextsharp.xml

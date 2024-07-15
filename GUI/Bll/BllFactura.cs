@@ -8,5 +8,6 @@ namespace Bll
 {
     public class BllFactura
     {
+
     }
 }

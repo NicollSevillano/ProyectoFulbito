@@ -131,3 +131,15 @@ C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Bll\obj\Debug\Bll.cspr
 C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Bll\obj\Debug\Bll.dll
 C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Bll\obj\Debug\Bll.pdb
 C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Bll\obj\Debug\Bll.csproj.CopyComplete
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\Bll.dll.config
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\itextsharp.dll
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\itextsharp.xmlworker.dll
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\Be.dll.config
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\Interface.dll.config
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\Mapper.dll.config
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\itextsharp.xml
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\ServicioClase.dll.config
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\Dal.dll.config
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Bll\bin\Debug\Servicios.dll.config

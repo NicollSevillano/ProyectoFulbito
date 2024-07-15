@@ -42,13 +42,14 @@
             this.btnCerrar = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.comboIdioma1 = new Controles.ComboIdioma();
+            this.btnModificarperfil = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnBorrar
             // 
             this.btnBorrar.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBorrar.Location = new System.Drawing.Point(645, 181);
+            this.btnBorrar.Location = new System.Drawing.Point(645, 259);
             this.btnBorrar.Name = "btnBorrar";
             this.btnBorrar.Size = new System.Drawing.Size(113, 41);
             this.btnBorrar.TabIndex = 1;
@@ -59,7 +60,7 @@
             // btnCrear
             // 
             this.btnCrear.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCrear.Location = new System.Drawing.Point(645, 117);
+            this.btnCrear.Location = new System.Drawing.Point(645, 135);
             this.btnCrear.Name = "btnCrear";
             this.btnCrear.Size = new System.Drawing.Size(133, 41);
             this.btnCrear.TabIndex = 2;
@@ -70,7 +71,7 @@
             // btnAgregar
             // 
             this.btnAgregar.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregar.Location = new System.Drawing.Point(645, 245);
+            this.btnAgregar.Location = new System.Drawing.Point(645, 321);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(133, 41);
             this.btnAgregar.TabIndex = 3;
@@ -85,7 +86,7 @@
             "Lista de perfiles:"});
             this.listBox1.Location = new System.Drawing.Point(12, 84);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(172, 290);
+            this.listBox1.Size = new System.Drawing.Size(172, 342);
             this.listBox1.TabIndex = 4;
             // 
             // labPerfil
@@ -135,20 +136,20 @@
             "Lista de permisos:"});
             this.listBox2.Location = new System.Drawing.Point(190, 84);
             this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(172, 290);
+            this.listBox2.Size = new System.Drawing.Size(172, 342);
             this.listBox2.TabIndex = 9;
             // 
             // treeView1
             // 
             this.treeView1.Location = new System.Drawing.Point(368, 84);
             this.treeView1.Name = "treeView1";
-            this.treeView1.Size = new System.Drawing.Size(264, 290);
+            this.treeView1.Size = new System.Drawing.Size(264, 342);
             this.treeView1.TabIndex = 10;
             // 
             // btnCerrar
             // 
             this.btnCerrar.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCerrar.Location = new System.Drawing.Point(645, 309);
+            this.btnCerrar.Location = new System.Drawing.Point(645, 383);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(113, 41);
             this.btnCerrar.TabIndex = 11;
@@ -173,12 +174,24 @@
             this.comboIdioma1.Size = new System.Drawing.Size(116, 22);
             this.comboIdioma1.TabIndex = 13;
             // 
+            // btnModificarperfil
+            // 
+            this.btnModificarperfil.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnModificarperfil.Location = new System.Drawing.Point(645, 197);
+            this.btnModificarperfil.Name = "btnModificarperfil";
+            this.btnModificarperfil.Size = new System.Drawing.Size(133, 41);
+            this.btnModificarperfil.TabIndex = 14;
+            this.btnModificarperfil.Text = "Modificar perfil";
+            this.btnModificarperfil.UseVisualStyleBackColor = true;
+            this.btnModificarperfil.Click += new System.EventHandler(this.btnModificarperfil_Click);
+            // 
             // PerfilesForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(211)))), ((int)(((byte)(131)))));
-            this.ClientSize = new System.Drawing.Size(790, 391);
+            this.ClientSize = new System.Drawing.Size(790, 446);
+            this.Controls.Add(this.btnModificarperfil);
             this.Controls.Add(this.comboIdioma1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnCerrar);
@@ -216,5 +229,6 @@
         private System.Windows.Forms.Button btnCerrar;
         private System.Windows.Forms.PictureBox pictureBox1;
         private Controles.ComboIdioma comboIdioma1;
+        private System.Windows.Forms.Button btnModificarperfil;
     }
 }

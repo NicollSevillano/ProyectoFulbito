@@ -39,7 +39,7 @@ namespace Mapper
             SqlParameter p3 = new SqlParameter();
             p3.ParameterName = "@Fecha";
             p3.Value = pObject.Fecha;
-            p3.SqlDbType = SqlDbType.Date;
+            p3.SqlDbType = SqlDbType.DateTime;
             al.Add(p3);
 
             SqlParameter p4 = new SqlParameter();
