@@ -164,5 +164,13 @@ namespace GUI
             ColumnaTelefono.HeaderText = _idioma.lEtiqueta.Find(x => x.ControlT == "ColumnaTelefono").Texto;
             this.Text = _idioma.lEtiqueta.Find(x => x.ControlT == "GRegistrarClienteForm").Texto;
         }
+
+        private void dgvCliente_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            DataGridViewRow row = dgvCliente.SelectedRows[0];
+            txtDni.Text = row.Cells[1].Value.ToString();
+            txtNombre.Text = row.Cells[2].Value.ToString();
+            txtTelefono.Text = row.Cells[3].Value.ToString();
+        }
     }
 }

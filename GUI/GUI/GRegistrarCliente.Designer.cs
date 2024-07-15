@@ -30,6 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GRegistrarClienteForm));
             this.dgvCliente = new System.Windows.Forms.DataGridView();
+            this.ColumnaId = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnaDni = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnaNombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnaTelefono = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.labTitulo = new System.Windows.Forms.Label();
             this.labDNI = new System.Windows.Forms.Label();
             this.labNombre = new System.Windows.Forms.Label();
@@ -42,10 +46,6 @@
             this.btnModificar = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnVolver = new System.Windows.Forms.Button();
-            this.ColumnaId = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnaDni = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnaNombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnaTelefono = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCliente)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -67,7 +67,32 @@
             this.dgvCliente.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvCliente.Size = new System.Drawing.Size(429, 344);
             this.dgvCliente.TabIndex = 0;
+            this.dgvCliente.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvCliente_CellClick);
             this.dgvCliente.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvCliente_RowEnter);
+            // 
+            // ColumnaId
+            // 
+            this.ColumnaId.HeaderText = "id";
+            this.ColumnaId.Name = "ColumnaId";
+            this.ColumnaId.ReadOnly = true;
+            // 
+            // ColumnaDni
+            // 
+            this.ColumnaDni.HeaderText = "DNI";
+            this.ColumnaDni.Name = "ColumnaDni";
+            this.ColumnaDni.ReadOnly = true;
+            // 
+            // ColumnaNombre
+            // 
+            this.ColumnaNombre.HeaderText = "Nombre";
+            this.ColumnaNombre.Name = "ColumnaNombre";
+            this.ColumnaNombre.ReadOnly = true;
+            // 
+            // ColumnaTelefono
+            // 
+            this.ColumnaTelefono.HeaderText = "Teléfono";
+            this.ColumnaTelefono.Name = "ColumnaTelefono";
+            this.ColumnaTelefono.ReadOnly = true;
             // 
             // labTitulo
             // 
@@ -183,30 +208,6 @@
             this.btnVolver.Text = "Volver";
             this.btnVolver.UseVisualStyleBackColor = true;
             this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
-            // 
-            // ColumnaId
-            // 
-            this.ColumnaId.HeaderText = "id";
-            this.ColumnaId.Name = "ColumnaId";
-            this.ColumnaId.ReadOnly = true;
-            // 
-            // ColumnaDni
-            // 
-            this.ColumnaDni.HeaderText = "DNI";
-            this.ColumnaDni.Name = "ColumnaDni";
-            this.ColumnaDni.ReadOnly = true;
-            // 
-            // ColumnaNombre
-            // 
-            this.ColumnaNombre.HeaderText = "Nombre";
-            this.ColumnaNombre.Name = "ColumnaNombre";
-            this.ColumnaNombre.ReadOnly = true;
-            // 
-            // ColumnaTelefono
-            // 
-            this.ColumnaTelefono.HeaderText = "Teléfono";
-            this.ColumnaTelefono.Name = "ColumnaTelefono";
-            this.ColumnaTelefono.ReadOnly = true;
             // 
             // GRegistrarClienteForm
             // 
