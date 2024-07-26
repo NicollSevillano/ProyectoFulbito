@@ -68,3 +68,10 @@ C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\bin\Debu
 C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\bin\Debug\Interface.dll.config
 C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\bin\Debug\BouncyCastle.Cryptography.xml
 C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\bin\Debug\itextsharp.xml
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\bin\Debug\ServicioClase.dll.config
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\bin\Debug\itextsharp.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\bin\Debug\itextsharp.xmlworker.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\bin\Debug\Interface.dll.config
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\ServicioClase\bin\Debug\itextsharp.xml

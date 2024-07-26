@@ -110,37 +110,23 @@ namespace GUI
                     MessageBox.Show("Seleccione un usuario para modificar", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
                 }
+                BelUsuario aux = LlamarUsuario();
+                string dni = Interaction.InputBox("DNI:", "Modificando...", aux.DNI);
+                string nombre = Interaction.InputBox("Nombre:", "Modificando...", aux.Nombre);
+                string apellido = Interaction.InputBox("Apellido:", "Modificando...", aux.Apellido);
+                string email = Interaction.InputBox("Email:", "Modificando...", aux.Email);
+                string usuario = Interaction.InputBox("Usuario:", "Modificando...", aux.Usuario);
+                aux.DNI = dni;
+                aux.Nombre = nombre;
+                aux.Apellido = apellido;
+                aux.Email = email;
+                aux.Usuario = usuario;
 
-                DataGridViewRow row = dgvUsuarios.SelectedRows[0];
-                string usuarioId = row.Cells[0].Value.ToString();
-
-                BelUsuario usuarioAModificar = lUsuario.Find(u => u.id == usuarioId);
-
-                if (!CargarTxt())
-                {
-                    usuarioAModificar.DNI = txtDni.Text;
-                    usuarioAModificar.Nombre = txtNombre.Text;
-                    usuarioAModificar.Apellido = txtApellido.Text;
-                    usuarioAModificar.Email = txtEmail.Text;
-                    usuarioAModificar.Usuario = txtUsuario.Text;
-                    if(txtContraseña.ReadOnly == false)
-                    {
-                        txtContraseña.ReadOnly = true;
-                        MessageBox.Show("No se puede cambiar la contraseña del usuario desde este formulario");
-                    }
-                    else
-                    {
-                        usuarioAModificar.Perfil = PerfilManager.ConsultaPerfil().Find(x => x.Nombre == "");
-                        bllUsuario.Modificacion(usuarioAModificar);
-                        lUsuario = bllUsuario.Consulta();
-                        RefrescarDgv();
-                        MessageBox.Show("Usuario modificado exitosamente");
-                    }
-                }
-                else
-                {
-                    MessageBox.Show("Complete todos los campos", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                }
+                //aux.Perfil = PerfilManager.ConsultaPerfil().Find(x => x.Nombre == "");
+                bllUsuario.Modificacion(aux);
+                lUsuario = bllUsuario.Consulta();
+                RefrescarDgv();
+                MessageBox.Show("Usuario modificado exitosamente");
             }
 
 

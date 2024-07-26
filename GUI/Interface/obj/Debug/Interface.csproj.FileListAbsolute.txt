@@ -47,3 +47,10 @@ C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Interface\bin\Debug\it
 C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Interface\bin\Debug\BouncyCastle.Cryptography.xml
 C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Interface\bin\Debug\itextsharp.xml
 C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Interface\obj\Debug\Interface.csproj.Up2Date
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Interface\bin\Debug\Interface.dll.config
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Interface\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Interface\bin\Debug\itextsharp.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Interface\bin\Debug\itextsharp.xmlworker.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Interface\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Interface\bin\Debug\itextsharp.xml
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Interface\obj\Debug\Interface.csproj.Up2Date

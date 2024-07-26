@@ -128,3 +128,14 @@ C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Mapper\bin\Debug\Servi
 C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Mapper\bin\Debug\Servicios.dll.config
 C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Mapper\bin\Debug\BouncyCastle.Cryptography.xml
 C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Mapper\bin\Debug\itextsharp.xml
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Mapper\bin\Debug\Mapper.dll.config
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Mapper\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Mapper\bin\Debug\itextsharp.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Mapper\bin\Debug\itextsharp.xmlworker.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Mapper\bin\Debug\Be.dll.config
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Mapper\bin\Debug\Dal.dll.config
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Mapper\bin\Debug\Interface.dll.config
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Mapper\bin\Debug\ServicioClase.dll.config
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Mapper\bin\Debug\Servicios.dll.config
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Mapper\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Mapper\bin\Debug\itextsharp.xml

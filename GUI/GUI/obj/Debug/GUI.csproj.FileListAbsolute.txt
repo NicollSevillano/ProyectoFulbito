@@ -217,7 +217,6 @@ C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\System
 C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Dal.pdb
 C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.csproj.AssemblyReference.cache
-C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.BitacoraForm.resources
 C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.CambiarClaveForm.resources
 C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.CobrarReservaForm.resources
 C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.GRegistrarClienteForm.resources
@@ -449,3 +448,16 @@ C:\Users\Nicoll\Desktop\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.csproj.CoreCompile
 C:\Users\Nicoll\Desktop\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.csproj.Up2Date
 C:\Users\Nicoll\Desktop\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.exe
 C:\Users\Nicoll\Desktop\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.pdb
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\itextsharp.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\itextsharp.xmlworker.dll
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Be.dll.config
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Bll.dll.config
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Controles.dll.config
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Interface.dll.config
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Mapper.dll.config
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\ServicioClase.dll.config
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Servicios.dll.config
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\itextsharp.xml
+C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\GUI\bin\Debug\Dal.dll.config

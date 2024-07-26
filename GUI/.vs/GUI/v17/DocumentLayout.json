@@ -1,25 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Nicoll\\Desktop\\ProyectoFulbito\\GUI\\",
+  "WorkspaceRootPath": "C:\\Users\\nicol\\Escritorio\\Nueva carpeta\\ProyectoFulbito\\GUI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|c:\\users\\nicoll\\desktop\\proyectofulbito\\gui\\gui\\gregistrarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|solutionrelative:gui\\gregistrarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|c:\\users\\nicoll\\desktop\\proyectofulbito\\gui\\gui\\gregistrarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|solutionrelative:gui\\gregistrarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|c:\\users\\nicoll\\desktop\\proyectofulbito\\gui\\gui\\gusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|c:\\users\\nicol\\escritorio\\nueva carpeta\\proyectofulbito\\gui\\gui\\gusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|solutionrelative:gui\\gusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|c:\\users\\nicoll\\desktop\\proyectofulbito\\gui\\gui\\gusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|C:\\Users\\nicol\\Escritorio\\Nueva carpeta\\ProyectoFulbito\\GUI\\gui\\gusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|solutionrelative:gui\\gusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|C:\\Users\\Nicoll\\Desktop\\ProyectoFulbito\\GUI\\gui\\greservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|C:\\Users\\nicol\\Escritorio\\Nueva carpeta\\ProyectoFulbito\\GUI\\gui\\gregistrarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|solutionrelative:gui\\gregistrarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|C:\\Users\\nicol\\Escritorio\\Nueva carpeta\\ProyectoFulbito\\GUI\\gui\\gregistrarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|solutionrelative:gui\\gregistrarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|C:\\Users\\nicol\\Escritorio\\Nueva carpeta\\ProyectoFulbito\\GUI\\gui\\greservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D06530F0-6C3F-4EDF-8010-657D3CF8BDF9}|GUI\\GUI.csproj|solutionrelative:gui\\greservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,74 +30,66 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "GUsuarios.cs",
-              "DocumentMoniker": "C:\\Users\\Nicoll\\Desktop\\ProyectoFulbito\\GUI\\GUI\\GUsuarios.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\Escritorio\\Nueva carpeta\\ProyectoFulbito\\GUI\\GUI\\GUsuarios.cs",
               "RelativeDocumentMoniker": "GUI\\GUsuarios.cs",
-              "ToolTip": "C:\\Users\\Nicoll\\Desktop\\ProyectoFulbito\\GUI\\GUI\\GUsuarios.cs",
+              "ToolTip": "C:\\Users\\nicol\\Escritorio\\Nueva carpeta\\ProyectoFulbito\\GUI\\GUI\\GUsuarios.cs",
               "RelativeToolTip": "GUI\\GUsuarios.cs",
-              "ViewState": "AQIAAC8BAAAAAAAAAAAAAEUBAAAaAAAA",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAUwIAAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-15T02:19:05.997Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "GUsuarios.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Nicoll\\Desktop\\ProyectoFulbito\\GUI\\GUI\\GUsuarios.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\Escritorio\\Nueva carpeta\\ProyectoFulbito\\GUI\\GUI\\GUsuarios.cs",
               "RelativeDocumentMoniker": "GUI\\GUsuarios.cs",
-              "ToolTip": "C:\\Users\\Nicoll\\Desktop\\ProyectoFulbito\\GUI\\GUI\\GUsuarios.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\nicol\\Escritorio\\Nueva carpeta\\ProyectoFulbito\\GUI\\GUI\\GUsuarios.cs [Dise\u00F1o]",
               "RelativeToolTip": "GUI\\GUsuarios.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T02:19:04.833Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-07-15T02:19:04.833Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "GRegistrarCliente.cs",
-              "DocumentMoniker": "C:\\Users\\Nicoll\\Desktop\\ProyectoFulbito\\GUI\\GUI\\GRegistrarCliente.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\Escritorio\\Nueva carpeta\\ProyectoFulbito\\GUI\\GUI\\GRegistrarCliente.cs",
               "RelativeDocumentMoniker": "GUI\\GRegistrarCliente.cs",
-              "ToolTip": "C:\\Users\\Nicoll\\Desktop\\ProyectoFulbito\\GUI\\GUI\\GRegistrarCliente.cs",
+              "ToolTip": "C:\\Users\\nicol\\Escritorio\\Nueva carpeta\\ProyectoFulbito\\GUI\\GUI\\GRegistrarCliente.cs",
               "RelativeToolTip": "GUI\\GRegistrarCliente.cs",
               "ViewState": "AQIAAJoAAAAAAAAAAAAowKwAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T02:18:41.95Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-15T02:18:41.95Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "GRegistrarCliente.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Nicoll\\Desktop\\ProyectoFulbito\\GUI\\GUI\\GRegistrarCliente.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\Escritorio\\Nueva carpeta\\ProyectoFulbito\\GUI\\GUI\\GRegistrarCliente.cs",
               "RelativeDocumentMoniker": "GUI\\GRegistrarCliente.cs",
-              "ToolTip": "C:\\Users\\Nicoll\\Desktop\\ProyectoFulbito\\GUI\\GUI\\GRegistrarCliente.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\nicol\\Escritorio\\Nueva carpeta\\ProyectoFulbito\\GUI\\GUI\\GRegistrarCliente.cs [Dise\u00F1o]",
               "RelativeToolTip": "GUI\\GRegistrarCliente.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T02:18:40.617Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-07-15T02:18:40.617Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "GReservas.cs",
-              "DocumentMoniker": "C:\\Users\\Nicoll\\Desktop\\ProyectoFulbito\\GUI\\GUI\\GReservas.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\Escritorio\\Nueva carpeta\\ProyectoFulbito\\GUI\\GUI\\GReservas.cs",
               "RelativeDocumentMoniker": "GUI\\GReservas.cs",
-              "ToolTip": "C:\\Users\\Nicoll\\Desktop\\ProyectoFulbito\\GUI\\GUI\\GReservas.cs",
+              "ToolTip": "C:\\Users\\nicol\\Escritorio\\Nueva carpeta\\ProyectoFulbito\\GUI\\GUI\\GReservas.cs",
               "RelativeToolTip": "GUI\\GReservas.cs",
               "ViewState": "AQIAAK8AAAAAAAAAAAArwLAAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T01:46:22.11Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-15T01:46:22.11Z"
             }
           ]
         }
