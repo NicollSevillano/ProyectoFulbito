@@ -19,6 +19,7 @@ namespace Be
         {
             id = array[0].ToString();
             Nombre = array[1].ToString();
+            Precio = array[2].ToString();
         }
         public string id { get ; set ; }
         public string Nombre { get; set; }

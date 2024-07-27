@@ -18,7 +18,6 @@ namespace Mapper
     {
         ArrayList al;
         Dao dao = new Dao();
-        BeCancha cancha = new BeCancha();
         public void Alta(BeReserva pObject)
         {
             string storeAltaRerva = "sp_Alta_Reserva";
@@ -58,25 +57,43 @@ namespace Mapper
 
         public List<BeReserva> Consulta()
         {
+            //string storeListReserva = "sp_Listar_Reserva";
+            //DataTable dt = dao.Leer(storeListReserva);
+            //List<BeReserva> lReserva = new List<BeReserva>();
+            //MapperCancha cancha = new MapperCancha();
+            //List<BeCancha> lCancha = cancha.Consulta();
+            //lCancha.AddRange(new BeCancha[] {new BeCancha() { id = "1", Nombre = "Cancha 5 A", Precio = "1500"},
+            //                                 new BeCancha() { id = "2", Nombre = "Cancha 5 B", Precio = "1500"},
+            //                                 new BeCancha() { id = "3", Nombre = "Cancha 5 C", Precio = "1500"},
+            //                                 new BeCancha() { id = "4", Nombre = "Cancha 7 A", Precio = "2000"},
+            //                                 new BeCancha() { id = "5", Nombre = "Cancha 7 B", Precio = "2000"},
+            //                                 new BeCancha() { id = "7", Nombre = "Cancha 7 C", Precio = "2000"},
+            //                                 new BeCancha() { id = "8", Nombre = "Cancha 7 D", Precio = "2000"},
+            //                                 new BeCancha() { id = "9", Nombre = "Cancha 11 A", Precio = "3000"},
+            //                                 new BeCancha() { id = "10", Nombre = "Cancha 11 B", Precio = "3000"}});
+            //List<BeCliente> lCliente = new List<BeCliente>();
+            //MapperCliente mCliente = new MapperCliente();
+            //lCliente = mCliente.Consulta();
+
+            //foreach (DataRow dr in dt.Rows)
+            //{
+            //    BeReserva aux = new BeReserva(dr.ItemArray);
+            //    aux.Cancha = lCancha.Find(x => x.id == dr[1].ToString());
+            //    aux.Cliente = lCliente.Find(x => x.id == dr[2].ToString());
+            //    lReserva.Add(aux);
+            //}
             string storeListReserva = "sp_Listar_Reserva";
             DataTable dt = dao.Leer(storeListReserva);
             List<BeReserva> lReserva = new List<BeReserva>();
+            MapperCancha mCancha = new MapperCancha();
             List<BeCancha> lCancha = new List<BeCancha>();
-            lCancha.AddRange(new BeCancha[] {new BeCancha() { id = "1", Nombre = "Cancha 5 A", Precio = "1500"},
-                                             new BeCancha() { id = "2", Nombre = "Cancha 5 B", Precio = "1500"},
-                                             new BeCancha() { id = "3", Nombre = "Cancha 5 C", Precio = "1500"},
-                                             new BeCancha() { id = "4", Nombre = "Cancha 7 A", Precio = "2000"},
-                                             new BeCancha() { id = "5", Nombre = "Cancha 7 B", Precio = "2000"},
-                                             new BeCancha() { id = "7", Nombre = "Cancha 7 C", Precio = "2000"},
-                                             new BeCancha() { id = "8", Nombre = "Cancha 7 D", Precio = "2000"},
-                                             new BeCancha() { id = "9", Nombre = "Cancha 11 A", Precio = "3000"},
-                                             new BeCancha() { id = "10", Nombre = "Cancha 11 B", Precio = "3000"}});
-            List<BeCliente> lCliente = new List<BeCliente>();
+            lCancha = mCancha.Consulta();
             MapperCliente mCliente = new MapperCliente();
+            List<BeCliente> lCliente = new List<BeCliente>();
             lCliente = mCliente.Consulta();
-            
             foreach (DataRow dr in dt.Rows)
             {
+                
                 BeReserva aux = new BeReserva(dr.ItemArray);
                 aux.Cancha = lCancha.Find(x => x.id == dr[1].ToString());
                 aux.Cliente = lCliente.Find(x => x.id == dr[2].ToString());

@@ -75,16 +75,9 @@ namespace GUI
         }
         private void Canchas()
         {
-            lCancha.AddRange(new BeCancha[] {new BeCancha() { id = "1", Nombre = "Cancha 5 A", Precio = "1500"},
-                                             new BeCancha() { id = "2", Nombre = "Cancha 5 B", Precio = "1500"},
-                                             new BeCancha() { id = "3", Nombre = "Cancha 5 C", Precio = "1500"},
-                                             new BeCancha() { id = "4", Nombre = "Cancha 7 A", Precio = "2000"},
-                                             new BeCancha() { id = "5", Nombre = "Cancha 7 B", Precio = "2000"},
-                                             new BeCancha() { id = "7", Nombre = "Cancha 7 C", Precio = "2000"},
-                                             new BeCancha() { id = "8", Nombre = "Cancha 7 D", Precio = "2000"},
-                                             new BeCancha() { id = "9", Nombre = "Cancha 11 A", Precio = "3000"},
-                                             new BeCancha() { id = "10", Nombre = "Cancha 11 B", Precio = "3000"}});
-
+            cmbCancha.Items.Clear();
+            BllCancha blCancha = new BllCancha();
+            List<BeCancha> lCancha = blCancha.Consulta();
             foreach (BeCancha l in lCancha)
             {
                 cmbCancha.Items.Add(l.Nombre);
