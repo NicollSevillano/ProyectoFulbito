@@ -1,6 +1,6 @@
 ﻿namespace GUI
 {
-    partial class Tarjeta
+    partial class TarjetaForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Tarjeta));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TarjetaForm));
             this.lbTarjeta = new System.Windows.Forms.Label();
             this.txtnumero = new System.Windows.Forms.TextBox();
             this.lbMes = new System.Windows.Forms.Label();
@@ -139,7 +139,7 @@
             this.pictureBox1.TabIndex = 9;
             this.pictureBox1.TabStop = false;
             // 
-            // Tarjeta
+            // TarjetaForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -156,7 +156,7 @@
             this.Controls.Add(this.lbTarjeta);
             this.Controls.Add(this.pictureBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Tarjeta";
+            this.Name = "TarjetaForm";
             this.Text = "Tarjeta";
             this.Load += new System.EventHandler(this.Tarjeta_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

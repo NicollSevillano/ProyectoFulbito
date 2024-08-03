@@ -15,10 +15,10 @@ using System.Windows.Forms;
 
 namespace GUI
 {
-    public partial class Tarjeta : Form, ITraducible
+    public partial class TarjetaForm : Form, ITraducible
     {
         BllReserva bllReserva;
-        public Tarjeta()
+        public TarjetaForm()
         {
             InitializeComponent();
         }

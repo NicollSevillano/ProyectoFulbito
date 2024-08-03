@@ -54,3 +54,16 @@ C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Dal\bin\Debug\itexts
 C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Dal\bin\Debug\BouncyCastle.Cryptography.xml
 C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Dal\bin\Debug\itextsharp.xml
 C:\Users\nicol\Escritorio\Nueva carpeta\ProyectoFulbito\GUI\Dal\obj\Debug\Dal.csproj.Up2Date
+G:\Nueva carpeta\ProyectoFulbito\GUI\Dal\bin\Debug\Dal.dll.config
+G:\Nueva carpeta\ProyectoFulbito\GUI\Dal\bin\Debug\Dal.dll
+G:\Nueva carpeta\ProyectoFulbito\GUI\Dal\bin\Debug\Dal.pdb
+G:\Nueva carpeta\ProyectoFulbito\GUI\Dal\bin\Debug\BouncyCastle.Cryptography.dll
+G:\Nueva carpeta\ProyectoFulbito\GUI\Dal\bin\Debug\itextsharp.dll
+G:\Nueva carpeta\ProyectoFulbito\GUI\Dal\bin\Debug\itextsharp.xmlworker.dll
+G:\Nueva carpeta\ProyectoFulbito\GUI\Dal\bin\Debug\BouncyCastle.Cryptography.xml
+G:\Nueva carpeta\ProyectoFulbito\GUI\Dal\bin\Debug\itextsharp.xml
+G:\Nueva carpeta\ProyectoFulbito\GUI\Dal\obj\Debug\Dal.csproj.AssemblyReference.cache
+G:\Nueva carpeta\ProyectoFulbito\GUI\Dal\obj\Debug\Dal.csproj.CoreCompileInputs.cache
+G:\Nueva carpeta\ProyectoFulbito\GUI\Dal\obj\Debug\Dal.csproj.CopyComplete
+G:\Nueva carpeta\ProyectoFulbito\GUI\Dal\obj\Debug\Dal.dll
+G:\Nueva carpeta\ProyectoFulbito\GUI\Dal\obj\Debug\Dal.pdb

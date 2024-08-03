@@ -19,7 +19,7 @@ namespace GUI
     {
         BllReserva bllReserva;
         BeReserva bReserva;
-        Tarjeta tarjeta;
+        TarjetaForm tarjeta;
         
         public CobrarReservaForm(BeReserva reserva)
         {
@@ -45,7 +45,7 @@ namespace GUI
         {
             listbCobrar.Items.Clear();
             lbNombreCobrar.Text = bReserva.Cliente.Nombre;
-            tarjeta = new Tarjeta();
+            tarjeta = new TarjetaForm();
             listbox();
         }
         private void listbox()

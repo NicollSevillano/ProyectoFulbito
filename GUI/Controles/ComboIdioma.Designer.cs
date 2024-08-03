@@ -68,7 +68,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.comboBox1);
             this.Name = "ComboIdioma";
-            this.Size = new System.Drawing.Size(116, 30);
+            this.Size = new System.Drawing.Size(116, 23);
             this.Load += new System.EventHandler(this.UserControl1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

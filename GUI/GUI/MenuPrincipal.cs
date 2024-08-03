@@ -22,7 +22,7 @@ namespace GUI
         GUsuariosForm usuarios;
         CambiarClaveForm cambiarClave;
         PerfilesForm perfiles;
-        Tarjeta tarjeta;
+        TarjetaForm tarjeta;
 
         public MenuPrincipalForm()
         {
@@ -36,7 +36,7 @@ namespace GUI
             registrarCliente = new GRegistrarClienteForm();
             usuarios = new GUsuariosForm();
             cambiarClave = new CambiarClaveForm();
-            tarjeta = new Tarjeta();
+            tarjeta = new TarjetaForm();
             LanguageManager.Suscribir(reservas);
             LanguageManager.Suscribir(registrarCliente);
             LanguageManager.Suscribir(usuarios);

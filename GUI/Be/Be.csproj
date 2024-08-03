@@ -54,7 +54,6 @@
     <Compile Include="BeCancha.cs" />
     <Compile Include="BeFactura.cs" />
     <Compile Include="BelUsuario.cs" />
-    <Compile Include="BePago.cs" />
     <Compile Include="BeReserva.cs" />
     <Compile Include="BeCliente.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
