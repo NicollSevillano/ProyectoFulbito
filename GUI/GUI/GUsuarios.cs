@@ -24,6 +24,7 @@ namespace GUI
         BllUsuario bllUsuario;
         BelUsuario beUsuario;
         CambiarClaveForm cambiarClave;
+        Perfil perfil;
 
         public GUsuariosForm()
         {
@@ -53,7 +54,6 @@ namespace GUI
             return txtValidad;
 
         }
-        Perfil perfil;
         private void CargarPerfiles()
         {
             cmbPerfiles.Items.Clear();
@@ -271,6 +271,7 @@ namespace GUI
             txtEmail.Clear();
             txtUsuario.Clear();
             txtContraseña.Clear();
+            RefrescarDgv();
         }
 
         public void Actualizar(string pIdioma)

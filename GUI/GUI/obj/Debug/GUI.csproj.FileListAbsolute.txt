@@ -368,7 +368,6 @@ C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.Menu
 C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.Properties.Resources.resources
 C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.GUsuariosForm.resources
 C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.PerfilesForm.resources
-C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.Tarjeta.resources
 C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
 C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
 C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.csproj.Up2Date
@@ -524,3 +523,4 @@ C:\Users\Navegador\Desktop\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.csproj.CoreComp
 C:\Users\Navegador\Desktop\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.csproj.CopyComplete
 C:\Users\Navegador\Desktop\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.exe
 C:\Users\Navegador\Desktop\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.pdb
+C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\GUI\obj\Debug\GUI.TarjetaForm.resources

@@ -77,7 +77,7 @@ namespace GUI
         {
             cmbCancha.Items.Clear();
             BllCancha blCancha = new BllCancha();
-            List<BeCancha> lCancha = blCancha.Consulta();
+            lCancha = blCancha.Consulta();
             foreach (BeCancha l in lCancha)
             {
                 cmbCancha.Items.Add(l.Nombre);

@@ -29,7 +29,7 @@ namespace GUI
             ActualizarPermisos();
             actualizarTree();
             ActualizarPerfiles();
-            control();
+            HabilitarControl();
             LanguageManager.Suscribir(this);
         }
         private void RegistroReservas_Load(object sender, EventArgs e)
@@ -112,7 +112,7 @@ namespace GUI
                 bllUsuario.Modificacion(_usuario);
             }
             ActualizarPerfiles();
-            control();
+            HabilitarControl();
         }
         private void btnAgregar_Click(object sender, EventArgs e)
         {
@@ -121,7 +121,7 @@ namespace GUI
             aux.Permiso = permiso;
             PerfilManager.ModificarPerfil(aux);
             actualizarTree();
-            control();
+            HabilitarControl();
         }
         private void btnCerrar_Click(object sender, EventArgs e)
         {
@@ -129,7 +129,7 @@ namespace GUI
             this.Close();
             PerfilManager.ActualizaListaPerfil();
         }
-        public void control()
+        public void HabilitarControl()
         {
             List<Permiso> permiso = new List<Permiso>();
             (SessionManager.getInstance.usuario.Perfil.Permiso as PermisoCompuesto).RellenaArrayPermisos(SessionManager.getInstance.usuario.Perfil.Permiso as PermisoCompuesto, permiso);
@@ -170,11 +170,9 @@ namespace GUI
             if(resultado == DialogResult.Yes)
             {
                 Perfil aux = PerfilManager.lPerfil.Find(x => x.Nombre == listBox1.Text);
-                Permiso permiso = PerfilManager.pCompuestoRaiz.BuscarPermisoNombre(listBox2.Text, PerfilManager.pCompuestoRaiz);
-                aux.Permiso = permiso;
-                PerfilManager.ModificarPerfil(aux);
+                beUsuario.Perfil = aux;
+                bllUsuario.Modificacion(beUsuario);
                 ActualizarPerfiles();
-                control();
             }
         }
     }

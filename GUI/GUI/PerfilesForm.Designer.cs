@@ -95,9 +95,9 @@
             this.labPerfil.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labPerfil.Location = new System.Drawing.Point(12, 12);
             this.labPerfil.Name = "labPerfil";
-            this.labPerfil.Size = new System.Drawing.Size(96, 19);
+            this.labPerfil.Size = new System.Drawing.Size(114, 19);
             this.labPerfil.TabIndex = 5;
-            this.labPerfil.Text = "Perfil actual:";
+            this.labPerfil.Text = "Usuario actual:";
             // 
             // lbNombrePerfil
             // 
@@ -105,9 +105,9 @@
             this.lbNombrePerfil.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbNombrePerfil.Location = new System.Drawing.Point(136, 12);
             this.lbNombrePerfil.Name = "lbNombrePerfil";
-            this.lbNombrePerfil.Size = new System.Drawing.Size(132, 19);
+            this.lbNombrePerfil.Size = new System.Drawing.Size(147, 19);
             this.lbNombrePerfil.TabIndex = 6;
-            this.lbNombrePerfil.Text = "nombre del perfil";
+            this.lbNombrePerfil.Text = "nombre del usuario";
             // 
             // lbPerfil
             // 

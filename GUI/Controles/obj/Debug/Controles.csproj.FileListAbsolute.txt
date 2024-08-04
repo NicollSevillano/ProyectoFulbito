@@ -114,7 +114,6 @@ C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Controles\bin\Debug\In
 C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Controles\bin\Debug\ServicioClase.pdb
 C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Controles\bin\Debug\Be.pdb
 C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.csproj.AssemblyReference.cache
-C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.Calendario.resources
 C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.ComboIdioma.resources
 C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.Properties.Resources.resources
 C:\Users\Nicoll\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Controles\obj\Debug\Controles.csproj.GenerateResource.cache
