@@ -67,3 +67,10 @@ G:\Nueva carpeta\ProyectoFulbito\GUI\Interface\obj\Debug\Interface.csproj.CoreCo
 G:\Nueva carpeta\ProyectoFulbito\GUI\Interface\obj\Debug\Interface.csproj.CopyComplete
 G:\Nueva carpeta\ProyectoFulbito\GUI\Interface\obj\Debug\Interface.dll
 G:\Nueva carpeta\ProyectoFulbito\GUI\Interface\obj\Debug\Interface.pdb
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Interface\bin\Debug\Interface.dll.config
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Interface\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Interface\bin\Debug\itextsharp.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Interface\bin\Debug\itextsharp.xmlworker.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Interface\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Interface\bin\Debug\itextsharp.xml
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Interface\obj\Debug\Interface.csproj.CopyComplete

@@ -167,3 +167,14 @@ G:\Nueva carpeta\ProyectoFulbito\GUI\Mapper\obj\Debug\Mapper.csproj.CoreCompileI
 G:\Nueva carpeta\ProyectoFulbito\GUI\Mapper\obj\Debug\Mapper.csproj.CopyComplete
 G:\Nueva carpeta\ProyectoFulbito\GUI\Mapper\obj\Debug\Mapper.dll
 G:\Nueva carpeta\ProyectoFulbito\GUI\Mapper\obj\Debug\Mapper.pdb
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Mapper\bin\Debug\Mapper.dll.config
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Mapper\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Mapper\bin\Debug\itextsharp.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Mapper\bin\Debug\itextsharp.xmlworker.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Mapper\bin\Debug\Be.dll.config
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Mapper\bin\Debug\Dal.dll.config
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Mapper\bin\Debug\Interface.dll.config
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Mapper\bin\Debug\ServicioClase.dll.config
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Mapper\bin\Debug\Servicios.dll.config
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Mapper\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Mapper\bin\Debug\itextsharp.xml

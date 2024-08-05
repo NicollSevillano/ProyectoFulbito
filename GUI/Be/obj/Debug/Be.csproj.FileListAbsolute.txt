@@ -110,3 +110,11 @@ G:\Nueva carpeta\ProyectoFulbito\GUI\Be\obj\Debug\Be.csproj.CoreCompileInputs.ca
 G:\Nueva carpeta\ProyectoFulbito\GUI\Be\obj\Debug\Be.csproj.CopyComplete
 G:\Nueva carpeta\ProyectoFulbito\GUI\Be\obj\Debug\Be.dll
 G:\Nueva carpeta\ProyectoFulbito\GUI\Be\obj\Debug\Be.pdb
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Be\bin\Debug\Be.dll.config
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Be\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Be\bin\Debug\itextsharp.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Be\bin\Debug\itextsharp.xmlworker.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Be\bin\Debug\Interface.dll.config
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Be\bin\Debug\ServicioClase.dll.config
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Be\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\Navegador\Desktop\Nueva carpeta\ProyectoFulbito\GUI\Be\bin\Debug\itextsharp.xml

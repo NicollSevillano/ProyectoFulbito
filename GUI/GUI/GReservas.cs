@@ -206,7 +206,6 @@ namespace GUI
             if (resultado == DialogResult.Yes)
             {
                 txtDni.Clear();
-                cmbCancha.Items.Clear();
                 txtHorario.Clear();
             }
             else

@@ -79,6 +79,7 @@ namespace GUI
                     perfil = PerfilManager.ConsultaPerfil().Find(x => x.Nombre == cmbPerfiles.Text);
                     bllUsuario.Alta(new BelUsuario(txtDni.Text, txtNombre.Text, txtApellido.Text, txtEmail.Text, perfil, txtUsuario.Text, Encriptar.Encrypt(txtContraseña.Text)));
                     lUsuario = bllUsuario.Consulta();
+                    MessageBox.Show("Usuario agregado");
                     RefrescarDgv();
                 }
             }
